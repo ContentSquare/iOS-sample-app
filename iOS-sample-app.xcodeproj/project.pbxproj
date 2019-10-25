@@ -14,6 +14,7 @@
 		8DA78D0623619D3E001EB4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0523619D3E001EB4E3 /* Assets.xcassets */; };
 		8DA78D0923619D3E001EB4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */; };
 		8DA78D1123619DF7001EB4E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D1023619DF7001EB4E3 /* README.md */; };
+		8DA78D132361F46B001EB4E3 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA78D122361F46B001EB4E3 /* ContentSquare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8DA78D0823619D3E001EB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA78D0A23619D3E001EB4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA78D1023619DF7001EB4E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8DA78D122361F46B001EB4E3 /* ContentSquare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentSquare.framework; path = Carthage/Build/iOS/ContentSquare.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA78D132361F46B001EB4E3 /* ContentSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +48,7 @@
 				8DA78CFB23619D3E001EB4E3 /* iOS-sample-app */,
 				8DA78CFA23619D3E001EB4E3 /* Products */,
 				8DA78D1023619DF7001EB4E3 /* README.md */,
+				8DA78D122361F46B001EB4E3 /* ContentSquare.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +84,7 @@
 				8DA78CF523619D3E001EB4E3 /* Sources */,
 				8DA78CF623619D3E001EB4E3 /* Frameworks */,
 				8DA78CF723619D3E001EB4E3 /* Resources */,
+				8DA78D142361F49F001EB4E3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -136,6 +141,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DA78D142361F49F001EB4E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ContentSquare.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ContentSquare.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DA78CF523619D3E001EB4E3 /* Sources */ = {
@@ -290,6 +317,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68F5DK9B95;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS-sample-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +339,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68F5DK9B95;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS-sample-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
