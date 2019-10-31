@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8A2948236AEC6E00EB782C /* PagedScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2947236AEC6E00EB782C /* PagedScrollViewController.swift */; };
 		8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */; };
 		8DA78CFD23619D3E001EB4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */; };
 		8DA78CFF23619D3E001EB4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA78CFE23619D3E001EB4E3 /* SceneDelegate.swift */; };
@@ -18,9 +19,12 @@
 		8DA78D132361F46B001EB4E3 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA78D122361F46B001EB4E3 /* ContentSquare.framework */; };
 		8DB0FC152368A8190060D8C4 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */; };
 		8DB0FC172368B42E0060D8C4 /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */; };
+		8DF1A67F237088AA00DDBA60 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1A67E237088AA00DDBA60 /* Page.swift */; };
+		8DF1A681237088D800DDBA60 /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1A680237088D800DDBA60 /* Page.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D8A2947236AEC6E00EB782C /* PagedScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollViewController.swift; sourceTree = "<group>"; };
 		8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
 		8DA78CF923619D3E001EB4E3 /* iOS-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		8DA78D122361F46B001EB4E3 /* ContentSquare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentSquare.framework; path = Carthage/Build/iOS/ContentSquare.framework; sourceTree = "<group>"; };
 		8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
+		8DF1A67E237088AA00DDBA60 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		8DF1A680237088D800DDBA60 /* Page.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,19 @@
 				8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */,
 				8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */,
 				8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */,
+				8DF1A68223709ECE00DDBA60 /* Paged Scroll Views */,
 			);
 			path = "Screen Views";
+			sourceTree = "<group>";
+		};
+		8DF1A68223709ECE00DDBA60 /* Paged Scroll Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2947236AEC6E00EB782C /* PagedScrollViewController.swift */,
+				8DF1A67E237088AA00DDBA60 /* Page.swift */,
+				8DF1A680237088D800DDBA60 /* Page.xib */,
+			);
+			path = "Paged Scroll Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +179,7 @@
 				8DA78D0623619D3E001EB4E3 /* Assets.xcassets in Resources */,
 				8DA78D1123619DF7001EB4E3 /* README.md in Resources */,
 				8DA78D0423619D3E001EB4E3 /* Main.storyboard in Resources */,
+				8DF1A681237088D800DDBA60 /* Page.xib in Resources */,
 				8DB0FC152368A8190060D8C4 /* ScreenViews.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */,
+				8D8A2948236AEC6E00EB782C /* PagedScrollViewController.swift in Sources */,
 				8DA78D0123619D3E001EB4E3 /* ViewController.swift in Sources */,
 				8DA78CFD23619D3E001EB4E3 /* AppDelegate.swift in Sources */,
+				8DF1A67F237088AA00DDBA60 /* Page.swift in Sources */,
 				8DA78CFF23619D3E001EB4E3 /* SceneDelegate.swift in Sources */,
 				8DB0FC172368B42E0060D8C4 /* DefaultScreenViewController.swift in Sources */,
 			);
