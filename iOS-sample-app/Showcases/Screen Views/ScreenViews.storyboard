@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="89o-QE-zg7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="89o-QE-zg7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Screen Views-->
+        <!--Screen views-->
         <scene sceneID="lkJ-Vm-p82">
             <objects>
-                <tableViewController title="Screen Views" id="89o-QE-zg7" customClass="TrackedTableViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Screen views" id="89o-QE-zg7" customClass="TrackedTableViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rfJ-je-z8V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Screen views for storyboard controllers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mAd-fc-2qd">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Storyboard controllers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mAd-fc-2qd">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -66,7 +66,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Screen views for paged scroll views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TTg-ET-HyP">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Paged scroll views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TTg-ET-HyP">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -77,6 +77,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="esQ-qK-sI2" kind="show" id="xYr-Qt-Vcy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Qmo-tX-MUj" style="IBUITableViewCellStyleDefault" id="X4r-m0-nCc">
+                                        <rect key="frame" x="0.0" y="158.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X4r-m0-nCc" id="LnO-Lc-sDl">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Modal dismissals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qmo-tX-MUj">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="qql-op-0Pd" kind="show" id="ec4-JE-wH1"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -130,13 +150,13 @@
                             <outlet property="delegate" destination="JkP-UF-iJp" id="wfp-e2-fNd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="22s-9K-TII"/>
+                    <navigationItem key="navigationItem" title="Storyboard controller" id="22s-9K-TII"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4qB-w3-1By" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="675" y="-431"/>
+            <point key="canvasLocation" x="1599" y="-723"/>
         </scene>
-        <!--Paged Scroll View Controller-->
+        <!--Paged scroll view-->
         <scene sceneID="aYu-2h-nML">
             <objects>
                 <viewController id="esQ-qK-sI2" customClass="PagedScrollViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -162,14 +182,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UZl-9q-ETK"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oIE-K0-vUY"/>
+                    <navigationItem key="navigationItem" title="Paged scroll view" id="oIE-K0-vUY"/>
                     <connections>
                         <outlet property="scrollView" destination="lYc-IA-9De" id="tTi-Si-Qa2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7dN-7v-O5D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="656.52173913043487" y="361.60714285714283"/>
+            <point key="canvasLocation" x="1599" y="-3"/>
         </scene>
         <!--Default screen views-->
         <scene sceneID="OF5-2V-noW">
@@ -196,11 +216,21 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4aI-gI-8KK"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Default screen views" id="SSz-Gq-7xA"/>
+                    <navigationItem key="navigationItem" title="Basic screen views" id="SSz-Gq-7xA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0X-aH-8fN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="659" y="-1177"/>
+            <point key="canvasLocation" x="725" y="-1037"/>
+        </scene>
+        <!--ModalScreenViews-->
+        <scene sceneID="ZTR-hc-8zo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ModalScreenViews" id="qql-op-0Pd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eVq-uB-AYB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M1W-K2-FPy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="-96"/>
         </scene>
     </scenes>
 </document>

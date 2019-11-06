@@ -1,18 +1,29 @@
 import UIKit
 import ContentSquare
 
-// Use this custom class for table view controllers in your storyboard, and they will start sending screen views. They
+// Use this custom class for view controllers in your storyboard, and they will start sending screen views. They
 // will still be editable in the storyboard as usual. You can use the same approach for any cotroller which you edit in
 // a storyboard and for which you don't have code.
+class TrackedViewController: UIViewController {
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        sendTitleScreenview()
+    }
+}
+
+// In the same way, use this custom class for table view controllers in your storyboard, and they will start sending
+// screen views. Again, they will still be editable in the storyboard as usual table view controllers.
 class TrackedTableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        sendScreenview()
+        sendTitleScreenview()
     }
 }
 
 extension UIViewController {
-    func sendScreenview() {
+    func sendTitleScreenview() {
+        // We use the controller's title, which can be set in the storyboard or in code, as the title of the screen
+        // view.
         ContentSquare.send(screenViewWithName: title ?? "Unknow screen title")
     }
 }

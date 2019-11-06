@@ -11,12 +11,16 @@
 		8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */; };
 		8DA78CFD23619D3E001EB4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */; };
 		8DA78CFF23619D3E001EB4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA78CFE23619D3E001EB4E3 /* SceneDelegate.swift */; };
-		8DA78D0123619D3E001EB4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA78D0023619D3E001EB4E3 /* ViewController.swift */; };
 		8DA78D0423619D3E001EB4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0223619D3E001EB4E3 /* Main.storyboard */; };
 		8DA78D0623619D3E001EB4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0523619D3E001EB4E3 /* Assets.xcassets */; };
 		8DA78D0923619D3E001EB4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */; };
 		8DA78D1123619DF7001EB4E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D1023619DF7001EB4E3 /* README.md */; };
 		8DA78D132361F46B001EB4E3 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA78D122361F46B001EB4E3 /* ContentSquare.framework */; };
+		8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */; };
+		8DABC0A62373798E0033E18E /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */; };
+		8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */; };
+		8DABC0AA237388110033E18E /* ProgrammaticModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A9237388110033E18E /* ProgrammaticModalViewController.swift */; };
+		8DABC0AC237417350033E18E /* DismissalDelegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0AB237417350033E18E /* DismissalDelegation.swift */; };
 		8DB0FC152368A8190060D8C4 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */; };
 		8DB0FC172368B42E0060D8C4 /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */; };
 		8DF1A67F237088AA00DDBA60 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1A67E237088AA00DDBA60 /* Page.swift */; };
@@ -29,13 +33,17 @@
 		8DA78CF923619D3E001EB4E3 /* iOS-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA78CFE23619D3E001EB4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8DA78D0023619D3E001EB4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DA78D0323619D3E001EB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DA78D0523619D3E001EB4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA78D0823619D3E001EB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA78D0A23619D3E001EB4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA78D1023619DF7001EB4E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DA78D122361F46B001EB4E3 /* ContentSquare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentSquare.framework; path = Carthage/Build/iOS/ContentSquare.framework; sourceTree = "<group>"; };
+		8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentingViewController.swift; sourceTree = "<group>"; };
+		8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "iOS-sample-app/Showcases/Screen Views/ModalScreenViews.storyboard"; sourceTree = SOURCE_ROOT; };
+		8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalPresentingViewController.swift; sourceTree = "<group>"; };
+		8DABC0A9237388110033E18E /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalViewController.swift; sourceTree = "<group>"; };
+		8DABC0AB237417350033E18E /* DismissalDelegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissalDelegation.swift; sourceTree = "<group>"; };
 		8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		8DF1A67E237088AA00DDBA60 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
@@ -78,13 +86,24 @@
 				8DB0FC122368A7E50060D8C4 /* Showcases */,
 				8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */,
 				8DA78CFE23619D3E001EB4E3 /* SceneDelegate.swift */,
-				8DA78D0023619D3E001EB4E3 /* ViewController.swift */,
 				8DA78D0223619D3E001EB4E3 /* Main.storyboard */,
 				8DA78D0523619D3E001EB4E3 /* Assets.xcassets */,
 				8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */,
 				8DA78D0A23619D3E001EB4E3 /* Info.plist */,
 			);
 			path = "iOS-sample-app";
+			sourceTree = "<group>";
+		};
+		8DABC0A4237379320033E18E /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */,
+				8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */,
+				8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */,
+				8DABC0A9237388110033E18E /* ProgrammaticModalViewController.swift */,
+				8DABC0AB237417350033E18E /* DismissalDelegation.swift */,
+			);
+			path = Modals;
 			sourceTree = "<group>";
 		};
 		8DB0FC122368A7E50060D8C4 /* Showcases */ = {
@@ -102,6 +121,7 @@
 				8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */,
 				8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */,
 				8DF1A68223709ECE00DDBA60 /* Paged Scroll Views */,
+				8DABC0A4237379320033E18E /* Modals */,
 			);
 			path = "Screen Views";
 			sourceTree = "<group>";
@@ -180,6 +200,7 @@
 				8DA78D1123619DF7001EB4E3 /* README.md in Resources */,
 				8DA78D0423619D3E001EB4E3 /* Main.storyboard in Resources */,
 				8DF1A681237088D800DDBA60 /* Page.xib in Resources */,
+				8DABC0A62373798E0033E18E /* ModalScreenViews.storyboard in Resources */,
 				8DB0FC152368A8190060D8C4 /* ScreenViews.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DABC0AC237417350033E18E /* DismissalDelegation.swift in Sources */,
+				8DABC0AA237388110033E18E /* ProgrammaticModalViewController.swift in Sources */,
 				8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */,
+				8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */,
+				8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */,
 				8D8A2948236AEC6E00EB782C /* PagedScrollViewController.swift in Sources */,
-				8DA78D0123619D3E001EB4E3 /* ViewController.swift in Sources */,
 				8DA78CFD23619D3E001EB4E3 /* AppDelegate.swift in Sources */,
 				8DF1A67F237088AA00DDBA60 /* Page.swift in Sources */,
 				8DA78CFF23619D3E001EB4E3 /* SceneDelegate.swift in Sources */,
