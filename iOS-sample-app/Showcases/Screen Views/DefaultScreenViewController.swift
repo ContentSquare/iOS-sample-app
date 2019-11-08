@@ -14,6 +14,6 @@ class DefaultScreenViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         // Remember to always call super in a viewDidAppear
         super.viewDidAppear(animated)
-        ContentSquare.send(screenViewWithName: "Default screen view demo page")
+        trackScreenview("Default screen view demo page")
     }
 }

@@ -34,6 +34,6 @@ class ProgrammaticModalViewController: UIViewController {
     // Send a screen view when the view appears.
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        ContentSquare.send(screenViewWithName: "Programmatic modal")
+        trackScreenview("Programmatic modal")
     }
 }

@@ -7,7 +7,7 @@ import ContentSquare
 class TrackedViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        sendTitleScreenview()
+        trackScreenview(title ?? "Unknown screen title")
     }
 }
 
@@ -16,14 +16,12 @@ class TrackedViewController: UIViewController {
 class TrackedTableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        sendTitleScreenview()
+        trackScreenview(title ?? "Unknown screen title")
     }
 }
 
 extension UIViewController {
-    func sendTitleScreenview() {
-        // We use the controller's title, which can be set in the storyboard or in code, as the title of the screen
-        // view.
-        ContentSquare.send(screenViewWithName: title ?? "Unknow screen title")
+    func trackScreenview(_ screenName: String) {
+        ContentSquare.send(screenViewWithName: screenName)
     }
 }

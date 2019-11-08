@@ -20,10 +20,12 @@ import ContentSquare
 // views listed above, you just need to send a screen view in the presenter's and the modal's viewDidAppear.
 class ProgrammaticModalPresentingViewController:
 UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
+    private let screenName = "Programmatic modal presenter"
+    
     // The usual screen view for when this controller first appears.
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        sendScreenview()
+        trackScreenview(screenName)
     }
     
     @IBAction func presentModal(_ sender: UIButton) {
@@ -35,17 +37,14 @@ UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
     
     func dismiss() {
         dismiss(animated: true) { [weak self] in
-            self?.sendScreenview()
+            guard let strongSelf = self else { return }
+            strongSelf.trackScreenview(strongSelf.screenName)
         }
     }
     
     // In iOS 13, modals can be dismissed by swiping down. In such case, no method tied to a button will be triggered.
     // Instead, this new method of UIAdaptivePresentationControllerDelegate will be triggered.
     func presentationControllerDidDismiss(_ presentationController: UIPresentationController) {
-        sendScreenview()
-    }
-    
-    private func sendScreenview() {
-        ContentSquare.send(screenViewWithName: "Programmatic modal presenter")
+        trackScreenview(screenName)
     }
 }

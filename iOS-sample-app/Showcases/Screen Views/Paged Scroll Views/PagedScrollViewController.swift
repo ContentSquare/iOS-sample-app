@@ -25,6 +25,10 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
         return Int(round(offset / pageWidth) + 1)
     }
     private var previousPage: Int = 1
+    
+    private var screenName: String {
+        return "Scroll page \(currentPage)"
+    }
 
     override func viewDidLoad() {
         scrollView.addSubview(page1)
@@ -48,7 +52,7 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
     // Send a screen view when the view appears.
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        ContentSquare.send(screenViewWithName: "Scroll page \(currentPage)")
+        trackScreenview(screenName)
     }
 
     // Send screen views on page change. In general, using scrollViewDidEndDecelerating is the way we recommend to
@@ -58,7 +62,7 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
         // you try to scroll past the last page. This is why you should check if the previous page is not the same as
         // the current one to avoid retriggering screen views.
         if currentPage != previousPage {
-            ContentSquare.send(screenViewWithName: "Scroll page \(currentPage)")
+            trackScreenview(screenName)
             previousPage = currentPage
         }
     }
