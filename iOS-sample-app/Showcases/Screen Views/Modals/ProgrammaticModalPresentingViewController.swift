@@ -11,8 +11,8 @@ import ContentSquare
 //
 // The first two are easy: we just send a screen view in the viewDidAppear of both the presenter and the modal. The
 // third is the real challenge here. When the modal is dismissed, we need to find a way to notify the presenter so that
-// it can send a screen view. We achieved this with a delegation pattern which is implemented with Dismissable and
-// DismissalDelegate. The mechanism can be reused with any pair of modal / modal presenter.
+// it can send a screen view. We achieved this with a delegation pattern implemented with DismissalDelegate. The
+// mechanism can be reused with any pair of modal / modal presenter.
 //
 // Note: If you use the fullScreen modal presentation style, you don't need to implement this delegation pattern.
 // Indeed, with that presentation style, the presenter is removed from the view stack when the modal is presented. When
