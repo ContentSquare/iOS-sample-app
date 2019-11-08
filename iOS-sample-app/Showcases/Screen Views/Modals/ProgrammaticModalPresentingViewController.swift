@@ -33,7 +33,8 @@ UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
         present(modal, animated: true)
     }
     
-    func didDismiss(viewController: UIViewController) {
+    func dismiss() {
+        dismiss(animated: true)
         sendScreenview()
     }
     

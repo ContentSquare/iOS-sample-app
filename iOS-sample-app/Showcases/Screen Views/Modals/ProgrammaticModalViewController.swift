@@ -2,7 +2,7 @@
 import UIKit
 import ContentSquare
 
-class ProgrammaticModalViewController: UIViewController, Dismissable {
+class ProgrammaticModalViewController: UIViewController {
     var dismissalDelegate: DismissalDelegate?
     
     override func loadView() {
@@ -28,7 +28,7 @@ class ProgrammaticModalViewController: UIViewController, Dismissable {
     }
     
     @objc func dismissSelf(sender: UIButton!) {
-        dismissalDelegate?.dismiss(self)
+        dismissalDelegate?.dismiss()
     }
     
     // Send a screen view when the view appears.

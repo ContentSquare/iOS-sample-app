@@ -20,7 +20,7 @@
 		8DABC0A62373798E0033E18E /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */; };
 		8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */; };
 		8DABC0AA237388110033E18E /* ProgrammaticModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A9237388110033E18E /* ProgrammaticModalViewController.swift */; };
-		8DABC0AC237417350033E18E /* DismissalDelegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0AB237417350033E18E /* DismissalDelegation.swift */; };
+		8DABC0AC237417350033E18E /* DismissalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0AB237417350033E18E /* DismissalDelegate.swift */; };
 		8DB0FC152368A8190060D8C4 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */; };
 		8DB0FC172368B42E0060D8C4 /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */; };
 		8DF1A67F237088AA00DDBA60 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1A67E237088AA00DDBA60 /* Page.swift */; };
@@ -43,7 +43,7 @@
 		8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "iOS-sample-app/Showcases/Screen Views/ModalScreenViews.storyboard"; sourceTree = SOURCE_ROOT; };
 		8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalPresentingViewController.swift; sourceTree = "<group>"; };
 		8DABC0A9237388110033E18E /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalViewController.swift; sourceTree = "<group>"; };
-		8DABC0AB237417350033E18E /* DismissalDelegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissalDelegation.swift; sourceTree = "<group>"; };
+		8DABC0AB237417350033E18E /* DismissalDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissalDelegate.swift; sourceTree = "<group>"; };
 		8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		8DF1A67E237088AA00DDBA60 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 				8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */,
 				8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */,
 				8DABC0A9237388110033E18E /* ProgrammaticModalViewController.swift */,
-				8DABC0AB237417350033E18E /* DismissalDelegation.swift */,
+				8DABC0AB237417350033E18E /* DismissalDelegate.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DABC0AC237417350033E18E /* DismissalDelegation.swift in Sources */,
+				8DABC0AC237417350033E18E /* DismissalDelegate.swift in Sources */,
 				8DABC0AA237388110033E18E /* ProgrammaticModalViewController.swift in Sources */,
 				8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */,
 				8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */,
