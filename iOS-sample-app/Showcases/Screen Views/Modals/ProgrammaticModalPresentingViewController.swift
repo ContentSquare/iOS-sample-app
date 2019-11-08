@@ -34,8 +34,9 @@ UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
     }
     
     func dismiss() {
-        dismiss(animated: true)
-        sendScreenview()
+        dismiss(animated: true) { [weak self] in
+            self?.sendScreenview()
+        }
     }
     
     // In iOS 13, modals can be dismissed by swiping down. In such case, no method tied to a button will be triggered.
