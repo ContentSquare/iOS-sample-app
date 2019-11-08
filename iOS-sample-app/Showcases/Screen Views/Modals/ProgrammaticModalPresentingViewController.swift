@@ -4,10 +4,10 @@ import ContentSquare
 
 // This class presents a modal programmatically. The modal is implemented in ProgrammaticModalViewController.
 //
-// We need to implement three screen views here:
-// - A screen view for this modal presenter when it appears on screen
-// - A screen view for the modal when it is presented on screen
-// - A screen view for this modal presenter when the modal is dismissed and this presenter is displayed again
+// We need to trigger screen views at three different moments:
+// - when this ViewController appears on screen
+// - when the modal appears on screen
+// - when this ViewController re-appears on screen after closing the modal
 //
 // The first two are easy: we just send a screen view in the viewDidAppear of both the presenter and the modal. The
 // third is the real challenge here. When the modal is dismissed, we need to find a way to notify the presenter so that
