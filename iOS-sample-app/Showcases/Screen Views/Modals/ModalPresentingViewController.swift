@@ -25,8 +25,8 @@ class ModalPresentingViewController: UIViewController, UIAdaptivePresentationCon
     // We have to set ourselves as the presentation controller's delegate so that the above
     // presentationControllerDidDismiss method can be triggered.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      let navigationController = segue.destination as? UINavigationController
-      navigationController?.presentationController?.delegate = self
+        let navigationController = segue.destination as? UINavigationController
+        navigationController?.presentationController?.delegate = self
     }
     
     private func sendScreenview() {
