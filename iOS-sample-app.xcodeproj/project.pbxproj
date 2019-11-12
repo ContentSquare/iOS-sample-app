@@ -23,7 +23,6 @@
 		8DABC0AC237417350033E18E /* DismissalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0AB237417350033E18E /* DismissalDelegate.swift */; };
 		8DB0FC152368A8190060D8C4 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */; };
 		8DB0FC172368B42E0060D8C4 /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */; };
-		8DF1A67F237088AA00DDBA60 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1A67E237088AA00DDBA60 /* Page.swift */; };
 		8DF1A681237088D800DDBA60 /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1A680237088D800DDBA60 /* Page.xib */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		8DABC0AB237417350033E18E /* DismissalDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissalDelegate.swift; sourceTree = "<group>"; };
 		8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
-		8DF1A67E237088AA00DDBA60 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		8DF1A680237088D800DDBA60 /* Page.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				8D8A2947236AEC6E00EB782C /* PagedScrollViewController.swift */,
-				8DF1A67E237088AA00DDBA60 /* Page.swift */,
 				8DF1A680237088D800DDBA60 /* Page.xib */,
 			);
 			path = "Paged Scroll Views";
@@ -241,7 +238,6 @@
 				8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */,
 				8D8A2948236AEC6E00EB782C /* PagedScrollViewController.swift in Sources */,
 				8DA78CFD23619D3E001EB4E3 /* AppDelegate.swift in Sources */,
-				8DF1A67F237088AA00DDBA60 /* Page.swift in Sources */,
 				8DA78CFF23619D3E001EB4E3 /* SceneDelegate.swift in Sources */,
 				8DB0FC172368B42E0060D8C4 /* DefaultScreenViewController.swift in Sources */,
 			);
