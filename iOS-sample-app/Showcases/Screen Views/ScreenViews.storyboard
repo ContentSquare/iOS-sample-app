@@ -124,17 +124,17 @@
                         <sections>
                             <tableViewSection id="Xzf-S1-c2z">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="xgY-Wa-2c3" style="IBUITableViewCellStyleDefault" id="A0f-c0-gae">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="xgY-Wa-2c3" rowHeight="184" style="IBUITableViewCellStyleDefault" id="A0f-c0-gae">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="184"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A0f-c0-gae" id="3f4-qH-Fu4">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="184"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xgY-Wa-2c3">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="184"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <string key="text">This showcases screen views for controllers entirely implemented in a storyboard, without associated code. This is a simple table view controller, entirely edited in the storyboard. To have it send screen views, we switched the cutsom class, in the storyboard, to a class that inherits UITableViewController and which has screen views implemented.</string>
+                                                    <string key="text">This showcases adding screen views to controllers originally fully implemented in a storyboard. This was a UITableViewController. In the storyboard, we switched its cutsom class to a simple subclass of UITableViewController which has screen views implemented in code. You can still edit rows, cells and the usual table view stuff in the storyboard.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
