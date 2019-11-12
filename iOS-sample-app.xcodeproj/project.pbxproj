@@ -60,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D51D0E7237B24EE00854630 /* Screenview utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */,
+			);
+			path = "Screenview utils";
+			sourceTree = "<group>";
+		};
 		8DA78CF023619D3E001EB4E3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +89,7 @@
 		8DA78CFB23619D3E001EB4E3 /* iOS-sample-app */ = {
 			isa = PBXGroup;
 			children = (
+				8D51D0E7237B24EE00854630 /* Screenview utils */,
 				8DB0FC122368A7E50060D8C4 /* Showcases */,
 				8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */,
 				8DA78CFE23619D3E001EB4E3 /* SceneDelegate.swift */,
@@ -116,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */,
-				8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */,
 				8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */,
 				8DF1A68223709ECE00DDBA60 /* Paged Scroll Views */,
 				8DABC0A4237379320033E18E /* Modals */,
