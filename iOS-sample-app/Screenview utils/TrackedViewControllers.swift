@@ -1,3 +1,4 @@
+
 import UIKit
 import ContentSquare
 
@@ -17,11 +18,5 @@ class TrackedTableViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         trackScreenview(title ?? "Unknown screen title")
-    }
-}
-
-extension UIViewController {
-    func trackScreenview(_ screenName: String) {
-        ContentSquare.send(screenViewWithName: screenName)
     }
 }
