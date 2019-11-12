@@ -7,14 +7,8 @@ import ContentSquare
 // - Trigger a screen view when the scroll view is displayed
 // - Trigger a screen view every time the page changes
 class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
-    private static func makePage(number: Int) -> UIView {
-        let page = Bundle.main.loadNibNamed("Page", owner: self, options: nil)?.first as! Page
-        page.pageNumber = number
-        return page
-    }
-
     private let scrollView = UIScrollView()
-    private let pages = [makePage(number: 1), makePage(number: 2), makePage(number: 3)]
+    private let pages = [Page.instanceFromNib(index: 1), Page.instanceFromNib(index: 2), Page.instanceFromNib(index: 3)]
 
     private var currentPage: Int {
         let pageWidth = scrollView.frame.size.width
