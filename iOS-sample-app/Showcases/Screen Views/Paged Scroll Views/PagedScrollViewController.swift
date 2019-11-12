@@ -13,11 +13,8 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
         return page
     }
 
-    @IBOutlet weak var scrollView: UIScrollView!
-
-    private let page1 = makePage(number: 1)
-    private let page2 = makePage(number: 2)
-    private let page3 = makePage(number: 3)
+    private let scrollView = UIScrollView()
+    private let pages = [makePage(number: 1), makePage(number: 2), makePage(number: 3)]
 
     private var currentPage: Int {
         let pageWidth = scrollView.frame.size.width
@@ -33,22 +30,29 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
     override func loadView() {
         super.loadView()
         
-        scrollView.addSubview(page1)
-        scrollView.addSubview(page2)
-        scrollView.addSubview(page3)
-
-        let views: [String: UIView] = ["scrollview": scrollView, "page1": page1, "page2": page2, "page3": page3]
-        let verticalConstraints = NSLayoutConstraint.constraints(
-            withVisualFormat: "V:|[page1(==scrollview)]|",
-            options: [],
-            metrics: nil,
-            views: views)
-        let horizontalConstraints = NSLayoutConstraint.constraints(
-            withVisualFormat: "H:|[page1(==scrollview)][page2(==scrollview)][page3(==scrollview)]|",
-            options: [.alignAllTop, .alignAllBottom],
-            metrics: nil,
-            views: views)
-        NSLayoutConstraint.activate(verticalConstraints + horizontalConstraints)
+        scrollView.frame.origin = CGPoint.zero
+        scrollView.isPagingEnabled = true
+        scrollView.delegate = self
+        view.addSubview(scrollView)
+        
+        for page in pages {
+            scrollView.addSubview(page)
+        }
+        
+        layout(withSize: view.frame.size)
+    }
+    
+    func layout(withSize size: CGSize) {
+        scrollView.frame.size = size
+        scrollView.contentSize =
+            CGSize( width: scrollView.frame.width * CGFloat(pages.count), height: scrollView.frame.height)
+        
+        for i in 0 ..< pages.count {
+            pages[i].frame = CGRect(
+                origin: CGPoint(x: CGFloat(i) * scrollView.frame.width, y: scrollView.frame.origin.y),
+                size: scrollView.frame.size
+            )
+        }
     }
 
     // Send a screen view when the view appears.
@@ -67,5 +71,10 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
             trackScreenview(pageName)
             previousPage = currentPage
         }
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        // React to device rotation etc.
+        layout(withSize: size)
     }
 }
