@@ -36,7 +36,7 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
         layout(withSize: view.frame.size)
     }
     
-    func layout(withSize size: CGSize) {
+    private func layout(withSize size: CGSize) {
         scrollView.frame.size = size
         scrollView.contentSize =
             CGSize( width: scrollView.frame.width * CGFloat(pages.count), height: scrollView.frame.height)
@@ -81,7 +81,7 @@ class Page: UIView {
         return page
     }
     
-    @IBOutlet weak var pageNumberLabel: UILabel!
+    @IBOutlet private weak var pageNumberLabel: UILabel!
 
     var index = 1 {
         didSet {

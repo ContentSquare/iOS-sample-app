@@ -14,7 +14,7 @@ class ModalPresentingViewController: UIViewController, UIAdaptivePresentationCon
     }
     
     // The modal view has a cancel button which is tied to this unwindFromSegue method.
-    @IBAction func unwindFromSegue(segue: UIStoryboardSegue) {
+    @IBAction private func unwindFromSegue(segue: UIStoryboardSegue) {
         trackScreenview(screenName)
     }
     

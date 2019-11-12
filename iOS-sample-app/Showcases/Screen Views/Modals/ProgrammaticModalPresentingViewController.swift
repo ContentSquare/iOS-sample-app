@@ -28,7 +28,7 @@ UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
         trackScreenview(screenName)
     }
     
-    @IBAction func presentModal(_ sender: UIButton) {
+    @IBAction private func presentModal(_ sender: UIButton) {
         let modal = ProgrammaticModalViewController()
         modal.dismissalDelegate = self
         modal.presentationController?.delegate = self

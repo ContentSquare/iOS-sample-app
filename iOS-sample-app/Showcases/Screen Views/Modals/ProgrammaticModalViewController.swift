@@ -27,7 +27,7 @@ class ProgrammaticModalViewController: UIViewController {
         ])
     }
     
-    @objc func dismissSelf(sender: UIButton!) {
+    @objc private func dismissSelf(sender: UIButton!) {
         dismissalDelegate?.dismiss()
     }
     
