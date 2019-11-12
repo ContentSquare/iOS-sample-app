@@ -61,6 +61,7 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
         // The scrollViewDidEndDecelerating method might be triggered even if you don't change pages. For instance, if
         // you try to scroll past the last page. This is why you should check if the previous page is not the same as
         // the current one to avoid retriggering screen views.
+        let currentPage = self.currentPage
         if currentPage != previousPage {
             trackScreenview(pageName)
             previousPage = currentPage
