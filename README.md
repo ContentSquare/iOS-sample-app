@@ -1,11 +1,20 @@
 # iOS-sample-app
 
-Welcome, this app showcases how to use the contentsquare SDK in an iOS application.
+Welcome! this app showcases how to use the Contentsquare SDK in an iOS application.
+
+Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen views in situations such as:
+*  Displaying controllers implemented in code
+*  Displaying controllers implemented in storyboards
+*  Changing the page of a paged scroll view
+*  Displaying or dismissing a modal
 
 ## Get it running
 
 ### Prerequisites
 You must have [Carthage](https://github.com/Carthage/Carthage). The simplest way to install it is `brew install carthage`.
+
+You must use Xcode 11.0 and also have it selected as command line tools (see Xcode Preferences -> Locations). This limitation will be fixed
+soon.
 
 ### Running the app
 * Clone this repo
