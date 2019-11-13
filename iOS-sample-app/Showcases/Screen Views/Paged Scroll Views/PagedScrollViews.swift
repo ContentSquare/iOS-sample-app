@@ -1,6 +1,5 @@
 
 import UIKit
-import ContentSquare
 
 // This class showcases how to track screen views for each page of a paged scroll view. There are many ways to do such
 // views so your implementation might differ. The key aspects should be the same:

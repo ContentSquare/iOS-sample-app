@@ -1,6 +1,5 @@
 
 import UIKit
-import ContentSquare
 
 class DefaultScreenViewController: UIViewController {
 

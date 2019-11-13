@@ -1,6 +1,5 @@
 
 import UIKit
-import ContentSquare
 
 // This class presents a modal designed in the storyboard. The modal is presented with a segue also implemented in the
 // storyboard.

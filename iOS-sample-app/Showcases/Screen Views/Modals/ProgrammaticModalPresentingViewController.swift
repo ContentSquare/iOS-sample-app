@@ -1,6 +1,5 @@
 
 import UIKit
-import ContentSquare
 
 // This class presents a modal programmatically. The modal is implemented in ProgrammaticModalViewController.
 //
