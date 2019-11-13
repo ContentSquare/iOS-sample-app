@@ -55,8 +55,8 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
         trackScreenview(pageName)
     }
 
-    // Send screen views on page change. In general, using scrollViewDidEndDecelerating is the way we recommend to
-    // trigger screen views on page change.
+    // Send screen views on page change. Using scrollViewDidEndDecelerating is the way we recommend to trigger screen
+    // views on page change.
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         // The scrollViewDidEndDecelerating method might be triggered even if you don't change pages. For instance, if
         // you try to scroll past the last page. This is why you should check if the previous page is not the same as

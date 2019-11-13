@@ -1,6 +1,12 @@
 # iOS-sample-app
 
-Welcome, this app showcases how to use the contentsquare SDK in an iOS application.
+Welcome! this app showcases how to use the Contentsquare SDK in an iOS application.
+
+Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen views in situations such as:
+*  Displaying controllers implemented in code
+*  Displaying controllers implemented in storyboards
+*  Changing the page of a paged scroll view
+*  Displaying or dismissing a modal
 
 ## Get it running
 
