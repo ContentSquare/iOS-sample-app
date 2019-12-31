@@ -1,24 +1,25 @@
 import UIKit
 import ContentSquare
 
-struct MyItem
+struct Item
 {
-    private(set) var myTitle: String
-    private(set) var myPrice: Float
-    private(set) var myCurrency: Currency
+    private(set) var title: String
+    private(set) var price: Float
+    private(set) var currency: Currency
 
     init(title: String, price: Float, currency: Currency)
     {
-        myTitle = title
-        myPrice = price
-        myCurrency = currency
+        self.title = title
+        self.price = price
+        self.currency = currency
     }
 }
 
 // This class showcases how to track purchases made by an user with CustomerTransactions
+// Add some items to the cart, then validate it to send the transactions
 class TransactionsViewController: UIViewController {
 
-    private var itemsInCart = [MyItem]()
+    private var cart = [Item]()
     private var selectedCurrency : Currency = .eur
     private var itemCount = 0
 
@@ -26,22 +27,18 @@ class TransactionsViewController: UIViewController {
     {
         super.loadView()
 
-        let validateButton = UIButton(type: .custom)
+        let validateButton = UIButton(type: .system)
         validateButton.translatesAutoresizingMaskIntoConstraints = false
-        validateButton.backgroundColor = .cyan
         self.view.addSubview(validateButton)
         validateButton.setTitle("Validate Cart", for: .normal)
-        validateButton.setTitleColor(.black, for: .normal)
         validateButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -50).isActive = true
         validateButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         validateButton.addTarget(self, action: #selector(validateCart), for: .touchUpInside)
 
-        let addItemButton = UIButton(type: .custom)
+        let addItemButton = UIButton(type: .system)
         addItemButton.translatesAutoresizingMaskIntoConstraints = false
-        addItemButton.backgroundColor = .lightGray
         self.view.addSubview(addItemButton)
         addItemButton.setTitle("Add an item to Cart", for: .normal)
-        addItemButton.setTitleColor(.black, for: .normal)
         addItemButton.bottomAnchor.constraint(equalTo: validateButton.topAnchor, constant: -50).isActive = true
         addItemButton.centerXAnchor.constraint(equalTo: validateButton.centerXAnchor).isActive = true
         addItemButton.addTarget(self, action: #selector(addItemToCart), for: .touchUpInside)
@@ -54,19 +51,21 @@ class TransactionsViewController: UIViewController {
     {
         let itemTitle = "item \(itemCount)"
         let itemPrice = Float(itemCount)
-        let newItem = MyItem(title: itemTitle, price: itemPrice, currency: selectedCurrency)
-        itemsInCart.append(newItem)
+        let newItem = Item(title: itemTitle, price: itemPrice, currency: selectedCurrency)
+        cart.append(newItem)
         itemCount += 1
     }
 
     @objc
     private func validateCart()
     {
-        for item in itemsInCart
+        // As a transaction represents a purchase made by a customer, you don't send the transaction as soon as the user adds an item to the cart
+        // Wait for the user to validate the purchase
+        for item in cart
         {
-            ContentSquare.send(transaction: CustomerTransaction(id: item.myTitle, value: item.myPrice, currency: item.myCurrency))
+            ContentSquare.send(transaction: CustomerTransaction(id: item.title, value: item.price, currency: item.currency))
         }
-        itemsInCart.removeAll()
+        cart.removeAll()
         itemCount = 0
     }
 }

@@ -99,7 +99,7 @@
             </objects>
             <point key="canvasLocation" x="1411" y="207"/>
         </scene>
-        <!--Transactions View Controller-->
+        <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
             <objects>
                 <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -109,11 +109,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="plO-dV-tTr"/>
                     </view>
-                    <navigationItem key="navigationItem" id="49O-ad-AI6"/>
+                    <navigationItem key="navigationItem" title="Transactions" id="49O-ad-AI6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3df-j5-r3W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2384" y="-467"/>
+            <point key="canvasLocation" x="3111.594202898551" y="606.69642857142856"/>
         </scene>
     </scenes>
 </document>

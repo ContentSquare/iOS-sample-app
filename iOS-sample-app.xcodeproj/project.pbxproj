@@ -129,8 +129,8 @@
 		8DB0FC122368A7E50060D8C4 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
-				05B0F9AD23B0CB8200563FFA /* Transactions */,
 				8DB0FC132368A7F40060D8C4 /* Screen Views */,
+				05B0F9AD23B0CB8200563FFA /* Transactions */,
 			);
 			path = Showcases;
 			sourceTree = "<group>";
