@@ -5,7 +5,7 @@ import ContentSquare
 // such as which version of an A/B test the user saw, or other relevant user data
 class DynamicVariablesViewController: UIViewController {
 
-    private let buyButton: UIButton = UIButton(type: .custom)
+    @IBOutlet private weak var buyButton: UIButton!
     private var currentButtonColor: UIColor = .yellow
     private var userAge: Int = 0
 
@@ -13,21 +13,8 @@ class DynamicVariablesViewController: UIViewController {
     {
         super.loadView()
 
-        let colorSwitch = UISwitch()
-        colorSwitch.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(colorSwitch)
-        colorSwitch.addTarget(self, action: #selector(colorSwitchUpdated), for: .primaryActionTriggered)
-        colorSwitch.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 120).isActive = true
-        colorSwitch.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant: 50).isActive = true
-
-        buyButton.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(buyButton)
+        // Set the color for the button we want to test
         buyButton.backgroundColor = currentButtonColor
-        buyButton.setTitleColor(.black, for: .normal)
-        buyButton.setTitle("Buy Something!", for: .normal)
-        buyButton.topAnchor.constraint(equalTo: colorSwitch.topAnchor).isActive = true
-        buyButton.leftAnchor.constraint(equalTo: colorSwitch.rightAnchor, constant: 50).isActive = true
-
         // Retrieve the user age, from his personal account for instance
         userAge = 24
 
@@ -36,8 +23,7 @@ class DynamicVariablesViewController: UIViewController {
 
     // MARK: - UI Actions
 
-    @objc
-    private func colorSwitchUpdated(sender: UISwitch)
+    @IBAction private func colorSwitchChanged(_ sender: UISwitch)
     {
         // Update button color to perform A/B testing
         buyButton.backgroundColor = currentButtonColor.isEqual(UIColor.yellow) ? UIColor.green : UIColor.yellow
