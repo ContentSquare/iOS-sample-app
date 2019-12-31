@@ -1,8 +1,8 @@
 import UIKit
 import ContentSquare
 
-// This class showcases how to gather addtional informations about the session,
-// for instance A/B testing informations, or relevant informations about the user
+// This class showcases how to use dynamic variables to gather additional data about the session,
+// such as which version of an A/B test the user saw, or other relevant user data
 class DynamicVariablesViewController: UIViewController {
 
     private let buyButton: UIButton = UIButton(type: .custom)
@@ -51,33 +51,40 @@ class DynamicVariablesViewController: UIViewController {
     private func updateDynamicVariables()
     {
         // Do users boy more stuff with a yellow or green button?
-        self.sendStringDynamicVariable(key: "Button Color", value: currentButtonColor.rgbaString)
-        // Send some information about the user
+        let colorValue = currentButtonColor.isEqual(UIColor.yellow) ? "yellow" : "green"
+        self.sendStringDynamicVariable(key: "Button Color", value: colorValue)
+        // Also send the user's age, to determine if it has an impact on the A/B test
         self.sendIntDynamicVariable(key: "User age", value: userAge)
     }
 
     private func sendStringDynamicVariable(key: String, value: String)
     {
-        guard let dynamic = try? DynamicVar(key: key, value: value) else {return}
-        ContentSquare.send(dynamicVar: dynamic)
+        do {
+            let dynamic = try DynamicVar(key: key, value: value)
+            ContentSquare.send(dynamicVar: dynamic)
+        }
+        catch {
+            self.sendLog(message: "Could not create Contentsquare String DynamicVar: \(error)")
+        }
     }
 
     private func sendIntDynamicVariable(key: String, value: Int)
     {
-        guard let dynamic = try? DynamicVar(key: key, value: value) else {return}
-        ContentSquare.send(dynamicVar: dynamic)
+        do {
+            let dynamic = try DynamicVar(key: key, value: value)
+            ContentSquare.send(dynamicVar: dynamic)
+        }
+        catch {
+            self.sendLog(message: "Could not create Contentsquare Int DynamicVar: \(error)")
+        }
     }
-}
 
-extension UIColor {
+    //MARK: - Error handling
 
-    var rgbaString: String
+    private func sendLog(message: String)
     {
-        var r: CGFloat = 0
-        var g: CGFloat = 0
-        var b: CGFloat = 0
-        var a: CGFloat = 0
-        self.getRed(&r, green: &g, blue: &b, alpha: &a)
-        return "\(r)\(g)\(b)\(a)"
+        // The DynamicVar constructor can throw errors if it considers your key or value invalid.
+        // Take a look at its Xcode documentation to know what is an invalid key or value. If you are sure your values are valid, you can ignore errors.
+        // But you might probably prefer sending yourself a log, to be aware if your dynamic variables get refused, especially if validation criteria change in the future.
     }
 }

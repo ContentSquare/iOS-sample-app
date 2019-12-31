@@ -99,7 +99,7 @@
             </objects>
             <point key="canvasLocation" x="1411" y="207"/>
         </scene>
-        <!--Dynamic Variables View Controller-->
+        <!--Dynamic Vars-->
         <scene sceneID="eQe-k7-gGX">
             <objects>
                 <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -109,11 +109,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="XPP-Al-dZD"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uMi-Tj-MI2"/>
+                    <navigationItem key="navigationItem" title="Dynamic Vars" id="uMi-Tj-MI2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYb-VC-Ghq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3003" y="-466"/>
+            <point key="canvasLocation" x="3099" y="624"/>
         </scene>
     </scenes>
 </document>
