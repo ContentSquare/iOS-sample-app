@@ -23,31 +23,9 @@ class TransactionsViewController: UIViewController {
     private var selectedCurrency : Currency = .eur
     private var itemCount = 0
 
-    override func loadView()
-    {
-        super.loadView()
-
-        let validateButton = UIButton(type: .system)
-        validateButton.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(validateButton)
-        validateButton.setTitle("Validate Cart", for: .normal)
-        validateButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -50).isActive = true
-        validateButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-        validateButton.addTarget(self, action: #selector(validateCart), for: .touchUpInside)
-
-        let addItemButton = UIButton(type: .system)
-        addItemButton.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(addItemButton)
-        addItemButton.setTitle("Add an item to Cart", for: .normal)
-        addItemButton.bottomAnchor.constraint(equalTo: validateButton.topAnchor, constant: -50).isActive = true
-        addItemButton.centerXAnchor.constraint(equalTo: validateButton.centerXAnchor).isActive = true
-        addItemButton.addTarget(self, action: #selector(addItemToCart), for: .touchUpInside)
-    }
-
     // MARK: - Buttons actions
 
-    @objc
-    private func addItemToCart()
+    @IBAction private func addItemToCart(_ sender: UIButton)
     {
         let itemTitle = "item \(itemCount)"
         let itemPrice = Float(itemCount)
@@ -56,8 +34,7 @@ class TransactionsViewController: UIViewController {
         itemCount += 1
     }
 
-    @objc
-    private func validateCart()
+    @IBAction private func validateCart(_ sender: UIButton)
     {
         // As a transaction represents a purchase made by a customer, you don't send the transaction as soon as the user adds an item to the cart
         // Wait for the user to validate the purchase

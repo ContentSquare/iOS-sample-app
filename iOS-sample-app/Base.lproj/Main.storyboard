@@ -106,7 +106,29 @@
                     <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UoV-UZ-L04">
+                                <rect key="frame" x="162.5" y="433" width="89" height="30"/>
+                                <state key="normal" title="Validate Cart"/>
+                                <connections>
+                                    <action selector="validateCart:" destination="vQf-zU-9jE" eventType="touchUpInside" id="lde-1W-1KD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVo-Nc-ozK">
+                                <rect key="frame" x="176" y="316" width="62" height="30"/>
+                                <state key="normal" title="Add Item"/>
+                                <connections>
+                                    <action selector="addItemToCart:" destination="vQf-zU-9jE" eventType="touchUpInside" id="Avf-gq-sj3"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aVo-Nc-ozK" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="7bF-TO-jTh"/>
+                            <constraint firstItem="UoV-UZ-L04" firstAttribute="top" secondItem="aVo-Nc-ozK" secondAttribute="bottom" constant="87" id="KeO-vI-KgG"/>
+                            <constraint firstItem="UoV-UZ-L04" firstAttribute="centerY" secondItem="6j8-qL-I0Y" secondAttribute="centerY" id="KyA-rA-RBW"/>
+                            <constraint firstItem="UoV-UZ-L04" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="mBJ-u9-RSP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="plO-dV-tTr"/>
                     </view>
                     <navigationItem key="navigationItem" title="Transactions" id="49O-ad-AI6"/>
