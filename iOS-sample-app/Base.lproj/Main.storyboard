@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -36,6 +37,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="XTx-jd-5cc" kind="show" id="cK5-fB-0tf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="AMX-sU-vln" style="IBUITableViewCellStyleDefault" id="OD1-7u-U3s">
+                                        <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OD1-7u-U3s" id="ZgD-te-k5g">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Transactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AMX-sU-vln">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vQf-zU-9jE" kind="show" id="UkR-Sb-u8G"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -77,6 +98,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hr6-6F-fHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1411" y="207"/>
+        </scene>
+        <!--Transactions-->
+        <scene sceneID="JdA-vb-GYm">
+            <objects>
+                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UoV-UZ-L04">
+                                <rect key="frame" x="162.5" y="433" width="89" height="30"/>
+                                <state key="normal" title="Validate Cart"/>
+                                <connections>
+                                    <action selector="validateCart:" destination="vQf-zU-9jE" eventType="touchUpInside" id="lde-1W-1KD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVo-Nc-ozK">
+                                <rect key="frame" x="176" y="363" width="62" height="30"/>
+                                <state key="normal" title="Add Item"/>
+                                <connections>
+                                    <action selector="addItemToCart:" destination="vQf-zU-9jE" eventType="touchUpInside" id="Avf-gq-sj3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xor-HQ-5Io">
+                                <rect key="frame" x="20" y="128" width="374" height="50.5"/>
+                                <string key="text">This class showcases how to track purchases made by an user with CustomerTransactions. Add some items to the cart, then validate it to send the transaction</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Xor-HQ-5Io" firstAttribute="top" secondItem="plO-dV-tTr" secondAttribute="top" constant="40" id="07T-YT-aFa"/>
+                            <constraint firstItem="aVo-Nc-ozK" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="7bF-TO-jTh"/>
+                            <constraint firstItem="UoV-UZ-L04" firstAttribute="top" secondItem="aVo-Nc-ozK" secondAttribute="bottom" constant="40" id="KeO-vI-KgG"/>
+                            <constraint firstItem="UoV-UZ-L04" firstAttribute="centerY" secondItem="6j8-qL-I0Y" secondAttribute="centerY" id="KyA-rA-RBW"/>
+                            <constraint firstItem="Xor-HQ-5Io" firstAttribute="leading" secondItem="6j8-qL-I0Y" secondAttribute="leading" constant="20" id="ZD5-kd-0nm"/>
+                            <constraint firstItem="Xor-HQ-5Io" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="jGP-Im-llM"/>
+                            <constraint firstItem="UoV-UZ-L04" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="mBJ-u9-RSP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="plO-dV-tTr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Transactions" id="49O-ad-AI6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3df-j5-r3W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3111.594202898551" y="606.69642857142856"/>
         </scene>
     </scenes>
 </document>
