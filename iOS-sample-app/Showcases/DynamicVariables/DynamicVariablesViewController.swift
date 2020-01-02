@@ -1,46 +1,46 @@
 import UIKit
 import ContentSquare
 
+enum AccountType: Int {
+    case standard = 0
+    case premium = 1
+}
+
 // This class showcases how to use dynamic variables to gather additional data about the session,
 // such as which version of an A/B test the user saw, or other relevant user data
 class DynamicVariablesViewController: UIViewController {
 
     @IBOutlet private weak var buyButton: UIButton!
-    private var currentButtonColor: UIColor = .yellow
+    private var testButtonColor = UIColor()
     private var userAge: Int = 0
+    private var userAccount: AccountType = .standard
 
     override func loadView()
     {
         super.loadView()
 
-        // Set the color for the button we want to test
-        buyButton.backgroundColor = currentButtonColor
-        // Retrieve the user age, from his personal account for instance
+        // Get the color for the button from A/B test configuration
+        // For instance, yellow or green
+        testButtonColor = .yellow
+        buyButton.backgroundColor = testButtonColor
+        // Retrieve the user's age and his account type, from his personal account for instance
         userAge = 24
+        userAccount = .premium
 
-        self.updateDynamicVariables()
-    }
-
-    // MARK: - UI Actions
-
-    @IBAction private func colorSwitchChanged(_ sender: UISwitch)
-    {
-        // Update button color to perform A/B testing
-        buyButton.backgroundColor = currentButtonColor.isEqual(UIColor.yellow) ? UIColor.green : UIColor.yellow
-        currentButtonColor = buyButton.backgroundColor!
-
-        self.updateDynamicVariables()
+        self.sendDynamicVariables()
     }
 
     // MARK: - Dynamic vars
 
-    private func updateDynamicVariables()
+    private func sendDynamicVariables()
     {
-        // Do users boy more stuff with a yellow or green button?
-        let colorValue = currentButtonColor.isEqual(UIColor.yellow) ? "yellow" : "green"
+        // Do users buy more stuff with a yellow or green button?
+        let colorValue = testButtonColor.isEqual(UIColor.yellow) ? "yellow" : "green"
         self.sendStringDynamicVariable(key: "Button Color", value: colorValue)
-        // Also send the user's age, to determine if it has an impact on the A/B test
+        // Also send the user's age and his account type, to determine if it has an impact on the A/B test
         self.sendIntDynamicVariable(key: "User age", value: userAge)
+        let accountValue = userAccount == .standard ? "standard" : "premium"
+        self.sendStringDynamicVariable(key: "User account", value: accountValue)
     }
 
     private func sendStringDynamicVariable(key: String, value: String)

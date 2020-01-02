@@ -107,23 +107,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jPp-jC-uA9">
-                                <rect key="frame" x="182.5" y="432.5" width="51" height="31"/>
-                                <connections>
-                                    <action selector="colorSwitchChanged:" destination="Yob-oZ-Oow" eventType="primaryActionTriggered" id="Hlc-bQ-3sf"/>
-                                </connections>
-                            </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N6-a8-1WH">
-                                <rect key="frame" x="153.5" y="355" width="107" height="30"/>
+                                <rect key="frame" x="153.5" y="433" width="107" height="30"/>
                                 <state key="normal" title="Buy something!"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whe-RM-6hh">
+                                <rect key="frame" x="20" y="118" width="374" height="67"/>
+                                <string key="text">This class showcases how to use dynamic variables to gather additional data about the session, such as which version of an A/B test the user saw, or other relevant user data</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="jPp-jC-uA9" firstAttribute="centerX" secondItem="tzd-tA-RQ0" secondAttribute="centerX" id="VK2-3A-fAo"/>
-                            <constraint firstItem="7N6-a8-1WH" firstAttribute="centerX" secondItem="tzd-tA-RQ0" secondAttribute="centerX" id="YTq-I4-5PA"/>
-                            <constraint firstItem="jPp-jC-uA9" firstAttribute="centerY" secondItem="tzd-tA-RQ0" secondAttribute="centerY" id="l8F-qT-GXn"/>
-                            <constraint firstItem="jPp-jC-uA9" firstAttribute="top" secondItem="7N6-a8-1WH" secondAttribute="bottom" constant="47.5" id="sI0-1i-4Qj"/>
+                            <constraint firstItem="7N6-a8-1WH" firstAttribute="centerY" secondItem="tzd-tA-RQ0" secondAttribute="centerY" id="D46-oH-zZ4"/>
+                            <constraint firstItem="7N6-a8-1WH" firstAttribute="centerX" secondItem="tzd-tA-RQ0" secondAttribute="centerX" id="O7d-bI-RdI"/>
+                            <constraint firstItem="Whe-RM-6hh" firstAttribute="top" secondItem="XPP-Al-dZD" secondAttribute="top" constant="30" id="aXS-yb-17T"/>
+                            <constraint firstItem="Whe-RM-6hh" firstAttribute="centerX" secondItem="tzd-tA-RQ0" secondAttribute="centerX" id="f65-Zj-gZ2"/>
+                            <constraint firstItem="Whe-RM-6hh" firstAttribute="leading" secondItem="tzd-tA-RQ0" secondAttribute="leading" constant="20" id="sQC-7N-s3Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XPP-Al-dZD"/>
                     </view>
