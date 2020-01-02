@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0545DD3A23B20342005DB457 /* DynamicVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545DD3923B20342005DB457 /* DynamicVariablesViewController.swift */; };
+		05B0F9AF23B0CBC900563FFA /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B0F9AE23B0CBC900563FFA /* TransactionsViewController.swift */; };
 		8D51D0E9237B256B00854630 /* UIViewController+trackScreenview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */; };
 		8D8A2948236AEC6E00EB782C /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2947236AEC6E00EB782C /* PagedScrollViews.swift */; };
 		8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		0545DD3923B20342005DB457 /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicVariablesViewController.swift; sourceTree = "<group>"; };
+		05B0F9AE23B0CBC900563FFA /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
 		8D8A2947236AEC6E00EB782C /* PagedScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
 		8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 				0545DD3923B20342005DB457 /* DynamicVariablesViewController.swift */,
 			);
 			path = DynamicVariables;
+            sourceTree = "<group>";
+        };
+		05B0F9AD23B0CB8200563FFA /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				05B0F9AE23B0CBC900563FFA /* TransactionsViewController.swift */,
+			);
+			path = Transactions;
 			sourceTree = "<group>";
 		};
 		8D51D0E7237B24EE00854630 /* Screenview utils */ = {
@@ -131,6 +141,7 @@
 			children = (
 				8DB0FC132368A7F40060D8C4 /* Screen Views */,
 				0545DD3823B20325005DB457 /* DynamicVariables */,
+				05B0F9AD23B0CB8200563FFA /* Transactions */,
 			);
 			path = Showcases;
 			sourceTree = "<group>";
@@ -257,6 +268,7 @@
 				0545DD3A23B20342005DB457 /* DynamicVariablesViewController.swift in Sources */,
 				8DABC0AA237388110033E18E /* ProgrammaticModalViewController.swift in Sources */,
 				8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */,
+				05B0F9AF23B0CBC900563FFA /* TransactionsViewController.swift in Sources */,
 				8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */,
 				8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */,
 				8D8A2948236AEC6E00EB782C /* PagedScrollViews.swift in Sources */,
