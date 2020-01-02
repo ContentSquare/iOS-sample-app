@@ -115,18 +115,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVo-Nc-ozK">
-                                <rect key="frame" x="176" y="316" width="62" height="30"/>
+                                <rect key="frame" x="176" y="363" width="62" height="30"/>
                                 <state key="normal" title="Add Item"/>
                                 <connections>
                                     <action selector="addItemToCart:" destination="vQf-zU-9jE" eventType="touchUpInside" id="Avf-gq-sj3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xor-HQ-5Io">
+                                <rect key="frame" x="20" y="128" width="374" height="50.5"/>
+                                <string key="text">This class showcases how to track purchases made by an user with CustomerTransactions. Add some items to the cart, then validate it to send the transaction</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Xor-HQ-5Io" firstAttribute="top" secondItem="plO-dV-tTr" secondAttribute="top" constant="40" id="07T-YT-aFa"/>
                             <constraint firstItem="aVo-Nc-ozK" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="7bF-TO-jTh"/>
-                            <constraint firstItem="UoV-UZ-L04" firstAttribute="top" secondItem="aVo-Nc-ozK" secondAttribute="bottom" constant="87" id="KeO-vI-KgG"/>
+                            <constraint firstItem="UoV-UZ-L04" firstAttribute="top" secondItem="aVo-Nc-ozK" secondAttribute="bottom" constant="40" id="KeO-vI-KgG"/>
                             <constraint firstItem="UoV-UZ-L04" firstAttribute="centerY" secondItem="6j8-qL-I0Y" secondAttribute="centerY" id="KyA-rA-RBW"/>
+                            <constraint firstItem="Xor-HQ-5Io" firstAttribute="leading" secondItem="6j8-qL-I0Y" secondAttribute="leading" constant="20" id="ZD5-kd-0nm"/>
+                            <constraint firstItem="Xor-HQ-5Io" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="jGP-Im-llM"/>
                             <constraint firstItem="UoV-UZ-L04" firstAttribute="centerX" secondItem="6j8-qL-I0Y" secondAttribute="centerX" id="mBJ-u9-RSP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="plO-dV-tTr"/>
