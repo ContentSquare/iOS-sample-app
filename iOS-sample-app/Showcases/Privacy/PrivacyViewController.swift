@@ -20,37 +20,37 @@ class PrivacyViewController: UIViewController {
     @IBAction private func optOutButtonTapped(_ sender: UIButton)
     {
         ContentSquare.optOut()
-        self.displayCommand(title: "User opted out", message: "The user is no longer being tracked. The User ID has been deleted, and no more data will be collected.")
+        displayCommand(title: "User opted out", message: "The user is no longer being tracked. The User ID has been deleted, and no more data will be collected.")
     }
     
     @IBAction private func optInButtonTapped(_ sender: UIButton)
     {
         ContentSquare.optIn()
-        self.displayCommand(title: "User opted in", message: "The user is now being tracked, and a new User ID has been generated.")
+        displayCommand(title: "User opted in", message: "The user is now being tracked, and a new User ID has been generated.")
     }
 
     @IBAction private func stopButtonTapped(_ sender: UIButton)
     {
         ContentSquare.stopTracking()
-        self.displayCommand(title: "Tracking stopped", message: "The tracking is stopped until next app launch, or until a call to resumeTracking()")
+        displayCommand(title: "Tracking stopped", message: "The tracking is stopped until next app launch, or until a call to resumeTracking()")
     }
     
     @IBAction private func resumeButtonTapped(_ sender: UIButton)
     {
         ContentSquare.resumeTracking()
-        self.displayCommand(title: "Tracking resumed", message: "The tracking is back!")
+        displayCommand(title: "Tracking resumed", message: "The tracking is back!")
     }
     
     @IBAction private func forgetButtonTapped(_ sender: UIButton)
     {
         ContentSquare.forgetMe()
-        self.displayCommand(title: "Forget User", message: "The User ID has been deleted, and all the collected data has been erased from the device.\n If the user is opted in, tracking will start at next app launch with a new User ID.")
+        displayCommand(title: "Forget User", message: "The User ID has been deleted, and all the collected data has been erased from the device.\n If the user is opted in, tracking will start at next app launch with a new User ID.")
     }
 
     @IBAction private func IDButtonTapped(_ sender: UIButton)
     {
         let id = ContentSquare.userID
-        self.displayCommand(title: "User ID", message: "The User ID is \(id ?? "undefined.")")
+        displayCommand(title: "User ID", message: "The User ID is \(id ?? "undefined.")")
     }
 
     //MARK: - Private
