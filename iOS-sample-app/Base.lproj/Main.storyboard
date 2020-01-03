@@ -128,12 +128,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N6-a8-1WH">
-                                <rect key="frame" x="153.5" y="433" width="107" height="30"/>
-                                <state key="normal" title="Buy something!"/>
+                                <rect key="frame" x="169.5" y="433" width="75" height="30"/>
+                                <state key="normal" title="TestButton"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whe-RM-6hh">
-                                <rect key="frame" x="20" y="118" width="374" height="67"/>
-                                <string key="text">This class showcases how to use dynamic variables to gather additional data about the session, such as which version of an A/B test the user saw, or other relevant user data</string>
+                                <rect key="frame" x="20" y="118" width="374" height="84"/>
+                                <string key="text">This class showcases how to use dynamic variables to gather additional data about the session, such as which version of an A/B test the user saw, or other relevant user data. Please refer to the logs to check the variables being sent.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -151,7 +151,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Dynamic Vars" id="uMi-Tj-MI2"/>
                     <connections>
-                        <outlet property="buyButton" destination="7N6-a8-1WH" id="CHC-Nl-xyo"/>
+                        <outlet property="testButton" destination="7N6-a8-1WH" id="u5i-4o-8uU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYb-VC-Ghq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

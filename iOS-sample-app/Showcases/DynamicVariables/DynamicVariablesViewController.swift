@@ -10,7 +10,7 @@ enum AccountType: Int {
 // such as which version of an A/B test the user saw, or other relevant user data
 class DynamicVariablesViewController: UIViewController {
 
-    @IBOutlet private weak var buyButton: UIButton!
+    @IBOutlet private weak var testButton: UIButton!
     private var testButtonColor = UIColor()
     private var userAge: Int = 0
     private var userAccount: AccountType = .standard
@@ -22,7 +22,7 @@ class DynamicVariablesViewController: UIViewController {
         // Get the color for the button from A/B test configuration
         // For instance, yellow or green
         testButtonColor = .yellow
-        buyButton.backgroundColor = testButtonColor
+        testButton.backgroundColor = testButtonColor
         // Retrieve the user's age and his account type, from his personal account for instance
         userAge = 24
         userAccount = .premium
@@ -34,7 +34,7 @@ class DynamicVariablesViewController: UIViewController {
 
     private func sendDynamicVariables()
     {
-        // Do users buy more stuff with a yellow or green button?
+        // Are users more likely to tap on a yellow or a green button?
         let colorValue = testButtonColor.isEqual(UIColor.yellow) ? "yellow" : "green"
         self.sendStringDynamicVariable(key: "Button Color", value: colorValue)
         // Also send the user's age and his account type, to determine if it has an impact on the A/B test
@@ -71,6 +71,6 @@ class DynamicVariablesViewController: UIViewController {
     {
         // The DynamicVar constructor can throw errors if it considers your key or value invalid.
         // Take a look at its Xcode documentation to know what is an invalid key or value. If you are sure your values are valid, you can ignore errors.
-        // But you might probably prefer sending yourself a log, to be aware if your dynamic variables get refused, especially if validation criteria change in the future.
+        // But you might probably prefer sending yourself a log, to be aware if your dynamic variables get refused, especially if validation criterias change in the future.
     }
 }
