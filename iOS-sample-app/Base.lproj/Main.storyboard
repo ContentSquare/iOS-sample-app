@@ -173,14 +173,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This class showcases how to use privacy-related APIs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cow-sb-7PE">
-                                <rect key="frame" x="33.5" y="118" width="347.5" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cow-sb-7PE">
+                                <rect key="frame" x="20" y="118" width="374" height="67"/>
+                                <string key="text">This class showcases how to use privacy-related APIs. You should use these functions in the UI dedicated to get the user's consent. Contentsquare does not provide such UI, you are responsible for its implementation.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="2nN-xM-EQB">
-                                <rect key="frame" x="130" y="181" width="154" height="240"/>
+                                <rect key="frame" x="130" y="211" width="154" height="240"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psx-gB-cyo">
                                         <rect key="frame" x="31.5" y="0.0" width="91" height="30"/>
@@ -227,13 +228,13 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLZ-37-Yab">
-                                <rect key="frame" x="189.5" y="479" width="35.5" height="21.5"/>
+                                <rect key="frame" x="189.5" y="501" width="35.5" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3E-YF-3Ns">
-                                <rect key="frame" x="20" y="533" width="374" height="18"/>
+                                <rect key="frame" x="20" y="555" width="374" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -241,12 +242,14 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Cow-sb-7PE" firstAttribute="centerX" secondItem="QQ1-Ae-vtg" secondAttribute="centerX" id="Ul6-dw-Tgq"/>
                             <constraint firstItem="Cow-sb-7PE" firstAttribute="centerX" secondItem="QQ1-Ae-vtg" secondAttribute="centerX" id="cKS-9F-Crx"/>
                             <constraint firstItem="Cow-sb-7PE" firstAttribute="top" secondItem="YqN-oN-Sn6" secondAttribute="top" constant="30" id="cWT-9F-KEO"/>
-                            <constraint firstItem="2nN-xM-EQB" firstAttribute="firstBaseline" secondItem="Cow-sb-7PE" secondAttribute="baseline" constant="70" id="hXq-AY-iXr"/>
+                            <constraint firstItem="2nN-xM-EQB" firstAttribute="firstBaseline" secondItem="Cow-sb-7PE" secondAttribute="baseline" constant="50" id="hXq-AY-iXr"/>
+                            <constraint firstItem="Cow-sb-7PE" firstAttribute="leading" secondItem="QQ1-Ae-vtg" secondAttribute="leading" constant="20" id="jtc-EC-W2C"/>
                             <constraint firstItem="T3E-YF-3Ns" firstAttribute="centerX" secondItem="QQ1-Ae-vtg" secondAttribute="centerX" id="neT-A8-hvP"/>
                             <constraint firstItem="T3E-YF-3Ns" firstAttribute="leading" secondItem="YqN-oN-Sn6" secondAttribute="leading" constant="20" id="nwD-e6-NgG"/>
-                            <constraint firstItem="OLZ-37-Yab" firstAttribute="top" secondItem="Uud-KE-3ig" secondAttribute="bottom" constant="58" id="sWf-ty-ZyA"/>
+                            <constraint firstItem="OLZ-37-Yab" firstAttribute="top" secondItem="Uud-KE-3ig" secondAttribute="bottom" constant="50" id="sWf-ty-ZyA"/>
                             <constraint firstItem="OLZ-37-Yab" firstAttribute="centerX" secondItem="QQ1-Ae-vtg" secondAttribute="centerX" id="uAK-Qv-RGZ"/>
                             <constraint firstItem="T3E-YF-3Ns" firstAttribute="top" secondItem="OLZ-37-Yab" secondAttribute="bottom" constant="32.5" id="wpu-Q5-VsE"/>
                             <constraint firstItem="2nN-xM-EQB" firstAttribute="centerX" secondItem="QQ1-Ae-vtg" secondAttribute="centerX" id="xZX-0W-tTM"/>
