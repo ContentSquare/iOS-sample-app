@@ -1,7 +1,7 @@
 import UIKit
 import ContentSquare
 
-// This class showcases how to use privacy-related APIs
+// This class showcases how to use privacy-related APIs. You are responsible for creating the UI asking the user for his consent, and then calling the appropriate Contentsquare function.
 class PrivacyViewController: UIViewController {
 
     @IBOutlet private weak var commandTitle: UILabel!
