@@ -27,41 +27,43 @@ class DynamicVariablesViewController: UIViewController {
         userAge = 24
         userAccount = .premium
 
-        self.sendDynamicVariables()
+        sendDynamicVariables()
     }
 
-    // MARK: - Dynamic vars
+    //MARK: - Dynamic vars
 
     private func sendDynamicVariables()
     {
         // Are users more likely to tap on a yellow or a green button?
         let colorValue = testButtonColor.isEqual(UIColor.yellow) ? "yellow" : "green"
-        self.sendStringDynamicVariable(key: "Button Color", value: colorValue)
+        sendDynamicVariable(key: "Button Color", value: colorValue)
         // Also send the user's age and his account type, to determine if it has an impact on the A/B test
-        self.sendIntDynamicVariable(key: "User age", value: userAge)
+        sendDynamicVariable(key: "User age", value: userAge)
         let accountValue = userAccount == .standard ? "standard" : "premium"
-        self.sendStringDynamicVariable(key: "User account", value: accountValue)
+        sendDynamicVariable(key: "User account", value: accountValue)
     }
 
-    private func sendStringDynamicVariable(key: String, value: String)
+    //MARK: - Helpers
+
+    private func sendDynamicVariable(key: String, value: String)
     {
         do {
             let dynamic = try DynamicVar(key: key, value: value)
             ContentSquare.send(dynamicVar: dynamic)
         }
         catch {
-            self.sendLog(message: "Could not create Contentsquare String DynamicVar: \(error)")
+            sendLog(message: "Could not create Contentsquare String DynamicVar: \(error)")
         }
     }
 
-    private func sendIntDynamicVariable(key: String, value: Int)
+    private func sendDynamicVariable(key: String, value: Int)
     {
         do {
             let dynamic = try DynamicVar(key: key, value: value)
             ContentSquare.send(dynamicVar: dynamic)
         }
         catch {
-            self.sendLog(message: "Could not create Contentsquare Int DynamicVar: \(error)")
+            sendLog(message: "Could not create Contentsquare Int DynamicVar: \(error)")
         }
     }
 
