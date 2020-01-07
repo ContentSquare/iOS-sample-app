@@ -39,14 +39,14 @@
                                             <segue destination="XTx-jd-5cc" kind="show" id="cK5-fB-0tf"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="4Q6-oB-Opy" style="IBUITableViewCellStyleDefault" id="BfL-87-O5L">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="b3U-F9-dF7" style="IBUITableViewCellStyleDefault" id="NRh-N6-sW6">
                                         <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BfL-87-O5L" id="ql8-PQ-lLK">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NRh-N6-sW6" id="2Dr-ng-DPG">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Privacy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Q6-oB-Opy">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Privacy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b3U-F9-dF7">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -56,7 +56,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="V5M-pe-xMy" kind="show" id="4DP-b5-F5L"/>
+                                            <segue destination="V5M-pe-xMy" kind="show" id="U5e-z7-AGU"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="AMX-sU-vln" style="IBUITableViewCellStyleDefault" id="OD1-7u-U3s">
@@ -66,15 +66,37 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Transactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AMX-sU-vln">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Dynamic Variables" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AMX-sU-vln">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="vQf-zU-9jE" kind="show" id="UkR-Sb-u8G"/>
+                                            <segue destination="Yob-oZ-Oow" kind="show" id="1Ns-4w-qdo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Q8p-y0-KWU" style="IBUITableViewCellStyleDefault" id="FPA-Mo-dUf">
+                                        <rect key="frame" x="0.0" y="158.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FPA-Mo-dUf" id="S74-dU-T9J">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Transactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q8p-y0-KWU">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vQf-zU-9jE" kind="show" id="sA3-Go-6vP"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -99,7 +121,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbl-1w-gjp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2881" y="11"/>
+            <point key="canvasLocation" x="2891" y="-234"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TEQ-QP-KBC">
@@ -116,6 +138,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hr6-6F-fHZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1411" y="207"/>
+        </scene>
+        <!--Dynamic Vars-->
+        <scene sceneID="eQe-k7-gGX">
+            <objects>
+                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tzd-tA-RQ0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N6-a8-1WH">
+                                <rect key="frame" x="169.5" y="433" width="75" height="30"/>
+                                <state key="normal" title="TestButton"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whe-RM-6hh">
+                                <rect key="frame" x="20" y="118" width="374" height="84"/>
+                                <string key="text">This class showcases how to use dynamic variables to gather additional data about the session, such as which version of an A/B test the user saw, or other relevant user data. Please refer to the logs to check the variables being sent.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7N6-a8-1WH" firstAttribute="centerY" secondItem="tzd-tA-RQ0" secondAttribute="centerY" id="D46-oH-zZ4"/>
+                            <constraint firstItem="7N6-a8-1WH" firstAttribute="centerX" secondItem="tzd-tA-RQ0" secondAttribute="centerX" id="O7d-bI-RdI"/>
+                            <constraint firstItem="Whe-RM-6hh" firstAttribute="top" secondItem="XPP-Al-dZD" secondAttribute="top" constant="30" id="aXS-yb-17T"/>
+                            <constraint firstItem="Whe-RM-6hh" firstAttribute="centerX" secondItem="tzd-tA-RQ0" secondAttribute="centerX" id="f65-Zj-gZ2"/>
+                            <constraint firstItem="Whe-RM-6hh" firstAttribute="leading" secondItem="tzd-tA-RQ0" secondAttribute="leading" constant="20" id="sQC-7N-s3Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XPP-Al-dZD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dynamic Vars" id="uMi-Tj-MI2"/>
+                    <connections>
+                        <outlet property="testButton" destination="7N6-a8-1WH" id="u5i-4o-8uU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYb-VC-Ghq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3112" y="767"/>
         </scene>
         <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
@@ -163,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3df-j5-r3W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3101" y="1013"/>
+            <point key="canvasLocation" x="3112" y="1423"/>
         </scene>
         <!--Privacy-->
         <scene sceneID="keg-YG-NI7">
@@ -274,7 +335,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYG-U8-FOO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3101" y="367"/>
+            <point key="canvasLocation" x="3112" y="117"/>
         </scene>
     </scenes>
 </document>
