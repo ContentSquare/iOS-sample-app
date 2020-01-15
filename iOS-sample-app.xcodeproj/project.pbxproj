@@ -19,7 +19,6 @@
 		8DA78D0623619D3E001EB4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0523619D3E001EB4E3 /* Assets.xcassets */; };
 		8DA78D0923619D3E001EB4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */; };
 		8DA78D1123619DF7001EB4E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D1023619DF7001EB4E3 /* README.md */; };
-		8DA78D132361F46B001EB4E3 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA78D122361F46B001EB4E3 /* ContentSquare.framework */; };
 		8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */; };
 		8DABC0A62373798E0033E18E /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */; };
 		8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */; };
@@ -28,6 +27,7 @@
 		8DB0FC152368A8190060D8C4 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */; };
 		8DB0FC172368B42E0060D8C4 /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */; };
 		8DF1A681237088D800DDBA60 /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1A680237088D800DDBA60 /* Page.xib */; };
+		DB83D97123CF75F4007CB34B /* ContentsquareModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB83D97023CF75F4007CB34B /* ContentsquareModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,6 @@
 		8DA78D0823619D3E001EB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA78D0A23619D3E001EB4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA78D1023619DF7001EB4E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8DA78D122361F46B001EB4E3 /* ContentSquare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentSquare.framework; path = Carthage/Build/iOS/ContentSquare.framework; sourceTree = "<group>"; };
 		8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentingViewController.swift; sourceTree = "<group>"; };
 		8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "iOS-sample-app/Showcases/Screen Views/ModalScreenViews.storyboard"; sourceTree = SOURCE_ROOT; };
 		8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalPresentingViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		8DF1A680237088D800DDBA60 /* Page.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
+		DB83D97023CF75F4007CB34B /* ContentsquareModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentsquareModule.framework; path = Carthage/Build/iOS/ContentsquareModule.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA78D132361F46B001EB4E3 /* ContentSquare.framework in Frameworks */,
+				DB83D97123CF75F4007CB34B /* ContentsquareModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,16 +74,16 @@
 				0545DD3923B20342005DB457 /* DynamicVariablesViewController.swift */,
 			);
 			path = DynamicVariables;
-            sourceTree = "<group>";
-        };
+			sourceTree = "<group>";
+		};
 		055D286E23B9F25500E29DFD /* Privacy */ = {
 			isa = PBXGroup;
 			children = (
 				055D286F23B9F2CE00E29DFD /* PrivacyViewController.swift */,
 			);
 			path = Privacy;
-            sourceTree = "<group>";
-        };
+			sourceTree = "<group>";
+		};
 		05B0F9AD23B0CB8200563FFA /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,8 +106,8 @@
 			children = (
 				8DA78CFB23619D3E001EB4E3 /* iOS-sample-app */,
 				8DA78CFA23619D3E001EB4E3 /* Products */,
+				DB83D97023CF75F4007CB34B /* ContentsquareModule.framework */,
 				8DA78D1023619DF7001EB4E3 /* README.md */,
-				8DA78D122361F46B001EB4E3 /* ContentSquare.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,12 +257,12 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/ContentSquare.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ContentsquareModule.framework",
 			);
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ContentSquare.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ContentsquareModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
