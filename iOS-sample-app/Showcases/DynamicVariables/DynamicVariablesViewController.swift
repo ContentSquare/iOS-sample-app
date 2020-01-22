@@ -1,5 +1,5 @@
 import UIKit
-import ContentSquare
+import ContentsquareModule
 
 enum AccountType: Int {
     case standard = 0
@@ -12,7 +12,7 @@ class DynamicVariablesViewController: UIViewController {
 
     @IBOutlet private weak var testButton: UIButton!
     private var testButtonColor = UIColor()
-    private var userAge: Int = 0
+    private var userAge: UInt32 = 0
     private var userAccount: AccountType = .standard
 
     override func loadView()
@@ -49,18 +49,18 @@ class DynamicVariablesViewController: UIViewController {
     {
         do {
             let dynamic = try DynamicVar(key: key, value: value)
-            ContentSquare.send(dynamicVar: dynamic)
+            Contentsquare.send(dynamicVar: dynamic)
         }
         catch {
             sendLog(message: "Could not create Contentsquare String DynamicVar: \(error)")
         }
     }
 
-    private func sendDynamicVariable(key: String, value: Int)
+    private func sendDynamicVariable(key: String, value: UInt32)
     {
         do {
-            let dynamic = try DynamicVar(key: key, value: value)
-            ContentSquare.send(dynamicVar: dynamic)
+            let dynamic = try DynamicVar (key: key, value: value)
+            Contentsquare.send(dynamicVar: dynamic)
         }
         catch {
             sendLog(message: "Could not create Contentsquare Int DynamicVar: \(error)")
