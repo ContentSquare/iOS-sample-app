@@ -10,11 +10,24 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 
 ## Get it running
 
-### Prerequisites
+### Using Carthage
+
+#### Prerequisites
 You must have [Carthage](https://github.com/Carthage/Carthage). The simplest way to install it is `brew install carthage`.
 
-### Running the app
+#### Running the app
 * Clone this repo
-* Run `carthage update` in the repo's folder
+* Run `carthage update` in the "Carthage Sample" folder
+* You should now be able to run the app
+* You should see logs from the SDK in the Xcode console or the Console app
+
+### Using CocoaPods
+
+#### Prerequisites
+You must have [CocoaPods](https://cocoapods.org). The simplest way to install it is `sudo gem install cocoapods`.
+
+#### Running the app
+* Clone this repo
+* Run `pod update` in the "Pod Sample" folder
 * You should now be able to run the app
 * You should see logs from the SDK in the Xcode console or the Console app
