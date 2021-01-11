@@ -51,6 +51,7 @@
 		8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		8DF1A680237088D800DDBA60 /* Page.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
+		DB22C9A125AC68F3001F0FE0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DB83D97023CF75F4007CB34B /* ContentsquareModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentsquareModule.framework; path = Carthage/Build/iOS/ContentsquareModule.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +103,7 @@
 		8DA78CF023619D3E001EB4E3 = {
 			isa = PBXGroup;
 			children = (
+				DB22C9A125AC68F3001F0FE0 /* README.md */,
 				8DA78CFB23619D3E001EB4E3 /* iOS-sample-app */,
 				8DA78CFA23619D3E001EB4E3 /* Products */,
 				DB83D97023CF75F4007CB34B /* ContentsquareModule.framework */,

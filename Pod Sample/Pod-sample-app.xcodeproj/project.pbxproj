@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		1991050373457C9566A8A85B /* Pods-Pod-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.release.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 		31D8C90BC92C24E971411780 /* Pods_Pod_sample_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_sample_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9480FBDBCE9F6C6F26FDEE45 /* Pods-Pod-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
+		DB22C9A225AC6905001F0FE0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DBE94170254986D100F97035 /* Pod-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE94173254986D100F97035 /* Pod_sample_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod_sample_appApp.swift; sourceTree = "<group>"; };
 		DBE94175254986D100F97035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 				9480FBDBCE9F6C6F26FDEE45 /* Pods-Pod-sample-app.debug.xcconfig */,
 				1991050373457C9566A8A85B /* Pods-Pod-sample-app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -59,6 +59,7 @@
 		DBE94167254986D100F97035 = {
 			isa = PBXGroup;
 			children = (
+				DB22C9A225AC6905001F0FE0 /* README.md */,
 				DBE94172254986D100F97035 /* Pod-sample-app */,
 				DBE94171254986D100F97035 /* Products */,
 				50115FB69D6BC6F695CCE867 /* Pods */,
