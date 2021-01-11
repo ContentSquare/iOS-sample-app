@@ -18,7 +18,6 @@
 		8DA78D0423619D3E001EB4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0223619D3E001EB4E3 /* Main.storyboard */; };
 		8DA78D0623619D3E001EB4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0523619D3E001EB4E3 /* Assets.xcassets */; };
 		8DA78D0923619D3E001EB4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */; };
-		8DA78D1123619DF7001EB4E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8DA78D1023619DF7001EB4E3 /* README.md */; };
 		8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */; };
 		8DABC0A62373798E0033E18E /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */; };
 		8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */; };
@@ -44,7 +43,6 @@
 		8DA78D0523619D3E001EB4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA78D0823619D3E001EB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA78D0A23619D3E001EB4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DA78D1023619DF7001EB4E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentingViewController.swift; sourceTree = "<group>"; };
 		8DABC0A52373798E0033E18E /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "iOS-sample-app/Showcases/Screen Views/ModalScreenViews.storyboard"; sourceTree = SOURCE_ROOT; };
 		8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalPresentingViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +51,7 @@
 		8DB0FC142368A8190060D8C4 /* ScreenViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		8DB0FC162368B42E0060D8C4 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		8DF1A680237088D800DDBA60 /* Page.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
+		DB22C9A125AC68F3001F0FE0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DB83D97023CF75F4007CB34B /* ContentsquareModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentsquareModule.framework; path = Carthage/Build/iOS/ContentsquareModule.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,10 +103,10 @@
 		8DA78CF023619D3E001EB4E3 = {
 			isa = PBXGroup;
 			children = (
+				DB22C9A125AC68F3001F0FE0 /* README.md */,
 				8DA78CFB23619D3E001EB4E3 /* iOS-sample-app */,
 				8DA78CFA23619D3E001EB4E3 /* Products */,
 				DB83D97023CF75F4007CB34B /* ContentsquareModule.framework */,
-				8DA78D1023619DF7001EB4E3 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,7 +237,6 @@
 			files = (
 				8DA78D0923619D3E001EB4E3 /* LaunchScreen.storyboard in Resources */,
 				8DA78D0623619D3E001EB4E3 /* Assets.xcassets in Resources */,
-				8DA78D1123619DF7001EB4E3 /* README.md in Resources */,
 				8DA78D0423619D3E001EB4E3 /* Main.storyboard in Resources */,
 				8DF1A681237088D800DDBA60 /* Page.xib in Resources */,
 				8DABC0A62373798E0033E18E /* ModalScreenViews.storyboard in Resources */,
