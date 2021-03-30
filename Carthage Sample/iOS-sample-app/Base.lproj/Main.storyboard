@@ -358,7 +358,7 @@
             </objects>
             <point key="canvasLocation" x="3112" y="117"/>
         </scene>
-        <!--Masking Use Cases View Controller-->
+        <!--Masking-->
         <scene sceneID="CsN-KD-ZF2">
             <objects>
                 <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -387,7 +387,7 @@
                             <constraint firstItem="ofn-At-Exe" firstAttribute="height" secondItem="L1G-Xh-6Ru" secondAttribute="height" multiplier="0.0825893" id="yqN-6p-WAO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Dhb-2c-afw"/>
+                    <navigationItem key="navigationItem" title="Masking" id="Dhb-2c-afw"/>
                     <connections>
                         <outlet property="maskingTableView" destination="iaA-J3-rU9" id="ghd-Hp-sNI"/>
                         <segue destination="eYt-Cl-ZTm" kind="presentation" identifier="maskingSegue" id="33A-wo-vk0"/>
