@@ -376,6 +376,10 @@
                                 <rect key="frame" x="-1" y="208" width="414" height="515"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9ub-Y8-Aee" id="5uo-F9-nUi"/>
+                                    <outlet property="delegate" destination="9ub-Y8-Aee" id="f64-rS-FgK"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RyZ-IL-GPf"/>
