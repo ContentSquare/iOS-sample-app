@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "cslogo-2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cslogo.png",
+      "filename" : "cs-logo.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cslogo-1.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
