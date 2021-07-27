@@ -1,5 +1,5 @@
 PODS:
-  - CS_iOS_SDK (4.4.0)
+  - CS_iOS_SDK (4.5.0)
 
 DEPENDENCIES:
   - CS_iOS_SDK
@@ -9,7 +9,7 @@ SPEC REPOS:
     - CS_iOS_SDK
 
 SPEC CHECKSUMS:
-  CS_iOS_SDK: 804ace99cf3d48a7e31f4725cfa4b6a234df9f0e
+  CS_iOS_SDK: ddcec97a2bc9a8fea85b803b78aaa0beb6cd1dee
 
 PODFILE CHECKSUM: 5f2d16f39fcc1cfdcb2a530394b59e5af55dd7a8
 
