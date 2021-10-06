@@ -15,8 +15,7 @@ class DynamicVariablesViewController: UIViewController {
     private var userAge: UInt32 = 0
     private var userAccount: AccountType = .standard
 
-    override func loadView()
-    {
+    override func loadView() {
         super.loadView()
 
         // Get the color for the button from A/B test configuration
@@ -32,47 +31,13 @@ class DynamicVariablesViewController: UIViewController {
 
     //MARK: - Dynamic vars
 
-    private func sendDynamicVariables()
-    {
+    private func sendDynamicVariables() {
         // Are users more likely to tap on a yellow or a green button?
         let colorValue = testButtonColor.isEqual(UIColor.yellow) ? "yellow" : "green"
-        sendDynamicVariable(key: "Button Color", value: colorValue)
+        Contentsquare.send(dynamicVar: DynamicVar(key: "Button Color", value: colorValue))
         // Also send the user's age and his account type, to determine if it has an impact on the A/B test
-        sendDynamicVariable(key: "User age", value: userAge)
+        Contentsquare.send(dynamicVar: DynamicVar(key: "User age", value: userAge))
         let accountValue = userAccount == .standard ? "standard" : "premium"
-        sendDynamicVariable(key: "User account", value: accountValue)
-    }
-
-    //MARK: - Helpers
-
-    private func sendDynamicVariable(key: String, value: String)
-    {
-        do {
-            let dynamic = try DynamicVar(key: key, value: value)
-            Contentsquare.send(dynamicVar: dynamic)
-        }
-        catch {
-            sendLog(message: "Could not create Contentsquare String DynamicVar: \(error)")
-        }
-    }
-
-    private func sendDynamicVariable(key: String, value: UInt32)
-    {
-        do {
-            let dynamic = try DynamicVar (key: key, value: value)
-            Contentsquare.send(dynamicVar: dynamic)
-        }
-        catch {
-            sendLog(message: "Could not create Contentsquare Int DynamicVar: \(error)")
-        }
-    }
-
-    //MARK: - Error handling
-
-    private func sendLog(message: String)
-    {
-        // The DynamicVar constructor can throw errors if it considers your key or value invalid.
-        // Take a look at its Xcode documentation to know what is an invalid key or value. If you are sure your values are valid, you can ignore errors.
-        // But you might probably prefer sending yourself a log, to be aware if your dynamic variables get refused, especially if validation criterias change in the future.
+        Contentsquare.send(dynamicVar: DynamicVar(key: "User account", value: accountValue))
     }
 }
