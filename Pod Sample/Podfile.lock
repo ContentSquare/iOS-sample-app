@@ -1,5 +1,5 @@
 PODS:
-  - CS_iOS_SDK (4.9.0):
+  - CS_iOS_SDK (4.10.0):
     - SwiftProtobuf (~> 1.0)
   - SwiftProtobuf (1.18.0)
 
@@ -12,7 +12,7 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  CS_iOS_SDK: 29350f2d355b8d261718346a3fb14576bf55b4e4
+  CS_iOS_SDK: 94867e89ac99283d768fa545cd32e6320028553c
   SwiftProtobuf: c3c12645230d9b09c72267e0de89468c5543bd86
 
 PODFILE CHECKSUM: 5f2d16f39fcc1cfdcb2a530394b59e5af55dd7a8
