@@ -13,4 +13,4 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 * **[Using Carthage](https://github.com/ContentSquare/iOS-sample-app/tree/master/Carthage%20Sample)** - Sample that uses Carthage.
 * **[Using CocoaPods](https://github.com/ContentSquare/iOS-sample-app/tree/master/Pod%20Sample)** - Sample that uses CocoaPods.
 * **[Using SPM](https://github.com/ContentSquare/iOS-sample-app/tree/master/SPM%20Sample)** - Sample that uses Swift Package Manager.
-* **[Using Manual Integration](https://github.com/ContentSquare/iOS-sample-app/tree/master/Manual%20Integration)** - Sample that uses manual integration with dynamic linking.
+* **[Using Static framework](https://github.com/ContentSquare/iOS-sample-app/tree/master/Static%20Integration)** - Sample that uses static integration.

@@ -1,0 +1,4 @@
+framework module ContentsquareModule {
+  header "Contentsquare-Swift.h"
+  requires objc
+}
