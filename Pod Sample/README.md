@@ -1,6 +1,6 @@
 # 🎉 Cocoapods iOS sample 
 
-### This iOS application will show you how to use Contentsquare SDK with Cocoapods. <br /> <br />
+### This iOS application will show you how to use Contentsquare SDK with Cocoapods. <br />
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ You must have [CocoaPods](https://cocoapods.org). The simplest way to install it
 
 <pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.12.0 starting in app: com.your.bundle.identifier</pre>
 
-### 💡 Contentsquare SDK autostarts by itself <br /> <br />
+<pre>💡 Contentsquare SDK autostarts by itself </pre>
 
 ## 🚀 Waht's Next?
 
@@ -23,8 +23,6 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 *  Displaying controllers implemented in storyboards
 *  Changing the page of a paged scroll view
 *  Displaying or dismissing a modal
-
-<br />
 
 ## 📚 Docs
 
