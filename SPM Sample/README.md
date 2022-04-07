@@ -1,6 +1,6 @@
 # 🎉 Swift Package Manager iOS sample 
 
-### This iOS application will show you how to use Contentsquare SDK with [SPM](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app). <br /> <br />
+### This iOS application will show you how to use Contentsquare SDK with [SPM](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app). <br />
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Apple's [documentation](https://developer.apple.com/documentation/swift_packages
 
 <pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.12.0 starting in app: com.your.bundle.identifier</pre>
 
-### 💡 Contentsquare SDK autostarts by itself <br /> <br />
+<pre>💡 Contentsquare SDK autostarts by itself </pre>
 
 ## 🚀 Waht's Next?
 
@@ -22,8 +22,6 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 *  Displaying controllers implemented in storyboards
 *  Changing the page of a paged scroll view
 *  Displaying or dismissing a modal
-
-<br />
 
 ## 📚 Docs
 
