@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Aqw-ER-8mF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Aqw-ER-8mF">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Storyboard presenter-->
         <scene sceneID="1oq-sm-TTD">
             <objects>
-                <viewController id="ECD-EJ-zMX" customClass="ModalPresentingViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ECD-EJ-zMX" customClass="ModalPresentingViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q0j-Ih-cMb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMV-nj-wcq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMV-nj-wcq">
                                 <rect key="frame" x="157.5" y="406.5" width="99" height="30"/>
                                 <state key="normal" title="Present modal"/>
                                 <connections>
@@ -31,8 +30,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="RQy-9o-4xn"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="42k-yV-LS7" firstAttribute="centerY" secondItem="RQy-9o-4xn" secondAttribute="centerY" id="1Y4-T9-eZC"/>
                             <constraint firstItem="42k-yV-LS7" firstAttribute="top" secondItem="JMV-nj-wcq" secondAttribute="bottom" constant="8" symbolic="YES" id="5fb-mb-I7g"/>
@@ -40,6 +38,7 @@
                             <constraint firstItem="42k-yV-LS7" firstAttribute="leading" secondItem="RQy-9o-4xn" secondAttribute="leading" constant="20" id="TQP-iI-Ilz"/>
                             <constraint firstItem="JMV-nj-wcq" firstAttribute="centerX" secondItem="RQy-9o-4xn" secondAttribute="centerX" id="eP6-dw-QGQ"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="RQy-9o-4xn"/>
                     </view>
                     <navigationItem key="navigationItem" title="Storyboard presenter" id="OXZ-Yp-egl"/>
                 </viewController>
@@ -50,16 +49,16 @@
         <!--Modal screen views-->
         <scene sceneID="Mjs-DH-7Lq">
             <objects>
-                <tableViewController title="Modal screen views" id="Aqw-ER-8mF" customClass="TrackedTableViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Modal screen views" id="Aqw-ER-8mF" customClass="TrackedTableViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eha-Z3-mcs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <sections>
                             <tableViewSection id="R1O-cs-cd8">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="kgX-TN-Fyz" style="IBUITableViewCellStyleDefault" id="rmC-Vm-XTS">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rmC-Vm-XTS" id="EiF-ae-gCp">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -79,7 +78,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="TGr-E5-lcm" style="IBUITableViewCellStyleDefault" id="Bte-sd-s4I">
-                                        <rect key="frame" x="0.0" y="88" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bte-sd-s4I" id="Bak-b1-m22">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -115,7 +114,7 @@
         <!--Programmatic presenter-->
         <scene sceneID="4Y2-vx-D44">
             <objects>
-                <viewController id="vxX-KA-8HR" customClass="ProgrammaticModalPresentingViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vxX-KA-8HR" customClass="ProgrammaticModalPresentingViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yek-Ly-F3N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,7 +126,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGZ-H2-IX1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGZ-H2-IX1">
                                 <rect key="frame" x="157.5" y="396.5" width="99" height="30"/>
                                 <state key="normal" title="Present modal"/>
                                 <connections>
@@ -135,8 +134,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="c8a-fZ-hFV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="c8a-fZ-hFV" firstAttribute="trailing" secondItem="jRM-gN-0WT" secondAttribute="trailing" constant="20" id="9zn-3V-FbL"/>
                             <constraint firstItem="FGZ-H2-IX1" firstAttribute="centerX" secondItem="c8a-fZ-hFV" secondAttribute="centerX" id="BKT-yC-uLc"/>
@@ -144,6 +142,7 @@
                             <constraint firstItem="jRM-gN-0WT" firstAttribute="centerY" secondItem="c8a-fZ-hFV" secondAttribute="centerY" id="dwZ-Vh-ReE"/>
                             <constraint firstItem="jRM-gN-0WT" firstAttribute="top" secondItem="FGZ-H2-IX1" secondAttribute="bottom" constant="8" symbolic="YES" id="qOq-pc-LPw"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="c8a-fZ-hFV"/>
                     </view>
                     <navigationItem key="navigationItem" title="Programmatic presenter" id="t7h-Vn-W5Q"/>
                 </viewController>
@@ -154,25 +153,25 @@
         <!--Storyboard modal-->
         <scene sceneID="ebt-0V-0tr">
             <objects>
-                <viewController title="Storyboard modal" id="fNh-NZ-2ev" customClass="TrackedViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Storyboard modal" id="fNh-NZ-2ev" customClass="TrackedViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e0u-e8-ko5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try dismissing with the close button above, or by swiping down (in iOS 13). It will trigger a screen view." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdM-nm-hJb">
-                                <rect key="frame" x="20" y="418.5" width="374" height="61"/>
+                                <rect key="frame" x="20" y="401.5" width="374" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="vU4-pD-te3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="DdM-nm-hJb" firstAttribute="centerY" secondItem="vU4-pD-te3" secondAttribute="centerY" id="1us-qI-ms0"/>
                             <constraint firstItem="DdM-nm-hJb" firstAttribute="leading" secondItem="vU4-pD-te3" secondAttribute="leading" constant="20" id="Y2D-wG-3oW"/>
                             <constraint firstItem="vU4-pD-te3" firstAttribute="trailing" secondItem="DdM-nm-hJb" secondAttribute="trailing" constant="20" id="dv0-hu-0eJ"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="vU4-pD-te3"/>
                     </view>
                     <navigationItem key="navigationItem" title="Storyboard modal" id="X8H-h5-Emq">
                         <barButtonItem key="leftBarButtonItem" title="Close" image="xmark.circle" catalog="system" id="EUD-p3-vJl">
@@ -207,9 +206,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="xmark.circle" catalog="system" width="128" height="121"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="xmark.circle" catalog="system" width="64" height="62"/>
     </resources>
 </document>
