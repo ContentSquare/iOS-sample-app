@@ -6,9 +6,9 @@
 
 Go to [Contentsquare github](https://github.com/ContentSquare/CS_iOS_SDK/releases), under Assets you should be able to find `ContentsquareModuleDynamicManually.xcframework.zip` file, please download it.
 
-Once you open the zip file on your computer, you should have two directories named named `ContentsquareModule.xcframework` and `SwiftProtobuf.xcframework`.
+Once you open the zip file on your computer, you should have two directories named `ContentsquareModule.xcframework` and `SwiftProtobuf.xcframework`.
 
-Copy both of them and paste them inside `ContentsquareModule` folder of the [current project](https://github.com/ContentSquare/iOS-sample-app/tree/mobile-4115/Improve-sample-apps/Static%20Framework%20Sample/ContentsquareModule).
+Copy both of them and paste it inside `ContentsquareModule` folder of the [current project](https://github.com/ContentSquare/iOS-sample-app/tree/mobile-4115/Improve-sample-apps/Static%20Framework%20Sample/ContentsquareModule).
 
 ## Running the app
 * Clone this [repository](https://github.com/ContentSquare/iOS-sample-app)
