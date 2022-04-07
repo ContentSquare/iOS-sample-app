@@ -1,6 +1,6 @@
 # 🎉 Welcome to Contentsquare SDK
 
-<img src="ReadMeAssets/cs_banner.png" height="100%" width="100%%"> <br />
+<img src="ReadmeAssets/cs_banner.png" height="100%" width="100%%"> <br />
 
 ### Here you can find iOS sample applications that will show you how to use Contentsquare SDK and different ways to integrate it.
 
