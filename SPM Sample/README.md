@@ -15,7 +15,7 @@ Apple's [documentation](https://developer.apple.com/documentation/swift_packages
 
 <pre>💡 Contentsquare SDK autostarts by itself </pre>
 
-## 🚀 Waht's Next?
+## 🚀 What's Next?
 
 Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen views in situations such as:
 *  Displaying controllers implemented in code
