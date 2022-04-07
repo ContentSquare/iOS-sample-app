@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  StaticFramework-sample-app
-//
-//  Created by Thomas MARTINS on 05/04/2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {

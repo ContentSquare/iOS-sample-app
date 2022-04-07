@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DA78CF823619D3E001EB4E3"
-               BuildableName = "iOS-sample-app.app"
-               BlueprintName = "iOS-sample-app"
-               ReferencedContainer = "container:iOS-sample-app.xcodeproj">
+               BuildableName = "Carthage-sample-app.app"
+               BlueprintName = "Carthage-sample-app"
+               ReferencedContainer = "container:Carthage-sample-app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DA78CF823619D3E001EB4E3"
-            BuildableName = "iOS-sample-app.app"
-            BlueprintName = "iOS-sample-app"
-            ReferencedContainer = "container:iOS-sample-app.xcodeproj">
+            BuildableName = "Carthage-sample-app.app"
+            BlueprintName = "Carthage-sample-app"
+            ReferencedContainer = "container:Carthage-sample-app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DA78CF823619D3E001EB4E3"
-            BuildableName = "iOS-sample-app.app"
-            BlueprintName = "iOS-sample-app"
-            ReferencedContainer = "container:iOS-sample-app.xcodeproj">
+            BuildableName = "Carthage-sample-app.app"
+            BlueprintName = "Carthage-sample-app"
+            ReferencedContainer = "container:Carthage-sample-app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
