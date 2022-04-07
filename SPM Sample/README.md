@@ -9,11 +9,11 @@ Apple's [documentation](https://developer.apple.com/documentation/swift_packages
 ## Running the app
 * Clone this [repository](https://github.com/ContentSquare/iOS-sample-app)
 * You should now be able to run the application
-* You should see logs from the SDK in the Xcode console or the Console app
+* You should see logs from the SDK in the Xcode console or the Console app as below
 
 <pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.12.0 starting in app: com.your.bundle.identifier</pre>
 
-<pre>💡 Contentsquare SDK autostarts by itself </pre>
+<pre>💡 Quick tips: Contentsquare SDK autostarts by itself </pre>
 
 ## 🚀 What's Next?
 
@@ -25,4 +25,4 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 
 ## 📚 Docs
 
-If you wish to learn more about the Contentsquare SDK you can find the documentation [here](https://docs.contentsquare.com/ios/#sample-app)
+If you wish to learn more about the Contentsquare SDK you can find the documentation [here](https://docs.contentsquare.com/ios/)
