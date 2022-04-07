@@ -1,6 +1,6 @@
 # 🎉 Carthage iOS sample 
 
-### This iOS application will show you how to use Contentsquare SDK with Carthage. <br /> <br />
+### This iOS application will show you how to use Contentsquare SDK with Carthage. <br />
 
 ## Prerequisites
 
@@ -14,9 +14,9 @@ You must have [Carthage](https://github.com/Carthage/Carthage). The simplest way
 
 <pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.12.0 starting in app: com.your.bundle.identifier</pre>
 
-### 💡 Contentsquare SDK autostarts by itself <br /> <br />
+<pre>💡 Contentsquare SDK autostarts by itself </pre>
 
-## 🚀 Waht's Next?
+## 🚀 What's Next?
 
 Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen views in situations such as:
 *  Displaying controllers implemented in code
@@ -24,7 +24,6 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 *  Changing the page of a paged scroll view
 *  Displaying or dismissing a modal
 
-<br />
 
 ## 📚 Docs
 
