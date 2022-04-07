@@ -1,16 +1,19 @@
-# iOS-sample-app
+# 🎉 Welcome to Contentsquare SDK
 
-Welcome! this app showcases how to use the Contentsquare SDK in an iOS application.
+<img src="ReadMeAssets/cs_banner.png" height="100%" width="100%%"> <br />
 
-Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen views in situations such as:
-*  Displaying controllers implemented in code
-*  Displaying controllers implemented in storyboards
-*  Changing the page of a paged scroll view
-*  Displaying or dismissing a modal
+### Here you can find iOS sample applications that will show you how to use Contentsquare SDK and different ways to integrate it.
 
-## Get it running
+<br />
 
-* **[Using Carthage](https://github.com/ContentSquare/iOS-sample-app/tree/master/Carthage%20Sample)** - Sample that uses Carthage.
-* **[Using CocoaPods](https://github.com/ContentSquare/iOS-sample-app/tree/master/Pod%20Sample)** - Sample that uses CocoaPods.
-* **[Using SPM](https://github.com/ContentSquare/iOS-sample-app/tree/master/SPM%20Sample)** - Sample that uses Swift Package Manager.
-* **[Using Static framework](https://github.com/ContentSquare/iOS-sample-app/tree/master/Static%20Framework%20Sample)** - Sample that uses static integration.
+## 🧐 Pick your favorite dependency manager
+
+* **[Carthage](https://github.com/ContentSquare/iOS-sample-app/tree/master/Carthage%20Sample)** - iOS sample app that uses Carthage.
+* **[CocoaPods](https://github.com/ContentSquare/iOS-sample-app/tree/master/Pod%20Sample)** - iOS sample app that uses CocoaPods.
+* **[Swift Package Manager](https://github.com/ContentSquare/iOS-sample-app/tree/master/SPM%20Sample)** - iOS sample that uses Swift Package Manager.
+* **[Static Framework](https://github.com/ContentSquare/iOS-sample-app/tree/master/Static%20Framework%20Sample)** - iOS sample that uses static integration.
+
+
+## 📚 Docs
+
+If you wish to learn more about the Contentsquare SDK you can find the documentation [here](https://docs.contentsquare.com/ios/)
