@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,7 +12,7 @@
         <!--Showcases-->
         <scene sceneID="WiL-RQ-9qM">
             <objects>
-                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xn2-1l-J2q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                             <tableViewSection id="qdZ-oc-zBb">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="F4G-EP-eSJ" style="IBUITableViewCellStyleDefault" id="NPo-yy-ur8">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NPo-yy-ur8" id="nmq-SV-OM9">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -41,7 +41,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="b3U-F9-dF7" style="IBUITableViewCellStyleDefault" id="NRh-N6-sW6">
-                                        <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="88" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NRh-N6-sW6" id="2Dr-ng-DPG">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -61,7 +61,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="AMX-sU-vln" style="IBUITableViewCellStyleDefault" id="OD1-7u-U3s">
-                                        <rect key="frame" x="0.0" y="115" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="131.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OD1-7u-U3s" id="ZgD-te-k5g">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -81,7 +81,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Q8p-y0-KWU" style="IBUITableViewCellStyleDefault" id="FPA-Mo-dUf">
-                                        <rect key="frame" x="0.0" y="158.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="175" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FPA-Mo-dUf" id="S74-dU-T9J">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -101,7 +101,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="LTy-Ed-bsf" style="IBUITableViewCellStyleDefault" id="18G-X3-Mzi">
-                                        <rect key="frame" x="0.0" y="202" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="218.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="18G-X3-Mzi" id="Rmc-zA-mUY">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -163,7 +163,7 @@
         <!--Dynamic Vars-->
         <scene sceneID="eQe-k7-gGX">
             <objects>
-                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tzd-tA-RQ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
         <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
             <objects>
-                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,7 +250,7 @@
         <!--Privacy-->
         <scene sceneID="keg-YG-NI7">
             <objects>
-                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQ1-Ae-vtg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -361,7 +361,7 @@
         <!--Masking-->
         <scene sceneID="CsN-KD-ZF2">
             <objects>
-                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1G-Xh-6Ru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -404,7 +404,7 @@
         <!--Masking-->
         <scene sceneID="bvi-5T-Iv8">
             <objects>
-                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="iOS_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Um3-8d-cmS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -448,7 +448,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cs-logo" width="70" height="73"/>
+        <image name="cs-logo" width="54" height="54"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1D6E884C2FF7E32503F56159 /* Pods_Pod_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */; };
+		D0EDD83527FEEAA100109316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD83327FEEAA100109316 /* Main.storyboard */; };
+		D0EDD83827FEEAF700109316 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */; };
+		D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83727FEEAF700109316 /* MaskingViewController.swift */; };
+		D0EDD83F27FEEB4200109316 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */; };
+		D0EDD84127FEEB4700109316 /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD84027FEEB4700109316 /* DefaultScreenViewController.swift */; };
+		D0EDD84427FEEB6100109316 /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD84327FEEB6100109316 /* Page.xib */; };
+		D0EDD84627FEEB6700109316 /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD84527FEEB6700109316 /* PagedScrollViews.swift */; };
+		D0EDD84927FEEB7F00109316 /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD84827FEEB7F00109316 /* ModalScreenViews.storyboard */; };
+		D0EDD84E27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD84A27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift */; };
+		D0EDD84F27FEEB8500109316 /* ModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD84B27FEEB8500109316 /* ModalPresentingViewController.swift */; };
+		D0EDD85027FEEB8500109316 /* ProgrammaticModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD84C27FEEB8500109316 /* ProgrammaticModalViewController.swift */; };
+		D0EDD85127FEEB8500109316 /* DismissalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD84D27FEEB8500109316 /* DismissalDelegate.swift */; };
+		D0EDD85327FEEB9D00109316 /* DynamicVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD85227FEEB9D00109316 /* DynamicVariablesViewController.swift */; };
+		D0EDD85527FEEBA200109316 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD85427FEEBA200109316 /* PrivacyViewController.swift */; };
+		D0EDD85727FEEBA800109316 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD85627FEEBA800109316 /* TransactionsViewController.swift */; };
+		D0EDD85A27FEEBB200109316 /* TrackedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */; };
+		D0EDD85B27FEEBB200109316 /* UIViewController+trackScreenview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */; };
 		D0F8D54E27FDEDFF00FC2E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */; };
 		D0F8D55027FDEDFF00FC2E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */; };
-		D0F8D55227FDEDFF00FC2E80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8D55127FDEDFF00FC2E80 /* ViewController.swift */; };
-		D0F8D55527FDEDFF00FC2E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F8D55327FDEDFF00FC2E80 /* Main.storyboard */; };
 		D0F8D55727FDEE0000FC2E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */; };
 		D0F8D55A27FDEE0000FC2E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F8D55827FDEE0000FC2E80 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,11 +34,26 @@
 /* Begin PBXFileReference section */
 		57B1C58AD29C375040824D4B /* Pods-Pod-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.release.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 		B73AE3BAFFF25F57B082A458 /* Pods-Pod-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
+		D0EDD83427FEEAA100109316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Carthage Sample/Carthage-sample-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingUseCasesViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingUseCasesViewController.swift"; sourceTree = "<group>"; };
+		D0EDD83727FEEAF700109316 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingViewController.swift"; sourceTree = "<group>"; };
+		D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ScreenViews.storyboard; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/ScreenViews.storyboard"; sourceTree = "<group>"; };
+		D0EDD84027FEEB4700109316 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultScreenViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/DefaultScreenViewController.swift"; sourceTree = "<group>"; };
+		D0EDD84327FEEB6100109316 /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Page.xib; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/Page.xib"; sourceTree = "<group>"; };
+		D0EDD84527FEEB6700109316 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagedScrollViews.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/PagedScrollViews.swift"; sourceTree = "<group>"; };
+		D0EDD84827FEEB7F00109316 /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalScreenViews.storyboard"; sourceTree = "<group>"; };
+		D0EDD84A27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalPresentingViewController.swift"; sourceTree = "<group>"; };
+		D0EDD84B27FEEB8500109316 /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalPresentingViewController.swift"; sourceTree = "<group>"; };
+		D0EDD84C27FEEB8500109316 /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalViewController.swift"; sourceTree = "<group>"; };
+		D0EDD84D27FEEB8500109316 /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissalDelegate.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/DismissalDelegate.swift"; sourceTree = "<group>"; };
+		D0EDD85227FEEB9D00109316 /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicVariablesViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/DynamicVariables/DynamicVariablesViewController.swift"; sourceTree = "<group>"; };
+		D0EDD85427FEEBA200109316 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Privacy/PrivacyViewController.swift"; sourceTree = "<group>"; };
+		D0EDD85627FEEBA800109316 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionsViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Transactions/TransactionsViewController.swift"; sourceTree = "<group>"; };
+		D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackedViewControllers.swift; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/TrackedViewControllers.swift"; sourceTree = "<group>"; };
+		D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+trackScreenview.swift"; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
 		D0F8D54A27FDEDFF00FC2E80 /* Pod-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0F8D55127FDEDFF00FC2E80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0F8D55427FDEDFF00FC2E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0F8D55927FDEE0000FC2E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0F8D55B27FDEE0000FC2E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +78,6 @@
 				B73AE3BAFFF25F57B082A458 /* Pods-Pod-sample-app.debug.xcconfig */,
 				57B1C58AD29C375040824D4B /* Pods-Pod-sample-app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,91 @@
 				DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0EDD83027FEEA7000109316 /* Masking */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */,
+				D0EDD83727FEEAF700109316 /* MaskingViewController.swift */,
+			);
+			path = Masking;
+			sourceTree = "<group>";
+		};
+		D0EDD83127FEEA7600109316 /* Showcases */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD83A27FEEB0800109316 /* Screen Views */,
+				D0EDD83B27FEEB0E00109316 /* DynamicVariables */,
+				D0EDD83C27FEEB1800109316 /* Privacy */,
+				D0EDD83D27FEEB1D00109316 /* Transactions */,
+			);
+			path = Showcases;
+			sourceTree = "<group>";
+		};
+		D0EDD83227FEEA7E00109316 /* Screenview utils */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */,
+				D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */,
+			);
+			path = "Screenview utils";
+			sourceTree = "<group>";
+		};
+		D0EDD83A27FEEB0800109316 /* Screen Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */,
+				D0EDD84027FEEB4700109316 /* DefaultScreenViewController.swift */,
+				D0EDD84227FEEB5500109316 /* Paged ScrollViews */,
+				D0EDD84727FEEB7700109316 /* Modals */,
+			);
+			path = "Screen Views";
+			sourceTree = "<group>";
+		};
+		D0EDD83B27FEEB0E00109316 /* DynamicVariables */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD85227FEEB9D00109316 /* DynamicVariablesViewController.swift */,
+			);
+			path = DynamicVariables;
+			sourceTree = "<group>";
+		};
+		D0EDD83C27FEEB1800109316 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD85427FEEBA200109316 /* PrivacyViewController.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		D0EDD83D27FEEB1D00109316 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD85627FEEBA800109316 /* TransactionsViewController.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		D0EDD84227FEEB5500109316 /* Paged ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD84527FEEB6700109316 /* PagedScrollViews.swift */,
+				D0EDD84327FEEB6100109316 /* Page.xib */,
+			);
+			path = "Paged ScrollViews";
+			sourceTree = "<group>";
+		};
+		D0EDD84727FEEB7700109316 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDD84827FEEB7F00109316 /* ModalScreenViews.storyboard */,
+				D0EDD84D27FEEB8500109316 /* DismissalDelegate.swift */,
+				D0EDD84B27FEEB8500109316 /* ModalPresentingViewController.swift */,
+				D0EDD84A27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift */,
+				D0EDD84C27FEEB8500109316 /* ProgrammaticModalViewController.swift */,
+			);
+			path = Modals;
 			sourceTree = "<group>";
 		};
 		D0F8D54127FDEDFF00FC2E80 = {
@@ -81,10 +195,12 @@
 		D0F8D54C27FDEDFF00FC2E80 /* Pod-sample-app */ = {
 			isa = PBXGroup;
 			children = (
+				D0EDD83227FEEA7E00109316 /* Screenview utils */,
+				D0EDD83127FEEA7600109316 /* Showcases */,
+				D0EDD83027FEEA7000109316 /* Masking */,
 				D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */,
 				D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */,
-				D0F8D55127FDEDFF00FC2E80 /* ViewController.swift */,
-				D0F8D55327FDEDFF00FC2E80 /* Main.storyboard */,
+				D0EDD83327FEEAA100109316 /* Main.storyboard */,
 				D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */,
 				D0F8D55827FDEE0000FC2E80 /* LaunchScreen.storyboard */,
 				D0F8D55B27FDEE0000FC2E80 /* Info.plist */,
@@ -152,9 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EDD83527FEEAA100109316 /* Main.storyboard in Resources */,
+				D0EDD84927FEEB7F00109316 /* ModalScreenViews.storyboard in Resources */,
+				D0EDD84427FEEB6100109316 /* Page.xib in Resources */,
 				D0F8D55A27FDEE0000FC2E80 /* LaunchScreen.storyboard in Resources */,
 				D0F8D55727FDEE0000FC2E80 /* Assets.xcassets in Resources */,
-				D0F8D55527FDEDFF00FC2E80 /* Main.storyboard in Resources */,
+				D0EDD83F27FEEB4200109316 /* ScreenViews.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,19 +326,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F8D55227FDEDFF00FC2E80 /* ViewController.swift in Sources */,
+				D0EDD84127FEEB4700109316 /* DefaultScreenViewController.swift in Sources */,
+				D0EDD85A27FEEBB200109316 /* TrackedViewControllers.swift in Sources */,
+				D0EDD85327FEEB9D00109316 /* DynamicVariablesViewController.swift in Sources */,
+				D0EDD84F27FEEB8500109316 /* ModalPresentingViewController.swift in Sources */,
+				D0EDD85027FEEB8500109316 /* ProgrammaticModalViewController.swift in Sources */,
+				D0EDD84627FEEB6700109316 /* PagedScrollViews.swift in Sources */,
+				D0EDD85727FEEBA800109316 /* TransactionsViewController.swift in Sources */,
+				D0EDD85127FEEB8500109316 /* DismissalDelegate.swift in Sources */,
 				D0F8D54E27FDEDFF00FC2E80 /* AppDelegate.swift in Sources */,
+				D0EDD83827FEEAF700109316 /* MaskingUseCasesViewController.swift in Sources */,
+				D0EDD84E27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift in Sources */,
 				D0F8D55027FDEDFF00FC2E80 /* SceneDelegate.swift in Sources */,
+				D0EDD85B27FEEBB200109316 /* UIViewController+trackScreenview.swift in Sources */,
+				D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */,
+				D0EDD85527FEEBA200109316 /* PrivacyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0F8D55327FDEDFF00FC2E80 /* Main.storyboard */ = {
+		D0EDD83327FEEAA100109316 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0F8D55427FDEDFF00FC2E80 /* Base */,
+				D0EDD83427FEEAA100109316 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
