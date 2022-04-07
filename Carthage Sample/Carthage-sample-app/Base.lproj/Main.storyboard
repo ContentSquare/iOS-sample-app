@@ -12,7 +12,7 @@
         <!--Showcases-->
         <scene sceneID="WiL-RQ-9qM">
             <objects>
-                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xn2-1l-J2q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,7 +163,7 @@
         <!--Dynamic Vars-->
         <scene sceneID="eQe-k7-gGX">
             <objects>
-                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tzd-tA-RQ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
         <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
             <objects>
-                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,7 +250,7 @@
         <!--Privacy-->
         <scene sceneID="keg-YG-NI7">
             <objects>
-                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQ1-Ae-vtg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -361,7 +361,7 @@
         <!--Masking-->
         <scene sceneID="CsN-KD-ZF2">
             <objects>
-                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1G-Xh-6Ru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -404,7 +404,7 @@
         <!--Masking-->
         <scene sceneID="bvi-5T-Iv8">
             <objects>
-                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Um3-8d-cmS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

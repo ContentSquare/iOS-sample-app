@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03E1DEB27FF0E74003BAB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E1DE927FF0E74003BAB8D /* Main.storyboard */; };
+		D03E1DF027FF0E99003BAB8D /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DEE27FF0E99003BAB8D /* MaskingUseCasesViewController.swift */; };
+		D03E1DF127FF0E99003BAB8D /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DEF27FF0E99003BAB8D /* MaskingViewController.swift */; };
+		D03E1DF927FF0EE4003BAB8D /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E1DF827FF0EE4003BAB8D /* ModalScreenViews.storyboard */; };
+		D03E1DFE27FF0EF1003BAB8D /* ProgrammaticModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DFA27FF0EF1003BAB8D /* ProgrammaticModalPresentingViewController.swift */; };
+		D03E1DFF27FF0EF1003BAB8D /* ProgrammaticModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DFB27FF0EF1003BAB8D /* ProgrammaticModalViewController.swift */; };
+		D03E1E0027FF0EF1003BAB8D /* ModalPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DFC27FF0EF1003BAB8D /* ModalPresentingViewController.swift */; };
+		D03E1E0127FF0EF1003BAB8D /* DismissalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DFD27FF0EF1003BAB8D /* DismissalDelegate.swift */; };
+		D03E1E0427FF0F16003BAB8D /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03E1E0227FF0F16003BAB8D /* Page.xib */; };
+		D03E1E0527FF0F16003BAB8D /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0327FF0F16003BAB8D /* PagedScrollViews.swift */; };
+		D03E1E0827FF0F25003BAB8D /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0627FF0F25003BAB8D /* DefaultScreenViewController.swift */; };
+		D03E1E0927FF0F25003BAB8D /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E1E0727FF0F25003BAB8D /* ScreenViews.storyboard */; };
+		D03E1E0C27FF0F43003BAB8D /* TrackedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0A27FF0F43003BAB8D /* TrackedViewControllers.swift */; };
+		D03E1E0D27FF0F43003BAB8D /* UIViewController+trackScreenview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0B27FF0F43003BAB8D /* UIViewController+trackScreenview.swift */; };
+		D03E1E0F27FF1088003BAB8D /* DynamicVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0E27FF1088003BAB8D /* DynamicVariablesViewController.swift */; };
+		D03E1E1127FF108D003BAB8D /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1027FF108D003BAB8D /* PrivacyViewController.swift */; };
+		D03E1E1327FF109B003BAB8D /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1227FF109B003BAB8D /* TransactionsViewController.swift */; };
 		D0DBD95427FEC524007D128F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95327FEC524007D128F /* AppDelegate.swift */; };
 		D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95527FEC524007D128F /* SceneDelegate.swift */; };
-		D0DBD95827FEC524007D128F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95727FEC524007D128F /* ViewController.swift */; };
-		D0DBD95B27FEC524007D128F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95927FEC524007D128F /* Main.storyboard */; };
 		D0DBD95D27FEC525007D128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95C27FEC525007D128F /* Assets.xcassets */; };
 		D0DBD96027FEC525007D128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95E27FEC525007D128F /* LaunchScreen.storyboard */; };
 		D0DBD96927FEC546007D128F /* ContentsquareModule in Frameworks */ = {isa = PBXBuildFile; productRef = D0DBD96827FEC546007D128F /* ContentsquareModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D03E1DEA27FF0E74003BAB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Carthage Sample/Carthage-sample-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		D03E1DEE27FF0E99003BAB8D /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingUseCasesViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingUseCasesViewController.swift"; sourceTree = "<group>"; };
+		D03E1DEF27FF0E99003BAB8D /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingViewController.swift"; sourceTree = "<group>"; };
+		D03E1DF827FF0EE4003BAB8D /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalScreenViews.storyboard"; sourceTree = "<group>"; };
+		D03E1DFA27FF0EF1003BAB8D /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalPresentingViewController.swift"; sourceTree = "<group>"; };
+		D03E1DFB27FF0EF1003BAB8D /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalViewController.swift"; sourceTree = "<group>"; };
+		D03E1DFC27FF0EF1003BAB8D /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalPresentingViewController.swift"; sourceTree = "<group>"; };
+		D03E1DFD27FF0EF1003BAB8D /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissalDelegate.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/DismissalDelegate.swift"; sourceTree = "<group>"; };
+		D03E1E0227FF0F16003BAB8D /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Page.xib; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/Page.xib"; sourceTree = "<group>"; };
+		D03E1E0327FF0F16003BAB8D /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagedScrollViews.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/PagedScrollViews.swift"; sourceTree = "<group>"; };
+		D03E1E0627FF0F25003BAB8D /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultScreenViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/DefaultScreenViewController.swift"; sourceTree = "<group>"; };
+		D03E1E0727FF0F25003BAB8D /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ScreenViews.storyboard; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/ScreenViews.storyboard"; sourceTree = "<group>"; };
+		D03E1E0A27FF0F43003BAB8D /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackedViewControllers.swift; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/TrackedViewControllers.swift"; sourceTree = "<group>"; };
+		D03E1E0B27FF0F43003BAB8D /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+trackScreenview.swift"; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
+		D03E1E0E27FF1088003BAB8D /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicVariablesViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/DynamicVariables/DynamicVariablesViewController.swift"; sourceTree = "<group>"; };
+		D03E1E1027FF108D003BAB8D /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Privacy/PrivacyViewController.swift"; sourceTree = "<group>"; };
+		D03E1E1227FF109B003BAB8D /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionsViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Transactions/TransactionsViewController.swift"; sourceTree = "<group>"; };
 		D0DBD95027FEC524007D128F /* SPM-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPM-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DBD95327FEC524007D128F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DBD95527FEC524007D128F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0DBD95727FEC524007D128F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0DBD95A27FEC524007D128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0DBD95C27FEC525007D128F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0DBD95F27FEC525007D128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0DBD96127FEC525007D128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +69,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D03E1DE827FF0D40003BAB8D /* Masking */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1DEE27FF0E99003BAB8D /* MaskingUseCasesViewController.swift */,
+				D03E1DEF27FF0E99003BAB8D /* MaskingViewController.swift */,
+			);
+			path = Masking;
+			sourceTree = "<group>";
+		};
+		D03E1DEC27FF0E7F003BAB8D /* Screenview utils */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1E0A27FF0F43003BAB8D /* TrackedViewControllers.swift */,
+				D03E1E0B27FF0F43003BAB8D /* UIViewController+trackScreenview.swift */,
+			);
+			path = "Screenview utils";
+			sourceTree = "<group>";
+		};
+		D03E1DED27FF0E8C003BAB8D /* Showcases */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1DF527FF0EC3003BAB8D /* Screen Views */,
+				D03E1DF427FF0EBA003BAB8D /* DynamicVariables */,
+				D03E1DF327FF0EB5003BAB8D /* Privacy */,
+				D03E1DF227FF0EAB003BAB8D /* Transactions */,
+			);
+			path = Showcases;
+			sourceTree = "<group>";
+		};
+		D03E1DF227FF0EAB003BAB8D /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1E1227FF109B003BAB8D /* TransactionsViewController.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		D03E1DF327FF0EB5003BAB8D /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1E1027FF108D003BAB8D /* PrivacyViewController.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		D03E1DF427FF0EBA003BAB8D /* DynamicVariables */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1E0E27FF1088003BAB8D /* DynamicVariablesViewController.swift */,
+			);
+			path = DynamicVariables;
+			sourceTree = "<group>";
+		};
+		D03E1DF527FF0EC3003BAB8D /* Screen Views */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1E0727FF0F25003BAB8D /* ScreenViews.storyboard */,
+				D03E1E0627FF0F25003BAB8D /* DefaultScreenViewController.swift */,
+				D03E1DF727FF0ED4003BAB8D /* Paged Scroll Views */,
+				D03E1DF627FF0ECF003BAB8D /* Modals */,
+			);
+			path = "Screen Views";
+			sourceTree = "<group>";
+		};
+		D03E1DF627FF0ECF003BAB8D /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1DF827FF0EE4003BAB8D /* ModalScreenViews.storyboard */,
+				D03E1DFD27FF0EF1003BAB8D /* DismissalDelegate.swift */,
+				D03E1DFC27FF0EF1003BAB8D /* ModalPresentingViewController.swift */,
+				D03E1DFA27FF0EF1003BAB8D /* ProgrammaticModalPresentingViewController.swift */,
+				D03E1DFB27FF0EF1003BAB8D /* ProgrammaticModalViewController.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		D03E1DF727FF0ED4003BAB8D /* Paged Scroll Views */ = {
+			isa = PBXGroup;
+			children = (
+				D03E1E0227FF0F16003BAB8D /* Page.xib */,
+				D03E1E0327FF0F16003BAB8D /* PagedScrollViews.swift */,
+			);
+			path = "Paged Scroll Views";
+			sourceTree = "<group>";
+		};
 		D0DBD94727FEC524007D128F = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +173,12 @@
 		D0DBD95227FEC524007D128F /* SPM-sample-app */ = {
 			isa = PBXGroup;
 			children = (
+				D03E1DEC27FF0E7F003BAB8D /* Screenview utils */,
+				D03E1DED27FF0E8C003BAB8D /* Showcases */,
+				D03E1DE827FF0D40003BAB8D /* Masking */,
 				D0DBD95327FEC524007D128F /* AppDelegate.swift */,
 				D0DBD95527FEC524007D128F /* SceneDelegate.swift */,
-				D0DBD95727FEC524007D128F /* ViewController.swift */,
-				D0DBD95927FEC524007D128F /* Main.storyboard */,
+				D03E1DE927FF0E74003BAB8D /* Main.storyboard */,
 				D0DBD95C27FEC525007D128F /* Assets.xcassets */,
 				D0DBD95E27FEC525007D128F /* LaunchScreen.storyboard */,
 				D0DBD96127FEC525007D128F /* Info.plist */,
@@ -133,9 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03E1DEB27FF0E74003BAB8D /* Main.storyboard in Resources */,
+				D03E1E0927FF0F25003BAB8D /* ScreenViews.storyboard in Resources */,
+				D03E1E0427FF0F16003BAB8D /* Page.xib in Resources */,
+				D03E1DF927FF0EE4003BAB8D /* ModalScreenViews.storyboard in Resources */,
 				D0DBD96027FEC525007D128F /* LaunchScreen.storyboard in Resources */,
 				D0DBD95D27FEC525007D128F /* Assets.xcassets in Resources */,
-				D0DBD95B27FEC524007D128F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,19 +266,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DBD95827FEC524007D128F /* ViewController.swift in Sources */,
+				D03E1E0C27FF0F43003BAB8D /* TrackedViewControllers.swift in Sources */,
+				D03E1E0827FF0F25003BAB8D /* DefaultScreenViewController.swift in Sources */,
 				D0DBD95427FEC524007D128F /* AppDelegate.swift in Sources */,
+				D03E1E1127FF108D003BAB8D /* PrivacyViewController.swift in Sources */,
+				D03E1DF027FF0E99003BAB8D /* MaskingUseCasesViewController.swift in Sources */,
+				D03E1E0027FF0EF1003BAB8D /* ModalPresentingViewController.swift in Sources */,
+				D03E1DFF27FF0EF1003BAB8D /* ProgrammaticModalViewController.swift in Sources */,
+				D03E1E0F27FF1088003BAB8D /* DynamicVariablesViewController.swift in Sources */,
+				D03E1E0527FF0F16003BAB8D /* PagedScrollViews.swift in Sources */,
 				D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */,
+				D03E1DF127FF0E99003BAB8D /* MaskingViewController.swift in Sources */,
+				D03E1E0D27FF0F43003BAB8D /* UIViewController+trackScreenview.swift in Sources */,
+				D03E1E0127FF0EF1003BAB8D /* DismissalDelegate.swift in Sources */,
+				D03E1DFE27FF0EF1003BAB8D /* ProgrammaticModalPresentingViewController.swift in Sources */,
+				D03E1E1327FF109B003BAB8D /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0DBD95927FEC524007D128F /* Main.storyboard */ = {
+		D03E1DE927FF0E74003BAB8D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0DBD95A27FEC524007D128F /* Base */,
+				D03E1DEA27FF0E74003BAB8D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,7 +441,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SPM-sample-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contentsquare.iOS-sample-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SPM-sample-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.contentsquare.iOS-sample-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
