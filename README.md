@@ -4,7 +4,6 @@
 
 ### Here you can find iOS sample applications that will show you how to use Contentsquare SDK and different ways to integrate it.
 
-<br />
 
 ## 🧐 Pick your favorite dependency manager
 
