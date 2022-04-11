@@ -24,11 +24,11 @@
 		D03E1E0F27FF1088003BAB8D /* DynamicVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0E27FF1088003BAB8D /* DynamicVariablesViewController.swift */; };
 		D03E1E1127FF108D003BAB8D /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1027FF108D003BAB8D /* PrivacyViewController.swift */; };
 		D03E1E1327FF109B003BAB8D /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1227FF109B003BAB8D /* TransactionsViewController.swift */; };
+		D06115E728041F9300626F39 /* ContentsquareModule in Frameworks */ = {isa = PBXBuildFile; productRef = D06115E628041F9300626F39 /* ContentsquareModule */; };
 		D0DBD95427FEC524007D128F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95327FEC524007D128F /* AppDelegate.swift */; };
 		D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95527FEC524007D128F /* SceneDelegate.swift */; };
 		D0DBD95D27FEC525007D128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95C27FEC525007D128F /* Assets.xcassets */; };
 		D0DBD96027FEC525007D128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95E27FEC525007D128F /* LaunchScreen.storyboard */; };
-		D0DBD96927FEC546007D128F /* ContentsquareModule in Frameworks */ = {isa = PBXBuildFile; productRef = D0DBD96827FEC546007D128F /* ContentsquareModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DBD96927FEC546007D128F /* ContentsquareModule in Frameworks */,
+				D06115E728041F9300626F39 /* ContentsquareModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +203,7 @@
 			);
 			name = "SPM-sample-app";
 			packageProductDependencies = (
-				D0DBD96827FEC546007D128F /* ContentsquareModule */,
+				D06115E628041F9300626F39 /* ContentsquareModule */,
 			);
 			productName = "SPM-sample-app";
 			productReference = D0DBD95027FEC524007D128F /* SPM-sample-app.app */;
@@ -234,7 +234,7 @@
 			);
 			mainGroup = D0DBD94727FEC524007D128F;
 			packageReferences = (
-				D0DBD96727FEC546007D128F /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */,
+				D06115E528041F9300626F39 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */,
 			);
 			productRefGroup = D0DBD95127FEC524007D128F /* Products */;
 			projectDirPath = "";
@@ -500,20 +500,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D0DBD96727FEC546007D128F /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */ = {
+		D06115E528041F9300626F39 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ContentSquare/CS_iOS_SDK.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D0DBD96827FEC546007D128F /* ContentsquareModule */ = {
+		D06115E628041F9300626F39 /* ContentsquareModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D0DBD96727FEC546007D128F /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */;
+			package = D06115E528041F9300626F39 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */;
 			productName = ContentsquareModule;
 		};
 /* End XCSwiftPackageProductDependency section */
