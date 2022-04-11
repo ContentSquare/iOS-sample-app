@@ -1,33 +1,18 @@
-# iOS-sample-app
+# 🎉 Welcome to Contentsquare SDK
 
-Welcome! this app showcases how to use the Contentsquare SDK in an iOS application.
+<img src="ReadmeAssets/cs_banner.png" height="100%" width="100%%"> <br />
 
-Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen views in situations such as:
-*  Displaying controllers implemented in code
-*  Displaying controllers implemented in storyboards
-*  Changing the page of a paged scroll view
-*  Displaying or dismissing a modal
+### Here you can find iOS sample applications that will show you how to use Contentsquare SDK and different ways to integrate it.
 
-## Get it running
 
-### Using Carthage
+## 🧐 Pick your favorite dependency manager
 
-#### Prerequisites
-You must have [Carthage](https://github.com/Carthage/Carthage). The simplest way to install it is `brew install carthage`. And make sure you're using `carthage` 0.38.0 or up.
+* **[Carthage](https://github.com/ContentSquare/iOS-sample-app/tree/master/Carthage%20Sample)** - iOS sample app that uses Carthage.
+* **[CocoaPods](https://github.com/ContentSquare/iOS-sample-app/tree/master/Pod%20Sample)** - iOS sample app that uses CocoaPods.
+* **[Swift Package Manager](https://github.com/ContentSquare/iOS-sample-app/tree/master/SPM%20Sample)** - iOS sample that uses Swift Package Manager.
+* **[Static Framework](https://github.com/ContentSquare/iOS-sample-app/tree/master/Static%20Framework%20Sample)** - iOS sample that uses static integration.
 
-#### Running the app
-* Clone this repo
-* Run `carthage update --platform iOS --use-xcframeworks` in the "Carthage Sample" folder
-* You should now be able to run the app
-* You should see logs from the SDK in the Xcode console or the Console app
 
-### Using CocoaPods
+## 📚 Docs
 
-#### Prerequisites
-You must have [CocoaPods](https://cocoapods.org). The simplest way to install it is `sudo gem install cocoapods`.
-
-#### Running the app
-* Clone this repo
-* Run `pod update` in the "Pod Sample" folder
-* You should now be able to run the app
-* You should see logs from the SDK in the Xcode console or the Console app
+If you wish to learn more about the Contentsquare SDK you can find the documentation [here](https://docs.contentsquare.com/ios/)

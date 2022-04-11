@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Page" customModule="iOS_sample_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This section showcases triggering screen views for each page of a paged scroll view. Try scrolling horizontally." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39H-MJ-EjS" userLabel="description">
+                    <rect key="frame" x="20" y="417.5" width="374" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU3-ic-p3h" userLabel="pageNumber">
+                    <rect key="frame" x="198.5" y="371.5" width="17" height="38"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="34"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="39H-MJ-EjS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8mY-7A-YNZ"/>
+                <constraint firstItem="WU3-ic-p3h" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gqt-oe-FrA"/>
+                <constraint firstAttribute="trailing" secondItem="39H-MJ-EjS" secondAttribute="trailing" constant="20" id="Ijg-i8-2sA"/>
+                <constraint firstItem="39H-MJ-EjS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="W3H-1x-DiB"/>
+                <constraint firstItem="39H-MJ-EjS" firstAttribute="top" secondItem="WU3-ic-p3h" secondAttribute="bottom" constant="8" symbolic="YES" id="tLa-sx-oce"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="pageNumberLabel" destination="WU3-ic-p3h" id="qov-QU-IYE"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="90.401785714285708"/>
+        </view>
+    </objects>
+</document>
