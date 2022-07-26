@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */; };
 		D064661C27FF70A800E89F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661A27FF70A800E89F5E /* Main.storyboard */; };
 		D064661F27FF70D800E89F5E /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */; };
 		D064662027FF70D800E89F5E /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661E27FF70D800E89F5E /* ScreenViews.storyboard */; };
@@ -14,8 +15,6 @@
 		D0A9B69527FF6E1200ACF275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */; };
 		D0A9B69C27FF6E1300ACF275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */; };
 		D0A9B69F27FF6E1300ACF275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69D27FF6E1300ACF275 /* LaunchScreen.storyboard */; };
-		D0E6B05427FF6E3B009E65F0 /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05227FF6E3B009E65F0 /* ContentsquareModule.xcframework */; };
-		D0E6B05527FF6E3B009E65F0 /* ContentsquareModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05227FF6E3B009E65F0 /* ContentsquareModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */; };
 		D0E6B05727FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0E6B05E27FF6F83009E65F0 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B05C27FF6F83009E65F0 /* MaskingUseCasesViewController.swift */; };
@@ -42,7 +41,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				D0E6B05727FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Embed Frameworks */,
-				D0E6B05527FF6E3B009E65F0 /* ContentsquareModule.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		D064661B27FF70A800E89F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Carthage Sample/Carthage-sample-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultScreenViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/DefaultScreenViewController.swift"; sourceTree = "<group>"; };
 		D064661E27FF70D800E89F5E /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ScreenViews.storyboard; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/ScreenViews.storyboard"; sourceTree = "<group>"; };
@@ -59,7 +58,6 @@
 		D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0A9B69E27FF6E1300ACF275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0A9B6A027FF6E1300ACF275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0E6B05227FF6E3B009E65F0 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftProtobuf.xcframework; path = ContentsquareModule/SwiftProtobuf.xcframework; sourceTree = "<group>"; };
 		D0E6B05C27FF6F83009E65F0 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingUseCasesViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingUseCasesViewController.swift"; sourceTree = "<group>"; };
 		D0E6B05D27FF6F83009E65F0 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingViewController.swift"; sourceTree = "<group>"; };
@@ -82,8 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */,
 				D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */,
-				D0E6B05427FF6E3B009E65F0 /* ContentsquareModule.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +124,7 @@
 		D0E6B05127FF6E3B009E65F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D0E6B05227FF6E3B009E65F0 /* ContentsquareModule.xcframework */,
+				04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */,
 				D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */,
 			);
 			name = Frameworks;
