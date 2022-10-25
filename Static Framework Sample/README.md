@@ -2,16 +2,10 @@
 
 ### This iOS application will show you how to use Contentsquare SDK with Static framework dependency. <br />
 
-## Prerequisites
-
-Go to [Contentsquare github](https://github.com/ContentSquare/CS_iOS_SDK/releases), under Assets you should be able to find `ContentsquareModuleDynamicManually.xcframework.zip` file, please download it.
-
-Once you open the zip file on your computer, you should have two directories named `ContentsquareModule` and `SwiftProtobuf.xcframework`.
-
-Copy both of them and paste it inside `ContentsquareModule` folder of the [current project](https://github.com/ContentSquare/iOS-sample-app/tree/mobile-4115/Improve-sample-apps/Static%20Framework%20Sample/ContentsquareModule).
 
 ## Running the app
 * Clone this [repository](https://github.com/ContentSquare/iOS-sample-app)
+* Follow the instructions in [Static linking](https://docs.contentsquare.com/ios/#static-linking) for full installation guide.
 * You should now be able to run the application
 * You should see logs from the SDK in the Xcode console or the Console app as below
 
