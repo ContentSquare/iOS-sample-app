@@ -9,8 +9,8 @@ import UIKit
 // - when the modal appears on screen
 // - when this ViewController re-appears on screen after closing the modal
 //
-// The first is easy: we just send a screen view in this presenter's viewDidAppear. The second is easy too: we switched,
-// in the storyboard, the custom class of the modal to a class that also sends screen views in its viewDidAppear.
+// The first is easy: we just send a screen view in this presenter's viewWillAppear. The second is easy too: we switched,
+// in the storyboard, the custom class of the modal to a class that also sends screen views in its viewWillAppear.
 //
 // The third is the real challenge here. When the modal is dismissed, we need to find a way to notify the presenter so
 // that it can send a screen view. But we want to do this without adding code to the modal, which we still want to be as
@@ -20,8 +20,8 @@ class ModalPresentingViewController: UIViewController, UIAdaptivePresentationCon
     private let screenName = "Storyboard modal presenter"
     
     // The usual screen view for when this controller first appears.
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         trackScreenview(screenName)
     }
     
