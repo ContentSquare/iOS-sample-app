@@ -8,22 +8,23 @@ import UIKit
 // - when the modal appears on screen
 // - when this ViewController re-appears on screen after closing the modal
 //
-// The first two are easy: we just send a screen view in the viewDidAppear of both the presenter and the modal. The
+// The first two are easy: we just send a screen view in the viewWillAppear of both the presenter and the modal. The
 // third is the real challenge here. When the modal is dismissed, we need to find a way to notify the presenter so that
 // it can send a screen view. We achieved this with a delegation pattern implemented with DismissalDelegate. The
 // mechanism can be reused with any pair of modal / modal presenter.
 //
 // Note: If you use the fullScreen modal presentation style, you don't need to implement this delegation pattern.
 // Indeed, with that presentation style, the presenter is removed from the view stack when the modal is presented. When
-// the modal closes, the presenter is created again, triggering its viewDidAppear. Thus, to implement all three screen
-// views listed above, you just need to send a screen view in the presenter's and the modal's viewDidAppear.
+// the modal closes, the presenter is created again, triggering its viewWillAppear. Thus, to implement all three screen
+// views listed above, you just need to send a screen view in the presenter's and the modal's viewWillAppear.
 class ProgrammaticModalPresentingViewController:
 UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
+
     private let screenName = "Programmatic modal presenter"
     
     // The usual screen view for when this controller first appears.
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         trackScreenview(screenName)
     }
     

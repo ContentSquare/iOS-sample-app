@@ -49,8 +49,8 @@ class PagedScrollViewController: UIViewController, UIScrollViewDelegate {
     }
 
     // Send a screen view when the view appears.
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         trackScreenview(pageName)
     }
 
