@@ -32,6 +32,8 @@
 		D0E6B07927FF6FF5009E65F0 /* DismissalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B07427FF6FF5009E65F0 /* DismissalDelegate.swift */; };
 		D0E6B07C27FF7005009E65F0 /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E6B07A27FF7005009E65F0 /* Page.xib */; };
 		D0E6B07D27FF7005009E65F0 /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */; };
+		FBAC398729507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */; };
+		FBAC398C29507EE800DCFCD4 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +77,8 @@
 		D0E6B07427FF6FF5009E65F0 /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissalDelegate.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/DismissalDelegate.swift"; sourceTree = "<group>"; };
 		D0E6B07A27FF7005009E65F0 /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Page.xib; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/Page.xib"; sourceTree = "<group>"; };
 		D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagedScrollViews.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/PagedScrollViews.swift"; sourceTree = "<group>"; };
+		FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareErrorAnalysisModule.xcframework; sourceTree = "<group>"; };
+		FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 			files = (
 				04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */,
 				D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */,
+				FBAC398729507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +132,7 @@
 		D0E6B05127FF6E3B009E65F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */,
 				04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */,
 				D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */,
 			);
@@ -145,9 +151,10 @@
 		D0E6B05A27FF6F66009E65F0 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
-				D0E6B06327FF6FA2009E65F0 /* Screen Views */,
 				D0E6B06227FF6F9A009E65F0 /* DynamicVariables */,
+				FBAC398A29507EE800DCFCD4 /* ErrorAnalysis */,
 				D0E6B06127FF6F94009E65F0 /* Privacy */,
+				D0E6B06327FF6FA2009E65F0 /* Screen Views */,
 				D0E6B06027FF6F8E009E65F0 /* Transactions */,
 			);
 			path = Showcases;
@@ -216,6 +223,14 @@
 				D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */,
 			);
 			path = "Paged Scroll Views";
+			sourceTree = "<group>";
+		};
+		FBAC398A29507EE800DCFCD4 /* ErrorAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */,
+			);
+			path = ErrorAnalysis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +320,7 @@
 				D0E6B06627FF6FB2009E65F0 /* TrackedViewControllers.swift in Sources */,
 				D0E6B07827FF6FF5009E65F0 /* ProgrammaticModalPresentingViewController.swift in Sources */,
 				D0E6B06727FF6FB2009E65F0 /* UIViewController+trackScreenview.swift in Sources */,
+				FBAC398C29507EE800DCFCD4 /* ErrorAnalysisViewController.swift in Sources */,
 				D0E6B06D27FF6FD0009E65F0 /* DynamicVariablesViewController.swift in Sources */,
 				D0A9B69527FF6E1200ACF275 /* SceneDelegate.swift in Sources */,
 				D0E6B05F27FF6F83009E65F0 /* MaskingViewController.swift in Sources */,

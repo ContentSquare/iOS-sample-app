@@ -3,6 +3,7 @@ Pods/
 Static Framework Sample/ContentsquareModule/ContentsquareModule/ContentsquareModule.xcframework
 Static Framework Sample/ContentsquareModule/SwiftProtobuf.xcframework
 Static Framework Sample/ContentsquareModule/ContentsquareModule/Resources
+Static Framework Sample/ContentsquareModule/ContentsquareModule/ContentsquareErrorAnalysisModule.xcframework
 
 # Mac OS X
 *.DS_Store
