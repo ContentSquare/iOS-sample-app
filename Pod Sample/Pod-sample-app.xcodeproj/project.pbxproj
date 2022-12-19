@@ -29,6 +29,7 @@
 		D0F8D55027FDEDFF00FC2E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */; };
 		D0F8D55727FDEE0000FC2E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */; };
 		D0F8D55A27FDEE0000FC2E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F8D55827FDEE0000FC2E80 /* LaunchScreen.storyboard */; };
+		FBF957332950855B007FC523 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF957322950855B007FC523 /* ErrorAnalysisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		D0F8D55927FDEE0000FC2E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0F8D55B27FDEE0000FC2E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_sample_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF957322950855B007FC523 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 		D0EDD83127FEEA7600109316 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
-				D0EDD83A27FEEB0800109316 /* Screen Views */,
 				D0EDD83B27FEEB0E00109316 /* DynamicVariables */,
+				FBF957312950855B007FC523 /* ErrorAnalysis */,
 				D0EDD83C27FEEB1800109316 /* Privacy */,
+				D0EDD83A27FEEB0800109316 /* Screen Views */,
 				D0EDD83D27FEEB1D00109316 /* Transactions */,
 			);
 			path = Showcases;
@@ -206,6 +209,14 @@
 				D0F8D55B27FDEE0000FC2E80 /* Info.plist */,
 			);
 			path = "Pod-sample-app";
+			sourceTree = "<group>";
+		};
+		FBF957312950855B007FC523 /* ErrorAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				FBF957322950855B007FC523 /* ErrorAnalysisViewController.swift */,
+			);
+			path = ErrorAnalysis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +348,7 @@
 				D0F8D54E27FDEDFF00FC2E80 /* AppDelegate.swift in Sources */,
 				D0EDD83827FEEAF700109316 /* MaskingUseCasesViewController.swift in Sources */,
 				D0EDD84E27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift in Sources */,
+				FBF957332950855B007FC523 /* ErrorAnalysisViewController.swift in Sources */,
 				D0F8D55027FDEDFF00FC2E80 /* SceneDelegate.swift in Sources */,
 				D0EDD85B27FEEBB200109316 /* UIViewController+trackScreenview.swift in Sources */,
 				D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */,
