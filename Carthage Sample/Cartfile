@@ -1,2 +1,3 @@
-github "ContentSquare/CS_iOS_SDK"
+binary "https://raw.githubusercontent.com/ContentSquare/CS_iOS_SDK/master/carthage/ContentsquareModule.json"
+github "apple/swift-protobuf" ~> 1.0
 binary "https://raw.githubusercontent.com/ContentSquare/CS_iOS_SDK/master/carthage/ContentsquareErrorAnalysisModule.json"
