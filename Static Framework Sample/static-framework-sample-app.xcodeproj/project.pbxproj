@@ -230,7 +230,8 @@
 			children = (
 				FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */,
 			);
-			path = ErrorAnalysis;
+			name = ErrorAnalysis;
+			path = "../../../Carthage Sample/Carthage-sample-app/Showcases/ErrorAnalysis";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

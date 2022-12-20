@@ -5,18 +5,33 @@ import UIKit
 /// This class showcases how to use Error Analysis to trace HTTP network errors
 class ErrorAnalysisViewController: UIViewController {
 
+    @IBOutlet private weak var manualMonitoringButton: UIButton!
+    @IBOutlet private weak var csAsyncMonitoringButton: UIButton!
+
     private var task: URLSessionDataTask?
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if #available(iOS 15, *) {
+            manualMonitoringButton.isEnabled = true
+            csAsyncMonitoringButton.isEnabled = true
+        } else {
+            manualMonitoringButton.isEnabled = false
+            csAsyncMonitoringButton.isEnabled = false
+        }
+    }
 
     // MARK: - Buttons actions
 
     @IBAction private func automaticMonitoring(_ sender: UIButton) {
         let request: URLRequest = urlRequest(method: "GET")
         task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
-            data.map { self?.printResponse(data: $0) }
+            self?.printResponse(data: data)
         }
         task?.resume()
     }
 
+    @available(iOS 15, *)
     @IBAction private func manualMonitoring(_ sender: UIButton) {
         Task {
             let request: URLRequest = urlRequest(method: "GET")
@@ -31,6 +46,7 @@ class ErrorAnalysisViewController: UIViewController {
         }
     }
 
+    @available(iOS 15, *)
     @IBAction private func contentsquareAsyncMonitoring(_ sender: UIButton) {
         Task {
             let request: URLRequest = urlRequest(method: "GET")
