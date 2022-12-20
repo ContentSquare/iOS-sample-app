@@ -1,1 +1,2 @@
 github "ContentSquare/CS_iOS_SDK"
+binary "https://raw.githubusercontent.com/ContentSquare/CS_iOS_SDK/master/carthage/ContentsquareErrorAnalysisModule.json"

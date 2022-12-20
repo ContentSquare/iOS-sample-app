@@ -30,7 +30,9 @@
 		D05DFBFB27FEE3AD005A8415 /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05DFBFA27FEE3AD005A8415 /* ModalScreenViews.storyboard */; };
 		D05DFBFD27FEE52A005A8415 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D05DFBFC27FEE52A005A8415 /* README.md */; };
 		DBC3B4DE270DC6F700F024B0 /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC3B4DC270DC6F700F024B0 /* ContentsquareModule.xcframework */; };
-		DBC3B4DF270DC6F700F024B0 /* SwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC3B4DD270DC6F700F024B0 /* SwiftProtobuf.xcframework */; };
+		FBF957362950AC22007FC523 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF957352950AC22007FC523 /* ErrorAnalysisViewController.swift */; };
+		FBF957392950C91E007FC523 /* SwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC3B4DD270DC6F700F024B0 /* SwiftProtobuf.xcframework */; };
+		FBF9573C2951A5C0007FC523 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF957372950C580007FC523 /* ContentsquareErrorAnalysisModule.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		D05DFBFC27FEE52A005A8415 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DBC3B4DC270DC6F700F024B0 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = Carthage/Build/ContentsquareModule.xcframework; sourceTree = SOURCE_ROOT; };
 		DBC3B4DD270DC6F700F024B0 /* SwiftProtobuf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftProtobuf.xcframework; path = Carthage/Build/SwiftProtobuf.xcframework; sourceTree = SOURCE_ROOT; };
+		FBF957352950AC22007FC523 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
+		FBF957372950C580007FC523 /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = Carthage/Build/ContentsquareErrorAnalysisModule.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC3B4DF270DC6F700F024B0 /* SwiftProtobuf.xcframework in Frameworks */,
 				DBC3B4DE270DC6F700F024B0 /* ContentsquareModule.xcframework in Frameworks */,
+				FBF9573C2951A5C0007FC523 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */,
+				FBF957392950C91E007FC523 /* SwiftProtobuf.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +151,7 @@
 				8DA78D0523619D3E001EB4E3 /* Assets.xcassets */,
 				8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */,
 				8DA78D0A23619D3E001EB4E3 /* Info.plist */,
+				FBF957372950C580007FC523 /* ContentsquareErrorAnalysisModule.xcframework */,
 				DBC3B4DC270DC6F700F024B0 /* ContentsquareModule.xcframework */,
 				DBC3B4DD270DC6F700F024B0 /* SwiftProtobuf.xcframework */,
 			);
@@ -167,9 +173,10 @@
 		8DB0FC122368A7E50060D8C4 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
-				8DB0FC132368A7F40060D8C4 /* Screen Views */,
 				0545DD3823B20325005DB457 /* DynamicVariables */,
+				FBF957342950AC22007FC523 /* ErrorAnalysis */,
 				055D286E23B9F25500E29DFD /* Privacy */,
+				8DB0FC132368A7F40060D8C4 /* Screen Views */,
 				05B0F9AD23B0CB8200563FFA /* Transactions */,
 			);
 			path = Showcases;
@@ -193,6 +200,14 @@
 				8DF1A680237088D800DDBA60 /* Page.xib */,
 			);
 			path = "Paged Scroll Views";
+			sourceTree = "<group>";
+		};
+		FBF957342950AC22007FC523 /* ErrorAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				FBF957352950AC22007FC523 /* ErrorAnalysisViewController.swift */,
+			);
+			path = ErrorAnalysis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +296,7 @@
 				8DABC0A823737E880033E18E /* ProgrammaticModalPresentingViewController.swift in Sources */,
 				8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */,
 				8D8A2948236AEC6E00EB782C /* PagedScrollViews.swift in Sources */,
+				FBF957362950AC22007FC523 /* ErrorAnalysisViewController.swift in Sources */,
 				8DA78CFD23619D3E001EB4E3 /* AppDelegate.swift in Sources */,
 				8D51D0E9237B256B00854630 /* UIViewController+trackScreenview.swift in Sources */,
 				8DA78CFF23619D3E001EB4E3 /* SceneDelegate.swift in Sources */,
@@ -434,7 +450,7 @@
 				DEVELOPMENT_TEAM = 68F5DK9B95;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Carthage-sample-app/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +470,7 @@
 				DEVELOPMENT_TEAM = 68F5DK9B95;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Carthage-sample-app/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
