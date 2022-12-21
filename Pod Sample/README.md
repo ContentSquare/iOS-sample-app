@@ -28,4 +28,5 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 ## 📚 Docs
 
 If you wish to learn more about the Contentsquare SDK you can find the documentation [here](https://docs.contentsquare.com/ios/)
+
 If you wish to learn more about the Error Analysis SDK you can find the documentation [here](https://docs.contentsquare.com/ios-sdk-error-analysis/)
