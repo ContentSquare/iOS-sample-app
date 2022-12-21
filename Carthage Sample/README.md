@@ -1,6 +1,6 @@
 # 🎉 Carthage iOS sample 
 
-### This iOS application will show you how to use Contentsquare SDK with Carthage. <br />
+### This iOS application will show you how to use Contentsquare SDKs with Carthage. <br />
 
 ## Prerequisites
 
@@ -12,7 +12,8 @@ You must have [Carthage](https://github.com/Carthage/Carthage). The simplest way
 * You should now be able to run the application
 * You should see logs from the SDK in the Xcode console or the Console app as below
 
-<pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.12.0 starting in app: com.your.bundle.identifier</pre>
+<pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.18.0 starting in app: com.your.bundle.identifier</pre>
+<pre>$ CSLIB ℹ️ Info: Contentsquare Error Analysis v4.18.0 starting in app: com.your.bundle.identifier</pre>
 
 <pre>💡 Quick tips: Contentsquare SDK autostarts by itself </pre>
 
@@ -28,3 +29,4 @@ Head over to `Showcases/Screen Views` to learn how to send Contentsquare screen 
 ## 📚 Docs
 
 If you wish to learn more about the Contentsquare SDK you can find the documentation [here](https://docs.contentsquare.com/ios/)
+If you wish to learn more about the Error Analysis SDK you can find the documentation [here](https://docs.contentsquare.com/ios-sdk-error-analysis/)

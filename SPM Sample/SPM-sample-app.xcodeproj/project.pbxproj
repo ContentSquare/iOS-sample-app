@@ -24,11 +24,13 @@
 		D03E1E0F27FF1088003BAB8D /* DynamicVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E0E27FF1088003BAB8D /* DynamicVariablesViewController.swift */; };
 		D03E1E1127FF108D003BAB8D /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1027FF108D003BAB8D /* PrivacyViewController.swift */; };
 		D03E1E1327FF109B003BAB8D /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1E1227FF109B003BAB8D /* TransactionsViewController.swift */; };
-		D06115E728041F9300626F39 /* ContentsquareModule in Frameworks */ = {isa = PBXBuildFile; productRef = D06115E628041F9300626F39 /* ContentsquareModule */; };
 		D0DBD95427FEC524007D128F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95327FEC524007D128F /* AppDelegate.swift */; };
 		D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95527FEC524007D128F /* SceneDelegate.swift */; };
 		D0DBD95D27FEC525007D128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95C27FEC525007D128F /* Assets.xcassets */; };
 		D0DBD96027FEC525007D128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95E27FEC525007D128F /* LaunchScreen.storyboard */; };
+		FBAC39942950827C00DCFCD4 /* ContentsquareErrorAnalysisModule in Frameworks */ = {isa = PBXBuildFile; productRef = FBAC39932950827C00DCFCD4 /* ContentsquareErrorAnalysisModule */; };
+		FBAC39962950827C00DCFCD4 /* ContentsquareModule in Frameworks */ = {isa = PBXBuildFile; productRef = FBAC39952950827C00DCFCD4 /* ContentsquareModule */; };
+		FBAC399A2950840C00DCFCD4 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC39992950840C00DCFCD4 /* ErrorAnalysisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,7 @@
 		D0DBD95C27FEC525007D128F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0DBD95F27FEC525007D128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0DBD96127FEC525007D128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAC39992950840C00DCFCD4 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06115E728041F9300626F39 /* ContentsquareModule in Frameworks */,
+				FBAC39942950827C00DCFCD4 /* ContentsquareErrorAnalysisModule in Frameworks */,
+				FBAC39962950827C00DCFCD4 /* ContentsquareModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +94,10 @@
 		D03E1DED27FF0E8C003BAB8D /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
-				D03E1DF527FF0EC3003BAB8D /* Screen Views */,
 				D03E1DF427FF0EBA003BAB8D /* DynamicVariables */,
+				FBAC39982950840C00DCFCD4 /* ErrorAnalysis */,
 				D03E1DF327FF0EB5003BAB8D /* Privacy */,
+				D03E1DF527FF0EC3003BAB8D /* Screen Views */,
 				D03E1DF227FF0EAB003BAB8D /* Transactions */,
 			);
 			path = Showcases;
@@ -186,6 +191,15 @@
 			path = "SPM-sample-app";
 			sourceTree = "<group>";
 		};
+		FBAC39982950840C00DCFCD4 /* ErrorAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC39992950840C00DCFCD4 /* ErrorAnalysisViewController.swift */,
+			);
+			name = ErrorAnalysis;
+			path = "../../../Carthage Sample/Carthage-sample-app/Showcases/ErrorAnalysis";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,7 +217,8 @@
 			);
 			name = "SPM-sample-app";
 			packageProductDependencies = (
-				D06115E628041F9300626F39 /* ContentsquareModule */,
+				FBAC39932950827C00DCFCD4 /* ContentsquareErrorAnalysisModule */,
+				FBAC39952950827C00DCFCD4 /* ContentsquareModule */,
 			);
 			productName = "SPM-sample-app";
 			productReference = D0DBD95027FEC524007D128F /* SPM-sample-app.app */;
@@ -234,7 +249,7 @@
 			);
 			mainGroup = D0DBD94727FEC524007D128F;
 			packageReferences = (
-				D06115E528041F9300626F39 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */,
+				FBAC39922950827C00DCFCD4 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */,
 			);
 			productRefGroup = D0DBD95127FEC524007D128F /* Products */;
 			projectDirPath = "";
@@ -277,6 +292,7 @@
 				D03E1E0527FF0F16003BAB8D /* PagedScrollViews.swift in Sources */,
 				D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */,
 				D03E1DF127FF0E99003BAB8D /* MaskingViewController.swift in Sources */,
+				FBAC399A2950840C00DCFCD4 /* ErrorAnalysisViewController.swift in Sources */,
 				D03E1E0D27FF0F43003BAB8D /* UIViewController+trackScreenview.swift in Sources */,
 				D03E1E0127FF0EF1003BAB8D /* DismissalDelegate.swift in Sources */,
 				D03E1DFE27FF0EF1003BAB8D /* ProgrammaticModalPresentingViewController.swift in Sources */,
@@ -500,7 +516,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D06115E528041F9300626F39 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */ = {
+		FBAC39922950827C00DCFCD4 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ContentSquare/CS_iOS_SDK.git";
 			requirement = {
@@ -511,9 +527,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D06115E628041F9300626F39 /* ContentsquareModule */ = {
+		FBAC39932950827C00DCFCD4 /* ContentsquareErrorAnalysisModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D06115E528041F9300626F39 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */;
+			package = FBAC39922950827C00DCFCD4 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */;
+			productName = ContentsquareErrorAnalysisModule;
+		};
+		FBAC39952950827C00DCFCD4 /* ContentsquareModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBAC39922950827C00DCFCD4 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */;
 			productName = ContentsquareModule;
 		};
 /* End XCSwiftPackageProductDependency section */
