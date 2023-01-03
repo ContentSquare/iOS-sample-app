@@ -102,7 +102,8 @@
 				05ADED97260E33DB0002E5E3 /* MaskingUseCasesViewController.swift */,
 				05ADED9A260E45BE0002E5E3 /* MaskingViewController.swift */,
 			);
-			path = Masking;
+			name = Masking;
+			path = ../../Shared/Masking;
 			sourceTree = "<group>";
 		};
 		05B0F9AD23B0CB8200563FFA /* Transactions */ = {
@@ -113,13 +114,14 @@
 			path = Transactions;
 			sourceTree = "<group>";
 		};
-		8D51D0E7237B24EE00854630 /* Screenview utils */ = {
+		8D51D0E7237B24EE00854630 /* ScreenviewUtils */ = {
 			isa = PBXGroup;
 			children = (
 				8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */,
 				8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */,
 			);
-			path = "Screenview utils";
+			name = ScreenviewUtils;
+			path = ../../Shared/ScreenviewUtils;
 			sourceTree = "<group>";
 		};
 		8DA78CF023619D3E001EB4E3 = {
@@ -142,7 +144,7 @@
 		8DA78CFB23619D3E001EB4E3 /* Carthage-sample-app */ = {
 			isa = PBXGroup;
 			children = (
-				8D51D0E7237B24EE00854630 /* Screenview utils */,
+				8D51D0E7237B24EE00854630 /* ScreenviewUtils */,
 				8DB0FC122368A7E50060D8C4 /* Showcases */,
 				05ADED96260E33AB0002E5E3 /* Masking */,
 				8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */,
@@ -179,7 +181,8 @@
 				8DB0FC132368A7F40060D8C4 /* Screen Views */,
 				05B0F9AD23B0CB8200563FFA /* Transactions */,
 			);
-			path = Showcases;
+			name = Showcases;
+			path = ../../Shared/Showcases;
 			sourceTree = "<group>";
 		};
 		8DB0FC132368A7F40060D8C4 /* Screen Views */ = {
@@ -313,6 +316,7 @@
 				8DA78D0323619D3E001EB4E3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../Shared;
 			sourceTree = "<group>";
 		};
 		8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */ = {
@@ -321,6 +325,7 @@
 				8DA78D0823619D3E001EB4E3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../../Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
