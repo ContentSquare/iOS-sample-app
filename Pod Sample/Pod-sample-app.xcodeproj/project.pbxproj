@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		57B1C58AD29C375040824D4B /* Pods-Pod-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.release.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 		B73AE3BAFFF25F57B082A458 /* Pods-Pod-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
-		D0EDD83427FEEAA100109316 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0EDD83427FEEAA100109316 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
 		D0EDD83727FEEAF700109316 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
 		D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
@@ -53,11 +53,11 @@
 		D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
 		D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
 		D0F8D54A27FDEDFF00FC2E80 /* Pod-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
+		D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
 		D0F8D55927FDEE0000FC2E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0F8D55B27FDEE0000FC2E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F8D55B27FDEE0000FC2E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
 		DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_sample_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF957322950855B007FC523 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,8 +97,7 @@
 				D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */,
 				D0EDD83727FEEAF700109316 /* MaskingViewController.swift */,
 			);
-			name = Masking;
-			path = ../../Shared/Masking;
+			path = Masking;
 			sourceTree = "<group>";
 		};
 		D0EDD83127FEEA7600109316 /* Showcases */ = {
@@ -110,8 +109,7 @@
 				D0EDD83A27FEEB0800109316 /* Screen Views */,
 				D0EDD83D27FEEB1D00109316 /* Transactions */,
 			);
-			name = Showcases;
-			path = ../../Shared/Showcases;
+			path = Showcases;
 			sourceTree = "<group>";
 		};
 		D0EDD83227FEEA7E00109316 /* ScreenviewUtils */ = {
@@ -120,8 +118,7 @@
 				D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */,
 				D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */,
 			);
-			name = ScreenviewUtils;
-			path = ../../Shared/ScreenviewUtils;
+			path = ScreenviewUtils;
 			sourceTree = "<group>";
 		};
 		D0EDD83A27FEEB0800109316 /* Screen Views */ = {
@@ -184,7 +181,7 @@
 		D0F8D54127FDEDFF00FC2E80 = {
 			isa = PBXGroup;
 			children = (
-				D0F8D54C27FDEDFF00FC2E80 /* Pod-sample-app */,
+				D0F8D54C27FDEDFF00FC2E80 /* Shared */,
 				D0F8D54B27FDEDFF00FC2E80 /* Products */,
 				17B26BEC9B36B9D621080345 /* Pods */,
 				A1EE4AC47F5DB9C9BE5EA5F0 /* Frameworks */,
@@ -199,7 +196,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0F8D54C27FDEDFF00FC2E80 /* Pod-sample-app */ = {
+		D0F8D54C27FDEDFF00FC2E80 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				D0EDD83227FEEA7E00109316 /* ScreenviewUtils */,
@@ -212,7 +209,8 @@
 				D0F8D55827FDEE0000FC2E80 /* LaunchScreen.storyboard */,
 				D0F8D55B27FDEE0000FC2E80 /* Info.plist */,
 			);
-			path = "Pod-sample-app";
+			name = Shared;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 		FBF957312950855B007FC523 /* ErrorAnalysis */ = {
@@ -369,7 +367,7 @@
 				D0F8D55927FDEE0000FC2E80 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../../Shared;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -498,7 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pod-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -526,7 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pod-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

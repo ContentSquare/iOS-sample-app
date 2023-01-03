@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D03E1DEA27FF0E74003BAB8D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03E1DEA27FF0E74003BAB8D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D03E1DEE27FF0E99003BAB8D /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
 		D03E1DEF27FF0E99003BAB8D /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
 		D03E1DF827FF0EE4003BAB8D /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ModalScreenViews.storyboard; sourceTree = "<group>"; };
@@ -52,11 +52,11 @@
 		D03E1E1027FF108D003BAB8D /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
 		D03E1E1227FF109B003BAB8D /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		D0DBD95027FEC524007D128F /* SPM-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPM-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0DBD95327FEC524007D128F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0DBD95527FEC524007D128F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0DBD95C27FEC525007D128F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DBD95327FEC524007D128F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		D0DBD95527FEC524007D128F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
+		D0DBD95C27FEC525007D128F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
 		D0DBD95F27FEC525007D128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0DBD96127FEC525007D128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DBD96127FEC525007D128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
 		FBAC39992950840C00DCFCD4 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +79,7 @@
 				D03E1DEE27FF0E99003BAB8D /* MaskingUseCasesViewController.swift */,
 				D03E1DEF27FF0E99003BAB8D /* MaskingViewController.swift */,
 			);
-			name = Masking;
-			path = ../../Shared/Masking;
+			path = Masking;
 			sourceTree = "<group>";
 		};
 		D03E1DEC27FF0E7F003BAB8D /* ScreenviewUtils */ = {
@@ -89,8 +88,7 @@
 				D03E1E0A27FF0F43003BAB8D /* TrackedViewControllers.swift */,
 				D03E1E0B27FF0F43003BAB8D /* UIViewController+trackScreenview.swift */,
 			);
-			name = ScreenviewUtils;
-			path = ../../Shared/ScreenviewUtils;
+			path = ScreenviewUtils;
 			sourceTree = "<group>";
 		};
 		D03E1DED27FF0E8C003BAB8D /* Showcases */ = {
@@ -102,8 +100,7 @@
 				D03E1DF527FF0EC3003BAB8D /* Screen Views */,
 				D03E1DF227FF0EAB003BAB8D /* Transactions */,
 			);
-			name = Showcases;
-			path = ../../Shared/Showcases;
+			path = Showcases;
 			sourceTree = "<group>";
 		};
 		D03E1DF227FF0EAB003BAB8D /* Transactions */ = {
@@ -165,7 +162,7 @@
 		D0DBD94727FEC524007D128F = {
 			isa = PBXGroup;
 			children = (
-				D0DBD95227FEC524007D128F /* SPM-sample-app */,
+				D0DBD95227FEC524007D128F /* Shared */,
 				D0DBD95127FEC524007D128F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,7 +175,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0DBD95227FEC524007D128F /* SPM-sample-app */ = {
+		D0DBD95227FEC524007D128F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				D03E1DEC27FF0E7F003BAB8D /* ScreenviewUtils */,
@@ -191,7 +188,8 @@
 				D0DBD95E27FEC525007D128F /* LaunchScreen.storyboard */,
 				D0DBD96127FEC525007D128F /* Info.plist */,
 			);
-			path = "SPM-sample-app";
+			name = Shared;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 		FBAC39982950840C00DCFCD4 /* ErrorAnalysis */ = {
@@ -311,7 +309,7 @@
 				D0DBD95F27FEC525007D128F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../../Shared;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,7 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SPM-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,7 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SPM-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
