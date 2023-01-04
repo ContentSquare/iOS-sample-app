@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */; };
 		04D6C2BE2907E1A8003F7699 /* ContentsquareBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04D6C2BD2907E1A8003F7699 /* ContentsquareBundle.bundle */; };
-		D064661C27FF70A800E89F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661A27FF70A800E89F5E /* Main.storyboard */; };
 		D064661F27FF70D800E89F5E /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */; };
 		D064662027FF70D800E89F5E /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661E27FF70D800E89F5E /* ScreenViews.storyboard */; };
 		D0A9B69327FF6E1200ACF275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */; };
 		D0A9B69527FF6E1200ACF275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */; };
 		D0A9B69C27FF6E1300ACF275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */; };
-		D0A9B69F27FF6E1300ACF275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69D27FF6E1300ACF275 /* LaunchScreen.storyboard */; };
 		D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */; };
 		D0E6B05727FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0E6B05E27FF6F83009E65F0 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B05C27FF6F83009E65F0 /* MaskingUseCasesViewController.swift */; };
@@ -34,6 +32,8 @@
 		D0E6B07D27FF7005009E65F0 /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */; };
 		FBAC398729507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */; };
 		FBAC398C29507EE800DCFCD4 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */; };
+		FBD8CCA829535A81006AA162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661B27FF70A800E89F5E /* Main.storyboard */; };
+		FBD8CCA929535A81006AA162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69E27FF6E1300ACF275 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,30 +53,30 @@
 /* Begin PBXFileReference section */
 		04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		04D6C2BD2907E1A8003F7699 /* ContentsquareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ContentsquareBundle.bundle; path = ContentsquareModule/ContentsquareModule/Resources/ContentsquareBundle.bundle; sourceTree = SOURCE_ROOT; };
-		D064661B27FF70A800E89F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Carthage Sample/Carthage-sample-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultScreenViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/DefaultScreenViewController.swift"; sourceTree = "<group>"; };
-		D064661E27FF70D800E89F5E /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ScreenViews.storyboard; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/ScreenViews.storyboard"; sourceTree = "<group>"; };
+		D064661B27FF70A800E89F5E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
+		D064661E27FF70D800E89F5E /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
 		D0A9B68F27FF6E1200ACF275 /* static-framework-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "static-framework-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0A9B69E27FF6E1300ACF275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0A9B6A027FF6E1300ACF275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
+		D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
+		D0A9B69E27FF6E1300ACF275 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../Shared/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0A9B6A027FF6E1300ACF275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
 		D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftProtobuf.xcframework; path = ContentsquareModule/SwiftProtobuf.xcframework; sourceTree = "<group>"; };
-		D0E6B05C27FF6F83009E65F0 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingUseCasesViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingUseCasesViewController.swift"; sourceTree = "<group>"; };
-		D0E6B05D27FF6F83009E65F0 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingViewController.swift"; sourceTree = "<group>"; };
-		D0E6B06427FF6FB2009E65F0 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackedViewControllers.swift; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/TrackedViewControllers.swift"; sourceTree = "<group>"; };
-		D0E6B06527FF6FB2009E65F0 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+trackScreenview.swift"; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
-		D0E6B06827FF6FC1009E65F0 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionsViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Transactions/TransactionsViewController.swift"; sourceTree = "<group>"; };
-		D0E6B06A27FF6FC8009E65F0 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Privacy/PrivacyViewController.swift"; sourceTree = "<group>"; };
-		D0E6B06C27FF6FD0009E65F0 /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicVariablesViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/DynamicVariables/DynamicVariablesViewController.swift"; sourceTree = "<group>"; };
-		D0E6B07027FF6FF5009E65F0 /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalViewController.swift"; sourceTree = "<group>"; };
-		D0E6B07127FF6FF5009E65F0 /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalPresentingViewController.swift"; sourceTree = "<group>"; };
-		D0E6B07227FF6FF5009E65F0 /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalScreenViews.storyboard"; sourceTree = "<group>"; };
-		D0E6B07327FF6FF5009E65F0 /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalPresentingViewController.swift"; sourceTree = "<group>"; };
-		D0E6B07427FF6FF5009E65F0 /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissalDelegate.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/DismissalDelegate.swift"; sourceTree = "<group>"; };
-		D0E6B07A27FF7005009E65F0 /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Page.xib; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/Page.xib"; sourceTree = "<group>"; };
-		D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagedScrollViews.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/PagedScrollViews.swift"; sourceTree = "<group>"; };
+		D0E6B05C27FF6F83009E65F0 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
+		D0E6B05D27FF6F83009E65F0 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
+		D0E6B06427FF6FB2009E65F0 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
+		D0E6B06527FF6FB2009E65F0 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
+		D0E6B06827FF6FC1009E65F0 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		D0E6B06A27FF6FC8009E65F0 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		D0E6B06C27FF6FD0009E65F0 /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicVariablesViewController.swift; sourceTree = "<group>"; };
+		D0E6B07027FF6FF5009E65F0 /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalViewController.swift; sourceTree = "<group>"; };
+		D0E6B07127FF6FF5009E65F0 /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalPresentingViewController.swift; sourceTree = "<group>"; };
+		D0E6B07227FF6FF5009E65F0 /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ModalScreenViews.storyboard; sourceTree = "<group>"; };
+		D0E6B07327FF6FF5009E65F0 /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalPresentingViewController.swift; sourceTree = "<group>"; };
+		D0E6B07427FF6FF5009E65F0 /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissalDelegate.swift; sourceTree = "<group>"; };
+		D0E6B07A27FF7005009E65F0 /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
+		D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
 		FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareErrorAnalysisModule.xcframework; sourceTree = "<group>"; };
 		FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +98,7 @@
 		D0A9B68627FF6E1200ACF275 = {
 			isa = PBXGroup;
 			children = (
-				D0A9B69127FF6E1200ACF275 /* static-framework-sample-app */,
+				D0A9B69127FF6E1200ACF275 /* Shared */,
 				D0A9B69027FF6E1200ACF275 /* Products */,
 				D0E6B05127FF6E3B009E65F0 /* Frameworks */,
 			);
@@ -112,21 +112,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0A9B69127FF6E1200ACF275 /* static-framework-sample-app */ = {
+		D0A9B69127FF6E1200ACF275 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D0E6B05B27FF6F75009E65F0 /* Screenview utils */,
+				D0E6B05B27FF6F75009E65F0 /* ScreenviewUtils */,
 				D0E6B05A27FF6F66009E65F0 /* Showcases */,
 				D0E6B05927FF6F5E009E65F0 /* Masking */,
 				D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */,
 				D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */,
 				D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */,
-				D064661A27FF70A800E89F5E /* Main.storyboard */,
-				D0A9B69D27FF6E1300ACF275 /* LaunchScreen.storyboard */,
+				D064661B27FF70A800E89F5E /* Main.storyboard */,
+				D0A9B69E27FF6E1300ACF275 /* LaunchScreen.storyboard */,
 				D0A9B6A027FF6E1300ACF275 /* Info.plist */,
 				04D6C2BD2907E1A8003F7699 /* ContentsquareBundle.bundle */,
 			);
-			path = "static-framework-sample-app";
+			name = Shared;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 		D0E6B05127FF6E3B009E65F0 /* Frameworks */ = {
@@ -160,13 +161,13 @@
 			path = Showcases;
 			sourceTree = "<group>";
 		};
-		D0E6B05B27FF6F75009E65F0 /* Screenview utils */ = {
+		D0E6B05B27FF6F75009E65F0 /* ScreenviewUtils */ = {
 			isa = PBXGroup;
 			children = (
 				D0E6B06427FF6FB2009E65F0 /* TrackedViewControllers.swift */,
 				D0E6B06527FF6FB2009E65F0 /* UIViewController+trackScreenview.swift */,
 			);
-			path = "Screenview utils";
+			path = ScreenviewUtils;
 			sourceTree = "<group>";
 		};
 		D0E6B06027FF6F8E009E65F0 /* Transactions */ = {
@@ -230,8 +231,7 @@
 			children = (
 				FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */,
 			);
-			name = ErrorAnalysis;
-			path = "../../../Carthage Sample/Carthage-sample-app/Showcases/ErrorAnalysis";
+			path = ErrorAnalysis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A9B69F27FF6E1300ACF275 /* LaunchScreen.storyboard in Resources */,
+				FBD8CCA929535A81006AA162 /* LaunchScreen.storyboard in Resources */,
 				D064662027FF70D800E89F5E /* ScreenViews.storyboard in Resources */,
-				D064661C27FF70A800E89F5E /* Main.storyboard in Resources */,
+				FBD8CCA829535A81006AA162 /* Main.storyboard in Resources */,
 				D0E6B07727FF6FF5009E65F0 /* ModalScreenViews.storyboard in Resources */,
 				D0E6B07C27FF7005009E65F0 /* Page.xib in Resources */,
 				D0A9B69C27FF6E1300ACF275 /* Assets.xcassets in Resources */,
@@ -330,25 +330,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D064661A27FF70A800E89F5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D064661B27FF70A800E89F5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0A9B69D27FF6E1300ACF275 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0A9B69E27FF6E1300ACF275 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0A9B6A127FF6E1300ACF275 /* Debug */ = {
@@ -473,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "static-framework-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -501,7 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "static-framework-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

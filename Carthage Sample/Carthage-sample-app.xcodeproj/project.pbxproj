@@ -45,12 +45,12 @@
 		8D8A2947236AEC6E00EB782C /* PagedScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
 		8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
 		8DA78CF923619D3E001EB4E3 /* Carthage-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carthage-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DA78CFE23619D3E001EB4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		8DA78CFE23619D3E001EB4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
 		8DA78D0323619D3E001EB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8DA78D0523619D3E001EB4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA78D0523619D3E001EB4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
 		8DA78D0823619D3E001EB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8DA78D0A23619D3E001EB4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA78D0A23619D3E001EB4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
 		8DABC0A223733A4F0033E18E /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentingViewController.swift; sourceTree = "<group>"; };
 		8DABC0A723737E880033E18E /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalPresentingViewController.swift; sourceTree = "<group>"; };
 		8DABC0A9237388110033E18E /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalViewController.swift; sourceTree = "<group>"; };
@@ -113,20 +113,20 @@
 			path = Transactions;
 			sourceTree = "<group>";
 		};
-		8D51D0E7237B24EE00854630 /* Screenview utils */ = {
+		8D51D0E7237B24EE00854630 /* ScreenviewUtils */ = {
 			isa = PBXGroup;
 			children = (
 				8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */,
 				8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */,
 			);
-			path = "Screenview utils";
+			path = ScreenviewUtils;
 			sourceTree = "<group>";
 		};
 		8DA78CF023619D3E001EB4E3 = {
 			isa = PBXGroup;
 			children = (
 				D05DFBFC27FEE52A005A8415 /* README.md */,
-				8DA78CFB23619D3E001EB4E3 /* Carthage-sample-app */,
+				8DA78CFB23619D3E001EB4E3 /* Shared */,
 				8DA78CFA23619D3E001EB4E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,10 +139,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DA78CFB23619D3E001EB4E3 /* Carthage-sample-app */ = {
+		8DA78CFB23619D3E001EB4E3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8D51D0E7237B24EE00854630 /* Screenview utils */,
+				8D51D0E7237B24EE00854630 /* ScreenviewUtils */,
 				8DB0FC122368A7E50060D8C4 /* Showcases */,
 				05ADED96260E33AB0002E5E3 /* Masking */,
 				8DA78CFC23619D3E001EB4E3 /* AppDelegate.swift */,
@@ -155,7 +155,8 @@
 				DBC3B4DC270DC6F700F024B0 /* ContentsquareModule.xcframework */,
 				DBC3B4DD270DC6F700F024B0 /* SwiftProtobuf.xcframework */,
 			);
-			path = "Carthage-sample-app";
+			name = Shared;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 		8DABC0A4237379320033E18E /* Modals */ = {
@@ -313,6 +314,7 @@
 				8DA78D0323619D3E001EB4E3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 		8DA78D0723619D3E001EB4E3 /* LaunchScreen.storyboard */ = {
@@ -321,6 +323,7 @@
 				8DA78D0823619D3E001EB4E3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -449,7 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68F5DK9B95;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "Carthage-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

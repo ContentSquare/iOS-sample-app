@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D6E884C2FF7E32503F56159 /* Pods_Pod_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */; };
-		D0EDD83527FEEAA100109316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD83327FEEAA100109316 /* Main.storyboard */; };
 		D0EDD83827FEEAF700109316 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */; };
 		D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83727FEEAF700109316 /* MaskingViewController.swift */; };
 		D0EDD83F27FEEB4200109316 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */; };
@@ -29,35 +28,36 @@
 		D0F8D55027FDEDFF00FC2E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */; };
 		D0F8D55727FDEE0000FC2E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */; };
 		D0F8D55A27FDEE0000FC2E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F8D55827FDEE0000FC2E80 /* LaunchScreen.storyboard */; };
+		FBD8CCA529535780006AA162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD83427FEEAA100109316 /* Main.storyboard */; };
 		FBF957332950855B007FC523 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF957322950855B007FC523 /* ErrorAnalysisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57B1C58AD29C375040824D4B /* Pods-Pod-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.release.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 		B73AE3BAFFF25F57B082A458 /* Pods-Pod-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
-		D0EDD83427FEEAA100109316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Carthage Sample/Carthage-sample-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingUseCasesViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingUseCasesViewController.swift"; sourceTree = "<group>"; };
-		D0EDD83727FEEAF700109316 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskingViewController.swift; path = "../../../Carthage Sample/Carthage-sample-app/Masking/MaskingViewController.swift"; sourceTree = "<group>"; };
-		D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ScreenViews.storyboard; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/ScreenViews.storyboard"; sourceTree = "<group>"; };
-		D0EDD84027FEEB4700109316 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultScreenViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/DefaultScreenViewController.swift"; sourceTree = "<group>"; };
-		D0EDD84327FEEB6100109316 /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Page.xib; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/Page.xib"; sourceTree = "<group>"; };
-		D0EDD84527FEEB6700109316 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagedScrollViews.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Paged Scroll Views/PagedScrollViews.swift"; sourceTree = "<group>"; };
-		D0EDD84827FEEB7F00109316 /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ModalScreenViews.storyboard; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalScreenViews.storyboard"; sourceTree = "<group>"; };
-		D0EDD84A27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalPresentingViewController.swift"; sourceTree = "<group>"; };
-		D0EDD84B27FEEB8500109316 /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalPresentingViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ModalPresentingViewController.swift"; sourceTree = "<group>"; };
-		D0EDD84C27FEEB8500109316 /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgrammaticModalViewController.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/ProgrammaticModalViewController.swift"; sourceTree = "<group>"; };
-		D0EDD84D27FEEB8500109316 /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissalDelegate.swift; path = "../../../../../Carthage Sample/Carthage-sample-app/Showcases/Screen Views/Modals/DismissalDelegate.swift"; sourceTree = "<group>"; };
-		D0EDD85227FEEB9D00109316 /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicVariablesViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/DynamicVariables/DynamicVariablesViewController.swift"; sourceTree = "<group>"; };
-		D0EDD85427FEEBA200109316 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Privacy/PrivacyViewController.swift"; sourceTree = "<group>"; };
-		D0EDD85627FEEBA800109316 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionsViewController.swift; path = "../../../../Carthage Sample/Carthage-sample-app/Showcases/Transactions/TransactionsViewController.swift"; sourceTree = "<group>"; };
-		D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackedViewControllers.swift; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/TrackedViewControllers.swift"; sourceTree = "<group>"; };
-		D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+trackScreenview.swift"; path = "../../../Carthage Sample/Carthage-sample-app/Screenview utils/UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
+		D0EDD83427FEEAA100109316 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
+		D0EDD83727FEEAF700109316 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
+		D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
+		D0EDD84027FEEB4700109316 /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
+		D0EDD84327FEEB6100109316 /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
+		D0EDD84527FEEB6700109316 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
+		D0EDD84827FEEB7F00109316 /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ModalScreenViews.storyboard; sourceTree = "<group>"; };
+		D0EDD84A27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalPresentingViewController.swift; sourceTree = "<group>"; };
+		D0EDD84B27FEEB8500109316 /* ModalPresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalPresentingViewController.swift; sourceTree = "<group>"; };
+		D0EDD84C27FEEB8500109316 /* ProgrammaticModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticModalViewController.swift; sourceTree = "<group>"; };
+		D0EDD84D27FEEB8500109316 /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissalDelegate.swift; sourceTree = "<group>"; };
+		D0EDD85227FEEB9D00109316 /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicVariablesViewController.swift; sourceTree = "<group>"; };
+		D0EDD85427FEEBA200109316 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		D0EDD85627FEEBA800109316 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
+		D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
 		D0F8D54A27FDEDFF00FC2E80 /* Pod-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
+		D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
+		D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
 		D0F8D55927FDEE0000FC2E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0F8D55B27FDEE0000FC2E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F8D55B27FDEE0000FC2E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
 		DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_sample_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF957322950855B007FC523 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,13 +112,13 @@
 			path = Showcases;
 			sourceTree = "<group>";
 		};
-		D0EDD83227FEEA7E00109316 /* Screenview utils */ = {
+		D0EDD83227FEEA7E00109316 /* ScreenviewUtils */ = {
 			isa = PBXGroup;
 			children = (
 				D0EDD85827FEEBB200109316 /* TrackedViewControllers.swift */,
 				D0EDD85927FEEBB200109316 /* UIViewController+trackScreenview.swift */,
 			);
-			path = "Screenview utils";
+			path = ScreenviewUtils;
 			sourceTree = "<group>";
 		};
 		D0EDD83A27FEEB0800109316 /* Screen Views */ = {
@@ -162,7 +162,8 @@
 				D0EDD84527FEEB6700109316 /* PagedScrollViews.swift */,
 				D0EDD84327FEEB6100109316 /* Page.xib */,
 			);
-			path = "Paged ScrollViews";
+			name = "Paged ScrollViews";
+			path = "Paged Scroll Views";
 			sourceTree = "<group>";
 		};
 		D0EDD84727FEEB7700109316 /* Modals */ = {
@@ -180,7 +181,7 @@
 		D0F8D54127FDEDFF00FC2E80 = {
 			isa = PBXGroup;
 			children = (
-				D0F8D54C27FDEDFF00FC2E80 /* Pod-sample-app */,
+				D0F8D54C27FDEDFF00FC2E80 /* Shared */,
 				D0F8D54B27FDEDFF00FC2E80 /* Products */,
 				17B26BEC9B36B9D621080345 /* Pods */,
 				A1EE4AC47F5DB9C9BE5EA5F0 /* Frameworks */,
@@ -195,20 +196,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0F8D54C27FDEDFF00FC2E80 /* Pod-sample-app */ = {
+		D0F8D54C27FDEDFF00FC2E80 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D0EDD83227FEEA7E00109316 /* Screenview utils */,
+				D0EDD83227FEEA7E00109316 /* ScreenviewUtils */,
 				D0EDD83127FEEA7600109316 /* Showcases */,
 				D0EDD83027FEEA7000109316 /* Masking */,
 				D0F8D54D27FDEDFF00FC2E80 /* AppDelegate.swift */,
 				D0F8D54F27FDEDFF00FC2E80 /* SceneDelegate.swift */,
-				D0EDD83327FEEAA100109316 /* Main.storyboard */,
+				D0EDD83427FEEAA100109316 /* Main.storyboard */,
 				D0F8D55627FDEE0000FC2E80 /* Assets.xcassets */,
 				D0F8D55827FDEE0000FC2E80 /* LaunchScreen.storyboard */,
 				D0F8D55B27FDEE0000FC2E80 /* Info.plist */,
 			);
-			path = "Pod-sample-app";
+			name = Shared;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 		FBF957312950855B007FC523 /* ErrorAnalysis */ = {
@@ -216,8 +218,7 @@
 			children = (
 				FBF957322950855B007FC523 /* ErrorAnalysisViewController.swift */,
 			);
-			name = ErrorAnalysis;
-			path = "../../../Carthage Sample/Carthage-sample-app/Showcases/ErrorAnalysis";
+			path = ErrorAnalysis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EDD83527FEEAA100109316 /* Main.storyboard in Resources */,
+				FBD8CCA529535780006AA162 /* Main.storyboard in Resources */,
 				D0EDD84927FEEB7F00109316 /* ModalScreenViews.storyboard in Resources */,
 				D0EDD84427FEEB6100109316 /* Page.xib in Resources */,
 				D0F8D55A27FDEE0000FC2E80 /* LaunchScreen.storyboard in Resources */,
@@ -360,20 +361,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0EDD83327FEEAA100109316 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0EDD83427FEEAA100109316 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0F8D55827FDEE0000FC2E80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D0F8D55927FDEE0000FC2E80 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -502,7 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pod-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -530,7 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pod-sample-app/Info.plist";
+				INFOPLIST_FILE = "../Shared/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
