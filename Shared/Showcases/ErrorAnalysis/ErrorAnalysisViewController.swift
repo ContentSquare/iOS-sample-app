@@ -24,7 +24,7 @@ class ErrorAnalysisViewController: UIViewController {
     // MARK: - Buttons actions
 
     @IBAction private func automaticMonitoring(_ sender: UIButton) {
-        let request: URLRequest = urlRequest(method: "GET")
+        let request: URLRequest = urlRequest(method: "POST")
         task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
             self?.printResponse(data: data)
         }
@@ -55,9 +55,18 @@ class ErrorAnalysisViewController: UIViewController {
             printResponse(data: response?.0)
         }
     }
+    
+    @IBAction func URLMasking(_ sender: Any) {
+        let request: URLRequest = urlRequest(method: "POST", path: "person/123/store/123/test@mail.com")
+        task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
+            self?.printResponse(data: data)
+        }
+        task?.resume()
+    }
+    
 
-    private func urlRequest(method: String) -> URLRequest {
-        let url = URL(string: "https://httpstat.us/401/")!
+    private func urlRequest(method: String, path: String = "") -> URLRequest {
+        let url = URL(string: "https://httpstat.us/401/\(path)")!
         var urlComps = URLComponents(string: url.absoluteString)!
         if method == "GET" {
             urlComps.queryItems = [
@@ -66,6 +75,14 @@ class ErrorAnalysisViewController: UIViewController {
             ]
         }
         var request = URLRequest(url: urlComps.url!)
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        request.setValue("text/plain", forHTTPHeaderField: "Content-Type")
+        request.setValue("HeaderField1Value", forHTTPHeaderField: "HeaderField1")
+        if method == "POST" {
+            let body = HTTPBody(key1: "value1", key2: "value2")
+            let bodyData = try? JSONEncoder().encode(body)
+            request.httpBody = bodyData
+        }
         request.httpMethod = method
         return request
     }
@@ -77,4 +94,10 @@ class ErrorAnalysisViewController: UIViewController {
         NSLog("ErrorAnalysis: Response, \(dataString)")
     }
 
+}
+
+private struct HTTPBody: Codable {
+    
+    let key1: String
+    let key2: String
 }
