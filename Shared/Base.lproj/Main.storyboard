@@ -12,7 +12,7 @@
         <!--Showcases-->
         <scene sceneID="WiL-RQ-9qM">
             <objects>
-                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xn2-1l-J2q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +183,7 @@
         <!--Dynamic Vars-->
         <scene sceneID="eQe-k7-gGX">
             <objects>
-                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tzd-tA-RQ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,7 +222,7 @@
         <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
             <objects>
-                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -270,7 +270,7 @@
         <!--Error Analysis-->
         <scene sceneID="6iJ-B0-FEy">
             <objects>
-                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kh0-eR-Qfj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -282,7 +282,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aiu-av-ccv">
-                                <rect key="frame" x="71" y="380.5" width="272" height="135.5"/>
+                                <rect key="frame" x="71" y="355" width="272" height="186"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ma-4o-hdJ" userLabel="Automatic report">
                                         <rect key="frame" x="0.0" y="0.0" width="272" height="34.5"/>
@@ -306,6 +306,14 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Contentsquare async monitoring"/>
                                         <connections>
                                             <action selector="contentsquareAsyncMonitoring:" destination="7aT-z6-47B" eventType="touchUpInside" id="rwn-5r-Mvh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Q-sv-OgR">
+                                        <rect key="frame" x="0.0" y="151.5" width="272" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="URLMasking"/>
+                                        <connections>
+                                            <action selector="URLMasking:" destination="7aT-z6-47B" eventType="touchUpInside" id="486-Pm-ajp"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -344,7 +352,7 @@
         <!--Privacy-->
         <scene sceneID="keg-YG-NI7">
             <objects>
-                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQ1-Ae-vtg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -455,7 +463,7 @@
         <!--Masking-->
         <scene sceneID="CsN-KD-ZF2">
             <objects>
-                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1G-Xh-6Ru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -498,7 +506,7 @@
         <!--Masking-->
         <scene sceneID="bvi-5T-Iv8">
             <objects>
-                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Um3-8d-cmS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
