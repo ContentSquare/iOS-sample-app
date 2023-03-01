@@ -12,6 +12,7 @@
 		05ADED98260E33DB0002E5E3 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADED97260E33DB0002E5E3 /* MaskingUseCasesViewController.swift */; };
 		05ADED9B260E45BE0002E5E3 /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADED9A260E45BE0002E5E3 /* MaskingViewController.swift */; };
 		05B0F9AF23B0CBC900563FFA /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B0F9AE23B0CBC900563FFA /* TransactionsViewController.swift */; };
+		48EC066229AE71FB00835BFE /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EC066129AE71FB00835BFE /* CustomVariablesViewController.swift */; };
 		8D51D0E9237B256B00854630 /* UIViewController+trackScreenview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */; };
 		8D8A2948236AEC6E00EB782C /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2947236AEC6E00EB782C /* PagedScrollViews.swift */; };
 		8DA5F78F2369A32F0024ACE0 /* TrackedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */; };
@@ -41,6 +42,7 @@
 		05ADED97260E33DB0002E5E3 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
 		05ADED9A260E45BE0002E5E3 /* MaskingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
 		05B0F9AE23B0CBC900563FFA /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		48EC066129AE71FB00835BFE /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
 		8D8A2947236AEC6E00EB782C /* PagedScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
 		8DA5F78E2369A32F0024ACE0 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 			path = Transactions;
 			sourceTree = "<group>";
 		};
+		48EC066029AE71FB00835BFE /* CustomVariables */ = {
+			isa = PBXGroup;
+			children = (
+				48EC066129AE71FB00835BFE /* CustomVariablesViewController.swift */,
+			);
+			path = CustomVariables;
+			sourceTree = "<group>";
+		};
 		8D51D0E7237B24EE00854630 /* ScreenviewUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +184,7 @@
 		8DB0FC122368A7E50060D8C4 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
+				48EC066029AE71FB00835BFE /* CustomVariables */,
 				0545DD3823B20325005DB457 /* DynamicVariables */,
 				FBF957342950AC22007FC523 /* ErrorAnalysis */,
 				055D286E23B9F25500E29DFD /* Privacy */,
@@ -298,6 +309,7 @@
 				8DABC0A323733A4F0033E18E /* ModalPresentingViewController.swift in Sources */,
 				8D8A2948236AEC6E00EB782C /* PagedScrollViews.swift in Sources */,
 				FBF957362950AC22007FC523 /* ErrorAnalysisViewController.swift in Sources */,
+				48EC066229AE71FB00835BFE /* CustomVariablesViewController.swift in Sources */,
 				8DA78CFD23619D3E001EB4E3 /* AppDelegate.swift in Sources */,
 				8D51D0E9237B256B00854630 /* UIViewController+trackScreenview.swift in Sources */,
 				8DA78CFF23619D3E001EB4E3 /* SceneDelegate.swift in Sources */,

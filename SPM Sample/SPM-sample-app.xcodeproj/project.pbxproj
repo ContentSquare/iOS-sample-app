@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485B2B392976FCA800790385 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485B2B382976FCA800790385 /* CustomVariablesViewController.swift */; };
 		D03E1DF027FF0E99003BAB8D /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DEE27FF0E99003BAB8D /* MaskingUseCasesViewController.swift */; };
 		D03E1DF127FF0E99003BAB8D /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E1DEF27FF0E99003BAB8D /* MaskingViewController.swift */; };
 		D03E1DF927FF0EE4003BAB8D /* ModalScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E1DF827FF0EE4003BAB8D /* ModalScreenViews.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485B2B382976FCA800790385 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		D03E1DEA27FF0E74003BAB8D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D03E1DEE27FF0E99003BAB8D /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
 		D03E1DEF27FF0E99003BAB8D /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		485B2B372976FC8A00790385 /* CustomVariables */ = {
+			isa = PBXGroup;
+			children = (
+				485B2B382976FCA800790385 /* CustomVariablesViewController.swift */,
+			);
+			path = CustomVariables;
+			sourceTree = "<group>";
+		};
 		D03E1DE827FF0D40003BAB8D /* Masking */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		D03E1DED27FF0E8C003BAB8D /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
+				485B2B372976FC8A00790385 /* CustomVariables */,
 				D03E1DF427FF0EBA003BAB8D /* DynamicVariables */,
 				FBAC39982950840C00DCFCD4 /* ErrorAnalysis */,
 				D03E1DF327FF0EB5003BAB8D /* Privacy */,
@@ -293,6 +304,7 @@
 				D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */,
 				D03E1DF127FF0E99003BAB8D /* MaskingViewController.swift in Sources */,
 				FBAC399A2950840C00DCFCD4 /* ErrorAnalysisViewController.swift in Sources */,
+				485B2B392976FCA800790385 /* CustomVariablesViewController.swift in Sources */,
 				D03E1E0D27FF0F43003BAB8D /* UIViewController+trackScreenview.swift in Sources */,
 				D03E1E0127FF0EF1003BAB8D /* DismissalDelegate.swift in Sources */,
 				D03E1DFE27FF0EF1003BAB8D /* ProgrammaticModalPresentingViewController.swift in Sources */,

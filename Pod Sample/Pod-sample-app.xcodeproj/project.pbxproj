@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D6E884C2FF7E32503F56159 /* Pods_Pod_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */; };
+		482572A129880729004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482572A029880729004863E9 /* CustomVariablesViewController.swift */; };
 		D0EDD83827FEEAF700109316 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */; };
 		D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83727FEEAF700109316 /* MaskingViewController.swift */; };
 		D0EDD83F27FEEB4200109316 /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDD83E27FEEB4200109316 /* ScreenViews.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		482572A029880729004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		57B1C58AD29C375040824D4B /* Pods-Pod-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.release.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 		B73AE3BAFFF25F57B082A458 /* Pods-Pod-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
 		D0EDD83427FEEAA100109316 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4825729F29880729004863E9 /* CustomVariables */ = {
+			isa = PBXGroup;
+			children = (
+				482572A029880729004863E9 /* CustomVariablesViewController.swift */,
+			);
+			path = CustomVariables;
+			sourceTree = "<group>";
+		};
 		A1EE4AC47F5DB9C9BE5EA5F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		D0EDD83127FEEA7600109316 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
+				4825729F29880729004863E9 /* CustomVariables */,
 				D0EDD83B27FEEB0E00109316 /* DynamicVariables */,
 				FBF957312950855B007FC523 /* ErrorAnalysis */,
 				D0EDD83C27FEEB1800109316 /* Privacy */,
@@ -351,6 +362,7 @@
 				D0EDD83827FEEAF700109316 /* MaskingUseCasesViewController.swift in Sources */,
 				D0EDD84E27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift in Sources */,
 				FBF957332950855B007FC523 /* ErrorAnalysisViewController.swift in Sources */,
+				482572A129880729004863E9 /* CustomVariablesViewController.swift in Sources */,
 				D0F8D55027FDEDFF00FC2E80 /* SceneDelegate.swift in Sources */,
 				D0EDD85B27FEEBB200109316 /* UIViewController+trackScreenview.swift in Sources */,
 				D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */,

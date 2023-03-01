@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */; };
 		04D6C2BE2907E1A8003F7699 /* ContentsquareBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04D6C2BD2907E1A8003F7699 /* ContentsquareBundle.bundle */; };
+		4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825729D29880701004863E9 /* CustomVariablesViewController.swift */; };
 		D064661F27FF70D800E89F5E /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */; };
 		D064662027FF70D800E89F5E /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661E27FF70D800E89F5E /* ScreenViews.storyboard */; };
 		D0A9B69327FF6E1200ACF275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		04D6C2BD2907E1A8003F7699 /* ContentsquareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ContentsquareBundle.bundle; path = ContentsquareModule/ContentsquareModule/Resources/ContentsquareBundle.bundle; sourceTree = SOURCE_ROOT; };
+		4825729D29880701004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		D064661B27FF70A800E89F5E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		D064661E27FF70D800E89F5E /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4825729C29880701004863E9 /* CustomVariables */ = {
+			isa = PBXGroup;
+			children = (
+				4825729D29880701004863E9 /* CustomVariablesViewController.swift */,
+			);
+			path = CustomVariables;
+			sourceTree = "<group>";
+		};
 		D0A9B68627FF6E1200ACF275 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +162,7 @@
 		D0E6B05A27FF6F66009E65F0 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
+				4825729C29880701004863E9 /* CustomVariables */,
 				D0E6B06227FF6F9A009E65F0 /* DynamicVariables */,
 				FBAC398A29507EE800DCFCD4 /* ErrorAnalysis */,
 				D0E6B06127FF6F94009E65F0 /* Privacy */,
@@ -322,6 +333,7 @@
 				D0E6B07827FF6FF5009E65F0 /* ProgrammaticModalPresentingViewController.swift in Sources */,
 				D0E6B06727FF6FB2009E65F0 /* UIViewController+trackScreenview.swift in Sources */,
 				FBAC398C29507EE800DCFCD4 /* ErrorAnalysisViewController.swift in Sources */,
+				4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */,
 				D0E6B06D27FF6FD0009E65F0 /* DynamicVariablesViewController.swift in Sources */,
 				D0A9B69527FF6E1200ACF275 /* SceneDelegate.swift in Sources */,
 				D0E6B05F27FF6F83009E65F0 /* MaskingViewController.swift in Sources */,
