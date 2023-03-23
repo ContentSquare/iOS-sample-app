@@ -12,7 +12,7 @@
         <!--Showcases-->
         <scene sceneID="WiL-RQ-9qM">
             <objects>
-                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xn2-1l-J2q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,7 +203,7 @@
         <!--Dynamic Vars-->
         <scene sceneID="eQe-k7-gGX">
             <objects>
-                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tzd-tA-RQ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,7 +242,7 @@
         <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
             <objects>
-                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,22 +290,22 @@
         <!--Error Analysis-->
         <scene sceneID="6iJ-B0-FEy">
             <objects>
-                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kh0-eR-Qfj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This class showcases how to use Error Analysis to trace HTTP network errors" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zh-Dn-cFf">
-                                <rect key="frame" x="20" y="132" width="374" height="33.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aiu-av-ccv">
-                                <rect key="frame" x="71" y="355" width="272" height="186"/>
+                                <rect key="frame" x="71" y="285" width="272" height="326.5"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API Errors Examples" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zh-Dn-cFf">
+                                        <rect key="frame" x="0.0" y="0.0" width="272" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ma-4o-hdJ" userLabel="Automatic report">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="33" width="272" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Automatic monitoring"/>
                                         <connections>
@@ -313,7 +313,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCC-2v-3aJ" userLabel="Manual report">
-                                        <rect key="frame" x="0.0" y="50.5" width="272" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="83.5" width="272" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Manual monitoring"/>
                                         <connections>
@@ -321,7 +321,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4g5-KP-trQ" userLabel="Contentsquare async method">
-                                        <rect key="frame" x="0.0" y="101" width="272" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="134" width="272" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Contentsquare async monitoring"/>
                                         <connections>
@@ -329,11 +329,32 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Q-sv-OgR">
-                                        <rect key="frame" x="0.0" y="151.5" width="272" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="184.5" width="272" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="URLMasking"/>
                                         <connections>
                                             <action selector="URLMasking:" destination="7aT-z6-47B" eventType="touchUpInside" id="486-Pm-ajp"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CkL-4f-bcv">
+                                        <rect key="frame" x="0.0" y="235" width="272" height="8"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="8" id="hcq-j1-pWu"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crash Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jed-OP-rQl">
+                                        <rect key="frame" x="0.0" y="259" width="272" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNO-ut-e21">
+                                        <rect key="frame" x="0.0" y="292" width="272" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Crash"/>
+                                        <connections>
+                                            <action selector="crash:" destination="7aT-z6-47B" eventType="touchUpInside" id="hoW-j5-PWa"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -348,12 +369,9 @@
                         <viewLayoutGuide key="safeArea" id="h5W-A8-j7q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0zh-Dn-cFf" firstAttribute="top" secondItem="h5W-A8-j7q" secondAttribute="top" constant="40" id="1Ct-Cn-ldf"/>
                             <constraint firstItem="aiu-av-ccv" firstAttribute="centerX" secondItem="Kh0-eR-Qfj" secondAttribute="centerX" id="65a-RB-lS5"/>
                             <constraint firstItem="aiu-av-ccv" firstAttribute="centerY" secondItem="Kh0-eR-Qfj" secondAttribute="centerY" id="6MI-Vz-Qdp"/>
                             <constraint firstItem="h5W-A8-j7q" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="clR-RW-Sch" secondAttribute="trailing" id="X9W-gQ-1kA"/>
-                            <constraint firstItem="0zh-Dn-cFf" firstAttribute="leading" secondItem="h5W-A8-j7q" secondAttribute="leading" constant="20" id="oHZ-Od-GEu"/>
-                            <constraint firstItem="h5W-A8-j7q" firstAttribute="trailing" secondItem="0zh-Dn-cFf" secondAttribute="trailing" constant="20" id="qq3-Vg-jlY"/>
                             <constraint firstItem="clR-RW-Sch" firstAttribute="centerX" secondItem="Kh0-eR-Qfj" secondAttribute="centerX" id="uhy-Uq-qJe"/>
                             <constraint firstItem="h5W-A8-j7q" firstAttribute="bottom" secondItem="clR-RW-Sch" secondAttribute="bottom" constant="16" id="ySx-hB-a26"/>
                             <constraint firstItem="clR-RW-Sch" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="h5W-A8-j7q" secondAttribute="leading" id="zUN-YP-Ob1"/>
@@ -372,7 +390,7 @@
         <!--Privacy-->
         <scene sceneID="keg-YG-NI7">
             <objects>
-                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQ1-Ae-vtg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -483,7 +501,7 @@
         <!--Masking-->
         <scene sceneID="CsN-KD-ZF2">
             <objects>
-                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1G-Xh-6Ru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -526,7 +544,7 @@
         <!--Masking-->
         <scene sceneID="bvi-5T-Iv8">
             <objects>
-                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Um3-8d-cmS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -584,7 +602,7 @@
         <!--Custom Vars-->
         <scene sceneID="ChV-6a-JkN">
             <objects>
-                <viewController id="taI-UN-7cv" userLabel="Custom Vars" customClass="CustomVariablesViewController" customModule="Carthage_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="taI-UN-7cv" userLabel="Custom Vars" customClass="CustomVariablesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fkx-5p-bhn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
