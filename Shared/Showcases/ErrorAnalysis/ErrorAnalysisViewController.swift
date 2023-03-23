@@ -64,7 +64,10 @@ class ErrorAnalysisViewController: UIViewController {
         task?.resume()
     }
     
-
+    @IBAction func crash(_ sender: Any) {
+        fatalError("Crash was triggered")
+    }
+    
     private func urlRequest(method: String, path: String = "") -> URLRequest {
         let url = URL(string: "https://httpstat.us/401/\(path)")!
         var urlComps = URLComponents(string: url.absoluteString)!
