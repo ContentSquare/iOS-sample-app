@@ -35,6 +35,7 @@
 		FBAC398C29507EE800DCFCD4 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */; };
 		FBD8CCA829535A81006AA162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661B27FF70A800E89F5E /* Main.storyboard */; };
 		FBD8CCA929535A81006AA162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69E27FF6E1300ACF275 /* LaunchScreen.storyboard */; };
+		FBEB14432A16596D00CA5D07 /* CrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEB14422A16596D00CA5D07 /* CrashReporter.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +82,7 @@
 		D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
 		FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareErrorAnalysisModule.xcframework; sourceTree = "<group>"; };
 		FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
+		FBEB14422A16596D00CA5D07 /* CrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CrashReporter.xcframework; path = ContentsquareModule/ContentsquareModule/CrashReporter.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */,
 				D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */,
 				FBAC398729507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */,
+				FBEB14432A16596D00CA5D07 /* CrashReporter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +146,7 @@
 		D0E6B05127FF6E3B009E65F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBEB14422A16596D00CA5D07 /* CrashReporter.xcframework */,
 				FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */,
 				04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */,
 				D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */,
@@ -466,7 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "../Shared/App/Info.plist";
+				INFOPLIST_FILE = ../Shared/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -494,7 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "../Shared/App/Info.plist";
+				INFOPLIST_FILE = ../Shared/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
