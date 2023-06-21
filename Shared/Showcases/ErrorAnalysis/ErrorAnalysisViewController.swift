@@ -1,4 +1,5 @@
 
+import ContentsquareModule
 import ContentsquareErrorAnalysisModule
 import UIKit
 
@@ -56,7 +57,7 @@ class ErrorAnalysisViewController: UIViewController {
         }
     }
     
-    @IBAction func URLMasking(_ sender: Any) {
+    @IBAction private func URLMasking(_ sender: Any) {
         let request: URLRequest = urlRequest(method: "POST", path: "person/123/store/123/test@mail.com")
         task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
             self?.printResponse(data: data)
@@ -64,10 +65,14 @@ class ErrorAnalysisViewController: UIViewController {
         task?.resume()
     }
     
-    @IBAction func crash(_ sender: Any) {
+    @IBAction private func crash(_ sender: Any) {
         fatalError("Crash was triggered")
     }
-    
+
+    @IBAction private func sendUserIdentifier(_ sender: Any) {
+        Contentsquare.sendUserIdentifier("john.appleseed")
+    }
+
     private func urlRequest(method: String, path: String = "") -> URLRequest {
         let url = URL(string: "https://httpstat.us/401/\(path)")!
         var urlComps = URLComponents(string: url.absoluteString)!
