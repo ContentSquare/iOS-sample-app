@@ -1,6 +1,6 @@
 PODS:
-  - CS_ErrorAnalysis (4.23.0)
-  - CS_iOS_SDK (4.23.0):
+  - CS_ErrorAnalysis (4.24.0)
+  - CS_iOS_SDK (4.24.0):
     - SwiftProtobuf (~> 1.0)
   - SwiftProtobuf (1.22.0)
 
@@ -15,8 +15,8 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  CS_ErrorAnalysis: fbad860566dbd3f31b7cbec57bf3be43f53137c4
-  CS_iOS_SDK: ad7040efb29ab27b795a96fb6ea1176da1b3b6f0
+  CS_ErrorAnalysis: de63862112bfd582b6e7834e8cf8b2f1a4130e12
+  CS_iOS_SDK: 02db01eba491e3abff72169a75da65e8eee7fc50
   SwiftProtobuf: 40bd808372cb8706108f22d28f8ab4a6b9bc6989
 
 PODFILE CHECKSUM: dc5df4ee44a78ed7571664cc1a4a2c0d5057d070
