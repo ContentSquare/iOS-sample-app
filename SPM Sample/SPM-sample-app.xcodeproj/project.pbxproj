@@ -526,7 +526,7 @@
 			repositoryURL = "https://github.com/ContentSquare/CS_iOS_SDK.git";
 			requirement = {
 				kind = exactVersion;
-				version = 4.25.1;
+				version = 4.25.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
