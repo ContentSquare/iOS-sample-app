@@ -74,7 +74,7 @@ class ErrorAnalysisViewController: UIViewController {
     }
 
     private func urlRequest(method: String, path: String = "") -> URLRequest {
-        let url = URL(string: "https://httpstat.us/401/\(path)")!
+        let url = URL(string: "https://httpstatus-dev.eu-west-1.csq.fr/401/\(path)")!
         var urlComps = URLComponents(string: url.absoluteString)!
         if method == "GET" {
             urlComps.queryItems = [

@@ -10,7 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         Contentsquare.logLevel = .info
         ErrorAnalysis.setURLMaskingPatterns([
-            "https://httpstat.us/:status_code/person/:person_id/store/:store_id"
+            "https://httpstatus-dev.eu-west-1.csq.fr/:status_code/person/:person_id/store/:store_id"
         ])
         return true
     }
