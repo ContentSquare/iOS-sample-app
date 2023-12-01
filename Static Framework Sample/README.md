@@ -5,7 +5,7 @@
 
 ## Running the app
 * Clone this [repository](https://github.com/ContentSquare/iOS-sample-app)
-* Follow the instructions in [Static linking](https://docs.contentsquare.com/ios/#how-to-include-it) for full installation guide.
+* Follow the instructions in [Static linking](https://docs.contentsquare.com/en/ios/#static-linking) for full installation guide.
 * You should now be able to run the application
 * You should see logs from the SDK in the Xcode console or the Console app as below
 
