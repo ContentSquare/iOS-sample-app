@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044570B02B31DE7C004D107C /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044570AE2B31DE7C004D107C /* ContentsquareErrorAnalysisModule.xcframework */; };
+		044570B12B31DE7C004D107C /* CrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044570AF2B31DE7C004D107C /* CrashReporter.xcframework */; };
 		04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */; };
 		04D6C2BE2907E1A8003F7699 /* ContentsquareBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04D6C2BD2907E1A8003F7699 /* ContentsquareBundle.bundle */; };
 		4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825729D29880701004863E9 /* CustomVariablesViewController.swift */; };
@@ -31,11 +33,9 @@
 		D0E6B07927FF6FF5009E65F0 /* DismissalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B07427FF6FF5009E65F0 /* DismissalDelegate.swift */; };
 		D0E6B07C27FF7005009E65F0 /* Page.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E6B07A27FF7005009E65F0 /* Page.xib */; };
 		D0E6B07D27FF7005009E65F0 /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */; };
-		FBAC398729507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */; };
 		FBAC398C29507EE800DCFCD4 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */; };
 		FBD8CCA829535A81006AA162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661B27FF70A800E89F5E /* Main.storyboard */; };
 		FBD8CCA929535A81006AA162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69E27FF6E1300ACF275 /* LaunchScreen.storyboard */; };
-		FBEB14432A16596D00CA5D07 /* CrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEB14422A16596D00CA5D07 /* CrashReporter.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,7 +53,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
+		044570AE2B31DE7C004D107C /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = ContentsquareErrorAnalysisModule/ContentsquareErrorAnalysisModule.xcframework; sourceTree = "<group>"; };
+		044570AF2B31DE7C004D107C /* CrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CrashReporter.xcframework; path = ContentsquareErrorAnalysisModule/CrashReporter.xcframework; sourceTree = "<group>"; };
+		04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		04D6C2BD2907E1A8003F7699 /* ContentsquareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ContentsquareBundle.bundle; path = ContentsquareModule/ContentsquareModule/Resources/ContentsquareBundle.bundle; sourceTree = SOURCE_ROOT; };
 		4825729D29880701004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		D064661B27FF70A800E89F5E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,9 +82,7 @@
 		D0E6B07427FF6FF5009E65F0 /* DismissalDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissalDelegate.swift; sourceTree = "<group>"; };
 		D0E6B07A27FF7005009E65F0 /* Page.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
 		D0E6B07B27FF7005009E65F0 /* PagedScrollViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
-		FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = ContentsquareModule/ContentsquareModule/ContentsquareErrorAnalysisModule.xcframework; sourceTree = "<group>"; };
 		FBAC398B29507EE800DCFCD4 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
-		FBEB14422A16596D00CA5D07 /* CrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CrashReporter.xcframework; path = ContentsquareModule/ContentsquareModule/CrashReporter.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +90,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044570B12B31DE7C004D107C /* CrashReporter.xcframework in Frameworks */,
 				04AE3F06289034EF002E063E /* ContentsquareModule.xcframework in Frameworks */,
 				D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */,
-				FBAC398729507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */,
-				FBEB14432A16596D00CA5D07 /* CrashReporter.xcframework in Frameworks */,
+				044570B02B31DE7C004D107C /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +146,8 @@
 		D0E6B05127FF6E3B009E65F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FBEB14422A16596D00CA5D07 /* CrashReporter.xcframework */,
-				FBAC398629507E7F00DCFCD4 /* ContentsquareErrorAnalysisModule.xcframework */,
+				044570AE2B31DE7C004D107C /* ContentsquareErrorAnalysisModule.xcframework */,
+				044570AF2B31DE7C004D107C /* CrashReporter.xcframework */,
 				04AE3F05289034EF002E063E /* ContentsquareModule.xcframework */,
 				D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */,
 			);
