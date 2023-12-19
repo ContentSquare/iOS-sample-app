@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -62,10 +62,10 @@
 		8DF1A680237088D800DDBA60 /* Page.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page.xib; sourceTree = "<group>"; };
 		D05DFBFA27FEE3AD005A8415 /* ModalScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ModalScreenViews.storyboard; sourceTree = "<group>"; };
 		D05DFBFC27FEE52A005A8415 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DBC3B4DC270DC6F700F024B0 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = Carthage/Build/ContentsquareModule.xcframework; sourceTree = SOURCE_ROOT; };
+		DBC3B4DC270DC6F700F024B0 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = Carthage/Build/ContentsquareModule.xcframework; sourceTree = SOURCE_ROOT; };
 		DBC3B4DD270DC6F700F024B0 /* SwiftProtobuf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftProtobuf.xcframework; path = Carthage/Build/SwiftProtobuf.xcframework; sourceTree = SOURCE_ROOT; };
 		FBF957352950AC22007FC523 /* ErrorAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAnalysisViewController.swift; sourceTree = "<group>"; };
-		FBF957372950C580007FC523 /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = Carthage/Build/ContentsquareErrorAnalysisModule.xcframework; sourceTree = SOURCE_ROOT; };
+		FBF957372950C580007FC523 /* ContentsquareErrorAnalysisModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareErrorAnalysisModule.xcframework; path = Carthage/Build/ContentsquareErrorAnalysisModule.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -464,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68F5DK9B95;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "../Shared/App/Info.plist";
+				INFOPLIST_FILE = ../Shared/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
