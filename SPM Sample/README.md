@@ -11,8 +11,8 @@ Apple's [documentation](https://developer.apple.com/documentation/swift_packages
 * You should now be able to run the application
 * You should see logs from the SDK in the Xcode console or the Console app as below
 
-<pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.27.1 starting in app: com.your.bundle.identifier</pre>
-<pre>$ CSLIB ℹ️ Info: Contentsquare Error Analysis v4.27.1 starting in app: com.your.bundle.identifier</pre>
+<pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.28.0 starting in app: com.your.bundle.identifier</pre>
+<pre>$ CSLIB ℹ️ Info: Contentsquare Error Analysis v4.28.0 starting in app: com.your.bundle.identifier</pre>
 
 <pre>💡 Quick tips: Contentsquare SDK autostarts by itself </pre>
 
