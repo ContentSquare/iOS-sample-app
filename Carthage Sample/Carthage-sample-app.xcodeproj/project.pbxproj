@@ -12,6 +12,8 @@
 		05ADED98260E33DB0002E5E3 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADED97260E33DB0002E5E3 /* MaskingUseCasesViewController.swift */; };
 		05ADED9B260E45BE0002E5E3 /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADED9A260E45BE0002E5E3 /* MaskingViewController.swift */; };
 		05B0F9AF23B0CBC900563FFA /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B0F9AE23B0CBC900563FFA /* TransactionsViewController.swift */; };
+		2E48BAA12B602A4B001EFADC /* CSCrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E48BAA02B602A4B001EFADC /* CSCrashReporter.xcframework */; };
+		2E48BAA22B602A4B001EFADC /* CSCrashReporter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E48BAA02B602A4B001EFADC /* CSCrashReporter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		48EC066229AE71FB00835BFE /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EC066129AE71FB00835BFE /* CustomVariablesViewController.swift */; };
 		8D51D0E9237B256B00854630 /* UIViewController+trackScreenview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */; };
 		8D8A2948236AEC6E00EB782C /* PagedScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2947236AEC6E00EB782C /* PagedScrollViews.swift */; };
@@ -33,8 +35,21 @@
 		DBC3B4DE270DC6F700F024B0 /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC3B4DC270DC6F700F024B0 /* ContentsquareModule.xcframework */; };
 		FBF957362950AC22007FC523 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF957352950AC22007FC523 /* ErrorAnalysisViewController.swift */; };
 		FBF957392950C91E007FC523 /* SwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC3B4DD270DC6F700F024B0 /* SwiftProtobuf.xcframework */; };
-		FBF9573C2951A5C0007FC523 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF957372950C580007FC523 /* ContentsquareErrorAnalysisModule.xcframework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E48BAA32B602A4B001EFADC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2E48BAA22B602A4B001EFADC /* CSCrashReporter.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0545DD3923B20342005DB457 /* DynamicVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicVariablesViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +57,7 @@
 		05ADED97260E33DB0002E5E3 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
 		05ADED9A260E45BE0002E5E3 /* MaskingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
 		05B0F9AE23B0CBC900563FFA /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		2E48BAA02B602A4B001EFADC /* CSCrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CSCrashReporter.xcframework; path = Carthage/Build/CSCrashReporter.xcframework; sourceTree = "<group>"; };
 		48EC066129AE71FB00835BFE /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		8D51D0E8237B256B00854630 /* UIViewController+trackScreenview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+trackScreenview.swift"; sourceTree = "<group>"; };
 		8D8A2947236AEC6E00EB782C /* PagedScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollViews.swift; sourceTree = "<group>"; };
@@ -73,8 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E48BAA12B602A4B001EFADC /* CSCrashReporter.xcframework in Frameworks */,
 				DBC3B4DE270DC6F700F024B0 /* ContentsquareModule.xcframework in Frameworks */,
-				FBF9573C2951A5C0007FC523 /* ContentsquareErrorAnalysisModule.xcframework in Frameworks */,
 				FBF957392950C91E007FC523 /* SwiftProtobuf.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +131,14 @@
 			path = Transactions;
 			sourceTree = "<group>";
 		};
+		2E48BA9F2B602A4B001EFADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E48BAA02B602A4B001EFADC /* CSCrashReporter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48EC066029AE71FB00835BFE /* CustomVariables */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +162,7 @@
 				D05DFBFC27FEE52A005A8415 /* README.md */,
 				8DA78CFB23619D3E001EB4E3 /* Shared */,
 				8DA78CFA23619D3E001EB4E3 /* Products */,
+				2E48BA9F2B602A4B001EFADC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +257,7 @@
 				8DA78CF523619D3E001EB4E3 /* Sources */,
 				8DA78CF623619D3E001EB4E3 /* Frameworks */,
 				8DA78CF723619D3E001EB4E3 /* Resources */,
+				2E48BAA32B602A4B001EFADC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

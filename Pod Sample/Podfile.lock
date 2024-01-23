@@ -1,24 +1,24 @@
 PODS:
-  - CS_ErrorAnalysis (4.28.0)
-  - CS_iOS_SDK (4.28.0):
+  - CS_iOS_SDK (4.29.0):
+    - CSCrashReporter (= 0.0.3)
     - SwiftProtobuf (~> 1.0)
+  - CSCrashReporter (0.0.3)
   - SwiftProtobuf (1.25.2)
 
 DEPENDENCIES:
-  - CS_ErrorAnalysis
   - CS_iOS_SDK
 
 SPEC REPOS:
   trunk:
-    - CS_ErrorAnalysis
     - CS_iOS_SDK
+    - CSCrashReporter
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  CS_ErrorAnalysis: e4604860bde7e2fdebab75b0097dc1e7b5a3580e
-  CS_iOS_SDK: 8c40062c6e7483228cda106da576d89f93a2f7b5
+  CS_iOS_SDK: 7343c4e35436357255d2b3b966cedc8ffe831f76
+  CSCrashReporter: 49f3987cdf6d1553ebda9f8591c25f13f7517bca
   SwiftProtobuf: 407a385e97fd206c4fbe880cc84123989167e0d1
 
-PODFILE CHECKSUM: dc5df4ee44a78ed7571664cc1a4a2c0d5057d070
+PODFILE CHECKSUM: 7f6b4c8e783141e595c1068461afdb995c144a3c
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.12.1

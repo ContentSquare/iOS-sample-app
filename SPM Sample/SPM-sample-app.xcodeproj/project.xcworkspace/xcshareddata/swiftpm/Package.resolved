@@ -1,21 +1,21 @@
 {
   "pins" : [
     {
+      "identity" : "cs_ios_crashreporter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ContentSquare/CS_iOS_CrashReporter.git",
+      "state" : {
+        "revision" : "a7928e21ed17d42a61f80296f4114fd7dee17f2d",
+        "version" : "0.0.3"
+      }
+    },
+    {
       "identity" : "cs_ios_sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "bf6336b184b4b6af9b04fab0b81cf61d0806dad5",
-        "version" : "4.28.0"
-      }
-    },
-    {
-      "identity" : "plcrashreporter",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/microsoft/plcrashreporter.git",
-      "state" : {
-        "revision" : "1aed8f7dc79ce8e674c61e430ef51ca3db18cea9",
-        "version" : "1.11.1"
+        "revision" : "3dcd42a962c645f187f96ee219cbc5d0e339cddd",
+        "version" : "4.29.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-protobuf.git",
       "state" : {
-        "revision" : "07f7f26ded8df9645c072f220378879c4642e063",
-        "version" : "1.25.1"
+        "revision" : "65e8f29b2d63c4e38e736b25c27b83e012159be8",
+        "version" : "1.25.2"
       }
     }
   ],

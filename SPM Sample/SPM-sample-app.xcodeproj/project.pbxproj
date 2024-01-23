@@ -28,7 +28,6 @@
 		D0DBD95627FEC524007D128F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBD95527FEC524007D128F /* SceneDelegate.swift */; };
 		D0DBD95D27FEC525007D128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95C27FEC525007D128F /* Assets.xcassets */; };
 		D0DBD96027FEC525007D128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DBD95E27FEC525007D128F /* LaunchScreen.storyboard */; };
-		FBAC39942950827C00DCFCD4 /* ContentsquareErrorAnalysisModule in Frameworks */ = {isa = PBXBuildFile; productRef = FBAC39932950827C00DCFCD4 /* ContentsquareErrorAnalysisModule */; };
 		FBAC39962950827C00DCFCD4 /* ContentsquareModule in Frameworks */ = {isa = PBXBuildFile; productRef = FBAC39952950827C00DCFCD4 /* ContentsquareModule */; };
 		FBAC399A2950840C00DCFCD4 /* ErrorAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC39992950840C00DCFCD4 /* ErrorAnalysisViewController.swift */; };
 		FBD8CCA62953597E006AA162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E1DEA27FF0E74003BAB8D /* Main.storyboard */; };
@@ -67,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAC39942950827C00DCFCD4 /* ContentsquareErrorAnalysisModule in Frameworks */,
 				FBAC39962950827C00DCFCD4 /* ContentsquareModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,7 +226,6 @@
 			);
 			name = "SPM-sample-app";
 			packageProductDependencies = (
-				FBAC39932950827C00DCFCD4 /* ContentsquareErrorAnalysisModule */,
 				FBAC39952950827C00DCFCD4 /* ContentsquareModule */,
 			);
 			productName = "SPM-sample-app";
@@ -528,17 +525,12 @@
 			repositoryURL = "https://github.com/ContentSquare/CS_iOS_SDK.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.27.1;
+				minimumVersion = 4.29.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FBAC39932950827C00DCFCD4 /* ContentsquareErrorAnalysisModule */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FBAC39922950827C00DCFCD4 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */;
-			productName = ContentsquareErrorAnalysisModule;
-		};
 		FBAC39952950827C00DCFCD4 /* ContentsquareModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FBAC39922950827C00DCFCD4 /* XCRemoteSwiftPackageReference "CS_iOS_SDK" */;

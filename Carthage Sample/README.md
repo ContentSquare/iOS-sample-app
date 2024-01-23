@@ -12,8 +12,7 @@ You must have [Carthage](https://github.com/Carthage/Carthage). The simplest way
 * You should now be able to run the application
 * You should see logs from the SDK in the Xcode console or the Console app as below
 
-<pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.28.0 starting in app: com.your.bundle.identifier</pre>
-<pre>$ CSLIB ℹ️ Info: Contentsquare Error Analysis v4.28.0 starting in app: com.your.bundle.identifier</pre>
+<pre>$ CSLIB ℹ️ Info: Contentsquare SDK v4.29.0 starting in app: com.your.bundle.identifier</pre>
 
 <pre>💡 Quick tips: Contentsquare SDK autostarts by itself </pre>
 
