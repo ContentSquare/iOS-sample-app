@@ -1,6 +1,5 @@
 
 import ContentsquareModule
-import ContentsquareErrorAnalysisModule
 import UIKit
 
 /// This class showcases how to use Error Analysis to trace HTTP network errors

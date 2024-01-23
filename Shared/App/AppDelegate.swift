@@ -1,7 +1,6 @@
 
 import UIKit
 import ContentsquareModule
-import ContentsquareErrorAnalysisModule
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
