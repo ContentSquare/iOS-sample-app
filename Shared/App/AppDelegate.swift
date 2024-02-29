@@ -11,6 +11,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ErrorAnalysis.setURLMaskingPatterns([
             "https://httpstatus-dev.eu-west-1.csq.fr/:status_code/person/:person_id/store/:store_id"
         ])
+
+        Contentsquare.onSessionReplayLinkChange() { newLink in
+            print(newLink ?? "no replay link found")
+        }
+
         return true
     }
 }
