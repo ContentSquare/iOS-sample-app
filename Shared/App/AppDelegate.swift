@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ])
 
         Contentsquare.onSessionReplayLinkChange() { newLink in
-            print(newLink ?? "no replay link found")
+            print(newLink)
         }
 
         return true
