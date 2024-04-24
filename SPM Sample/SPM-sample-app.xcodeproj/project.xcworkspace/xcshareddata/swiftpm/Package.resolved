@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_CrashReporter.git",
       "state" : {
-        "revision" : "a7928e21ed17d42a61f80296f4114fd7dee17f2d",
-        "version" : "0.0.3"
+        "revision" : "105d2d400aa2bc85b70c44fd0baca9ef4d258922",
+        "version" : "1.0.0"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "e40690d74e9a006cbbd9980b65e930c245c370d2",
-        "version" : "4.31.2"
+        "revision" : "cba1dad6ecc5c412e3a7e289b554b1f03ceba039",
+        "version" : "4.32.0"
       }
     },
     {
