@@ -7,7 +7,6 @@
 
 ## 🧐 Pick your favorite dependency manager
 
-* **[Carthage](https://github.com/ContentSquare/iOS-sample-app/tree/master/Carthage%20Sample)** - iOS sample app that uses Carthage.
 * **[CocoaPods](https://github.com/ContentSquare/iOS-sample-app/tree/master/Pod%20Sample)** - iOS sample app that uses CocoaPods.
 * **[Swift Package Manager](https://github.com/ContentSquare/iOS-sample-app/tree/master/SPM%20Sample)** - iOS sample that uses Swift Package Manager.
 * **[Static Framework](https://github.com/ContentSquare/iOS-sample-app/tree/master/Static%20Framework%20Sample)** - iOS sample that uses static integration.

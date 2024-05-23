@@ -1,3 +1,0 @@
-binary "https://raw.githubusercontent.com/ContentSquare/CS_iOS_SDK/master/carthage/ContentsquareModule.json"
-github "apple/swift-protobuf" ~> 1.0
-github "ContentSquare/CS_iOS_CrashReporter" ~> 0.0.3
