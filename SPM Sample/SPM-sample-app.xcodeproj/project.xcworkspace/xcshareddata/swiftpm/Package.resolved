@@ -1,5 +1,4 @@
 {
-  "originHash" : "e8fc0097cefdec18c729efb6c1737c4c3ec3bb68c205eeb225789f806a763c98",
   "pins" : [
     {
       "identity" : "cs_ios_crashreporter",
@@ -15,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "cba1dad6ecc5c412e3a7e289b554b1f03ceba039",
-        "version" : "4.32.0"
+        "revision" : "b419537ccc9a4da5ca685ed3816c780e3dc39a28",
+        "version" : "4.33.0"
       }
     },
     {
@@ -24,10 +23,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-protobuf.git",
       "state" : {
-        "revision" : "65e8f29b2d63c4e38e736b25c27b83e012159be8",
-        "version" : "1.25.2"
+        "revision" : "9f0c76544701845ad98716f3f6a774a892152bcb",
+        "version" : "1.26.0"
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }
