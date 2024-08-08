@@ -1,9 +1,9 @@
 PODS:
-  - CS_iOS_SDK (4.34.0):
+  - CS_iOS_SDK (4.35.0):
     - CSCrashReporter (= 1.0.0)
     - SwiftProtobuf (~> 1.0)
   - CSCrashReporter (1.0.0)
-  - SwiftProtobuf (1.26.0)
+  - SwiftProtobuf (1.27.1)
 
 DEPENDENCIES:
   - CS_iOS_SDK
@@ -15,9 +15,9 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  CS_iOS_SDK: 1e1a5ad02a1ade87a70fe56fe8e58e9cf4fb03b4
+  CS_iOS_SDK: 7825af3adf21d0b0fe91ce3c919652384e31b0fe
   CSCrashReporter: 1494c8b8c805d0b3cdb62f2b044f2606a7d4a391
-  SwiftProtobuf: 5e8349171e7c2f88f5b9e683cb3cb79d1dc780b3
+  SwiftProtobuf: b109bd17979d7993a84da14b1e1fdd8b0ded934a
 
 PODFILE CHECKSUM: 7f6b4c8e783141e595c1068461afdb995c144a3c
 
