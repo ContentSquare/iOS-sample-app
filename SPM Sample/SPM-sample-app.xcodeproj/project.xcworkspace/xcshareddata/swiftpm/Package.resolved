@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "102d441270fcc4d9cdd531b747eab9292ee70f10",
-        "version" : "4.37.1"
+        "revision" : "2cd5ad5d87670a5b0371bd6a4f8082497cce212c",
+        "version" : "4.37.2"
       }
     },
     {
