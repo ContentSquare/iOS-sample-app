@@ -1,5 +1,5 @@
 PODS:
-  - CS_iOS_SDK (4.38.0):
+  - CS_iOS_SDK (4.38.1):
     - CSCrashReporter (= 1.0.0)
     - SwiftProtobuf (<= 1.26.0)
   - CSCrashReporter (1.0.0)
@@ -15,7 +15,7 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  CS_iOS_SDK: 761d2acbb08d9c359397548f19d22c78365430b9
+  CS_iOS_SDK: 1749685f66fa89dd4eee5489ab76d31dc7faafa4
   CSCrashReporter: 1494c8b8c805d0b3cdb62f2b044f2606a7d4a391
   SwiftProtobuf: 5e8349171e7c2f88f5b9e683cb3cb79d1dc780b3
 
