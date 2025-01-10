@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E5623F12B5FC3BA009A0C73 /* SwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */; };
 		2E5623F32B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */; };
 		2E5623F42B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E5623F62B5FC3CF009A0C73 /* ContentsquareBundle.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 2E5623F52B5FC3CF009A0C73 /* ContentsquareBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E5623F92B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */; };
 		2E5623FA2B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825729D29880701004863E9 /* CustomVariablesViewController.swift */; };
+		BC64815F2D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */; };
+		BC6481602D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D064661F27FF70D800E89F5E /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */; };
 		D064662027FF70D800E89F5E /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661E27FF70D800E89F5E /* ScreenViews.storyboard */; };
 		D0A9B69327FF6E1200ACF275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */; };
 		D0A9B69527FF6E1200ACF275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */; };
 		D0A9B69C27FF6E1300ACF275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */; };
-		D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */; };
-		D0E6B05727FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0E6B05E27FF6F83009E65F0 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B05C27FF6F83009E65F0 /* MaskingUseCasesViewController.swift */; };
 		D0E6B05F27FF6F83009E65F0 /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B05D27FF6F83009E65F0 /* MaskingViewController.swift */; };
 		D0E6B06627FF6FB2009E65F0 /* TrackedViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6B06427FF6FB2009E65F0 /* TrackedViewControllers.swift */; };
@@ -58,9 +57,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BC6481602D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Embed Frameworks */,
 				2E5623FA2B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Embed Frameworks */,
 				2E5623F42B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Embed Frameworks */,
-				D0E6B05727FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +71,7 @@
 		2E5623F52B5FC3CF009A0C73 /* ContentsquareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ContentsquareBundle.bundle; path = ContentsquareModule/Resources/ContentsquareBundle.bundle; sourceTree = "<group>"; };
 		2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		4825729D29880701004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
+		BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = CSSwiftProtobuf.xcframework; path = ContentsquareModule/CSSwiftProtobuf.xcframework; sourceTree = "<group>"; };
 		D064661B27FF70A800E89F5E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		D064661E27FF70D800E89F5E /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
@@ -104,10 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC64815F2D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Frameworks */,
 				2E5623F92B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Frameworks */,
 				2E5623F32B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Frameworks */,
-				D0E6B05627FF6E3B009E65F0 /* SwiftProtobuf.xcframework in Frameworks */,
-				2E5623F12B5FC3BA009A0C73 /* SwiftProtobuf.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +158,7 @@
 		D0E6B05127FF6E3B009E65F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */,
 				2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */,
 				2E5623F52B5FC3CF009A0C73 /* ContentsquareBundle.bundle */,
 				2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */,
