@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_CrashReporter.git",
       "state" : {
-        "revision" : "105d2d400aa2bc85b70c44fd0baca9ef4d258922",
-        "version" : "1.0.0"
+        "revision" : "9f00d53c3d2c7a0b2d92a694fc9d4c993bb2b157",
+        "version" : "1.0.1"
       }
     },
     {
@@ -14,17 +14,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "c26ed9e02fc5374326c6262d317a7940a8b1e0c1",
-        "version" : "4.38.3"
+        "revision" : "4f038861b6bb592a90b51fc8bfeb3c86b1d63fcd",
+        "version" : "4.39.0"
       }
     },
     {
-      "identity" : "swift-protobuf",
+      "identity" : "csswiftprotobuf",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-protobuf.git",
+      "location" : "https://github.com/ContentSquare/CSSwiftProtobuf.git",
       "state" : {
-        "revision" : "9f0c76544701845ad98716f3f6a774a892152bcb",
-        "version" : "1.26.0"
+        "revision" : "69144f5873981ce36d53ec188da920f0e05d4cf2",
+        "version" : "1.28.2"
       }
     }
   ],
