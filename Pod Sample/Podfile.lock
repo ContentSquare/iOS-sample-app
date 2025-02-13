@@ -1,5 +1,5 @@
 PODS:
-  - CS_iOS_SDK (4.39.0):
+  - CS_iOS_SDK (4.40.0):
     - CSCrashReporter (= 1.0.1)
     - CSSwiftProtobuf (= 1.28.2)
   - CSCrashReporter (1.0.1)
@@ -15,7 +15,7 @@ SPEC REPOS:
     - CSSwiftProtobuf
 
 SPEC CHECKSUMS:
-  CS_iOS_SDK: d8ec01db5630b3821853075c9cb591427231775c
+  CS_iOS_SDK: c4873b343b517e49a1ea285ee642a5f26a234ddd
   CSCrashReporter: bcd93ebf9abaf6e3d8ee4494ab0d630b6750d338
   CSSwiftProtobuf: beced9eecd504dbc1ef9b09e537c06300aed6631
 
