@@ -1,10 +1,8 @@
-Carthage/
 Pods/
-Static Framework Sample/ContentsquareModule/ContentsquareModule/ContentsquareModule.xcframework
-Static Framework Sample/ContentsquareModule/SwiftProtobuf.xcframework
-Static Framework Sample/ContentsquareModule/ContentsquareModule/Resources
-Static Framework Sample/ContentsquareModule/ContentsquareModule/ContentsquareErrorAnalysisModule.xcframework
-Static Framework Sample/ContentsquareModule/ContentsquareModule/CrashReporter.xcframework
+Static Framework Sample/ContentsquareModule/ContentsquareModule.xcframework
+Static Framework Sample/ContentsquareModule/CSCrashReporter.xcframework
+Static Framework Sample/ContentsquareModule/CSSwiftProtobuf.xcframework
+Static Framework Sample/ContentsquareModule/Resources
 
 # Mac OS X
 *.DS_Store

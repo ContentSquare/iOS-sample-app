@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D6C92C2D686F7E00E74108 /* ContentsquareBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04D6C92B2D686F7E00E74108 /* ContentsquareBundle.bundle */; };
 		2E5623F32B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */; };
 		2E5623F42B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2E5623F62B5FC3CF009A0C73 /* ContentsquareBundle.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 2E5623F52B5FC3CF009A0C73 /* ContentsquareBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E5623F92B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */; };
 		2E5623FA2B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825729D29880701004863E9 /* CustomVariablesViewController.swift */; };
@@ -46,7 +46,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2E5623F62B5FC3CF009A0C73 /* ContentsquareBundle.bundle in Embed PlugIns */,
 			);
 			name = "Embed PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,8 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04D6C92B2D686F7E00E74108 /* ContentsquareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ContentsquareBundle.bundle; path = ContentsquareModule/Resources/ContentsquareBundle.bundle; sourceTree = "<group>"; };
 		2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CSCrashReporter.xcframework; path = ContentsquareModule/CSCrashReporter.xcframework; sourceTree = "<group>"; };
-		2E5623F52B5FC3CF009A0C73 /* ContentsquareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ContentsquareBundle.bundle; path = ContentsquareModule/Resources/ContentsquareBundle.bundle; sourceTree = "<group>"; };
 		2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		4825729D29880701004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = CSSwiftProtobuf.xcframework; path = ContentsquareModule/CSSwiftProtobuf.xcframework; sourceTree = "<group>"; };
@@ -81,7 +80,6 @@
 		D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
 		D0A9B69E27FF6E1300ACF275 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../Shared/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0A9B6A027FF6E1300ACF275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
-		D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftProtobuf.xcframework; path = ContentsquareModule/SwiftProtobuf.xcframework; sourceTree = "<group>"; };
 		D0E6B05C27FF6F83009E65F0 /* MaskingUseCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingUseCasesViewController.swift; sourceTree = "<group>"; };
 		D0E6B05D27FF6F83009E65F0 /* MaskingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskingViewController.swift; sourceTree = "<group>"; };
 		D0E6B06427FF6FB2009E65F0 /* TrackedViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackedViewControllers.swift; sourceTree = "<group>"; };
@@ -125,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				D0A9B69127FF6E1200ACF275 /* Shared */,
+				04D6C92B2D686F7E00E74108 /* ContentsquareBundle.bundle */,
 				D0A9B69027FF6E1200ACF275 /* Products */,
 				D0E6B05127FF6E3B009E65F0 /* Frameworks */,
 			);
@@ -160,9 +159,7 @@
 			children = (
 				BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */,
 				2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */,
-				2E5623F52B5FC3CF009A0C73 /* ContentsquareBundle.bundle */,
 				2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */,
-				D0E6B05327FF6E3B009E65F0 /* SwiftProtobuf.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -328,6 +325,7 @@
 				D0E6B07727FF6FF5009E65F0 /* ModalScreenViews.storyboard in Resources */,
 				D0E6B07C27FF7005009E65F0 /* Page.xib in Resources */,
 				D0A9B69C27FF6E1300ACF275 /* Assets.xcassets in Resources */,
+				04D6C92C2D686F7E00E74108 /* ContentsquareBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +480,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68F5DK9B95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ../Shared/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -510,6 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68F5DK9B95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ../Shared/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
