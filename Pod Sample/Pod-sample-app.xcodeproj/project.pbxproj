@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D6E884C2FF7E32503F56159 /* Pods_Pod_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0026037314836926B3EFD0 /* Pods_Pod_sample_app.framework */; };
+		40B3D6E82DE9DC84004EB409 /* SwiftUIRelilableTargetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B3D6E72DE9DC84004EB409 /* SwiftUIRelilableTargetController.swift */; };
 		482572A129880729004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482572A029880729004863E9 /* CustomVariablesViewController.swift */; };
 		D0EDD83827FEEAF700109316 /* MaskingUseCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83627FEEAF700109316 /* MaskingUseCasesViewController.swift */; };
 		D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDD83727FEEAF700109316 /* MaskingViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40B3D6E72DE9DC84004EB409 /* SwiftUIRelilableTargetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRelilableTargetController.swift; sourceTree = "<group>"; };
 		482572A029880729004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		57B1C58AD29C375040824D4B /* Pods-Pod-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.release.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 		B73AE3BAFFF25F57B082A458 /* Pods-Pod-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-Pod-sample-app/Pods-Pod-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				D0EDD84B27FEEB8500109316 /* ModalPresentingViewController.swift */,
 				D0EDD84A27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift */,
 				D0EDD84C27FEEB8500109316 /* ProgrammaticModalViewController.swift */,
+				40B3D6E72DE9DC84004EB409 /* SwiftUIRelilableTargetController.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				D0EDD84E27FEEB8500109316 /* ProgrammaticModalPresentingViewController.swift in Sources */,
 				FBF957332950855B007FC523 /* ErrorAnalysisViewController.swift in Sources */,
 				482572A129880729004863E9 /* CustomVariablesViewController.swift in Sources */,
+				40B3D6E82DE9DC84004EB409 /* SwiftUIRelilableTargetController.swift in Sources */,
 				D0F8D55027FDEDFF00FC2E80 /* SceneDelegate.swift in Sources */,
 				D0EDD85B27FEEBB200109316 /* UIViewController+trackScreenview.swift in Sources */,
 				D0EDD83927FEEAF700109316 /* MaskingViewController.swift in Sources */,

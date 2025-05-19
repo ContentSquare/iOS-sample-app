@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,7 +12,7 @@
         <!--Showcases-->
         <scene sceneID="WiL-RQ-9qM">
             <objects>
-                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xn2-1l-J2q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,6 +160,26 @@
                                             <segue destination="7aT-z6-47B" kind="show" id="edI-PU-tf2"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="QIc-l6-Dvr" style="IBUITableViewCellStyleDefault" id="rBf-wB-f2V">
+                                        <rect key="frame" x="0.0" y="354.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rBf-wB-f2V" id="ncE-Sv-HFV">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="SwiftUI Reliable Target" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QIc-l6-Dvr">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9LP-Zo-Cel" kind="show" id="edv-iL-gKK"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -203,7 +223,7 @@
         <!--Dynamic Vars-->
         <scene sceneID="eQe-k7-gGX">
             <objects>
-                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tzd-tA-RQ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,7 +262,7 @@
         <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
             <objects>
-                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,7 +310,7 @@
         <!--Error Analysis-->
         <scene sceneID="6iJ-B0-FEy">
             <objects>
-                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kh0-eR-Qfj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -411,7 +431,7 @@
         <!--Privacy-->
         <scene sceneID="keg-YG-NI7">
             <objects>
-                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQ1-Ae-vtg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -522,7 +542,7 @@
         <!--Masking-->
         <scene sceneID="CsN-KD-ZF2">
             <objects>
-                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1G-Xh-6Ru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -565,7 +585,7 @@
         <!--Masking-->
         <scene sceneID="bvi-5T-Iv8">
             <objects>
-                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Um3-8d-cmS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -623,7 +643,7 @@
         <!--Custom Vars-->
         <scene sceneID="ChV-6a-JkN">
             <objects>
-                <viewController id="taI-UN-7cv" userLabel="Custom Vars" customClass="CustomVariablesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="taI-UN-7cv" userLabel="Custom Vars" customClass="CustomVariablesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fkx-5p-bhn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -650,6 +670,22 @@
             </objects>
             <point key="canvasLocation" x="2329" y="1042"/>
         </scene>
+        <!--SwiftUI Relilable Target Controller-->
+        <scene sceneID="4jp-hb-E89">
+            <objects>
+                <viewController id="9LP-Zo-Cel" customClass="SwiftUIRelilableTargetController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vx4-YD-Qu7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RP8-u2-guf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VsA-jz-wHk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CSP-gw-j4j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4272" y="721"/>
+        </scene>
     </scenes>
     <resources>
         <image name="cs-logo" width="54" height="54"/>
@@ -657,10 +693,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

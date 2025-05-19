@@ -12,6 +12,7 @@
 		2E5623F42B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E5623F92B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */; };
 		2E5623FA2B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		40B3D6EA2DE9DD2E004EB409 /* SwiftUIRelilableTargetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B3D6E92DE9DD2E004EB409 /* SwiftUIRelilableTargetController.swift */; };
 		4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825729D29880701004863E9 /* CustomVariablesViewController.swift */; };
 		BC64815F2D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */; };
 		BC6481602D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -69,6 +70,7 @@
 		04D6C92B2D686F7E00E74108 /* ContentsquareBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ContentsquareBundle.bundle; path = ContentsquareModule/Resources/ContentsquareBundle.bundle; sourceTree = "<group>"; };
 		2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CSCrashReporter.xcframework; path = ContentsquareModule/CSCrashReporter.xcframework; sourceTree = "<group>"; };
 		2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
+		40B3D6E92DE9DD2E004EB409 /* SwiftUIRelilableTargetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRelilableTargetController.swift; sourceTree = "<group>"; };
 		4825729D29880701004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = CSSwiftProtobuf.xcframework; path = ContentsquareModule/CSSwiftProtobuf.xcframework; sourceTree = "<group>"; };
 		D064661B27FF70A800E89F5E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				D0E6B07127FF6FF5009E65F0 /* ModalPresentingViewController.swift */,
 				D0E6B07327FF6FF5009E65F0 /* ProgrammaticModalPresentingViewController.swift */,
 				D0E6B07027FF6FF5009E65F0 /* ProgrammaticModalViewController.swift */,
+				40B3D6E92DE9DD2E004EB409 /* SwiftUIRelilableTargetController.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				D0E6B06727FF6FB2009E65F0 /* UIViewController+trackScreenview.swift in Sources */,
 				FBAC398C29507EE800DCFCD4 /* ErrorAnalysisViewController.swift in Sources */,
 				4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */,
+				40B3D6EA2DE9DD2E004EB409 /* SwiftUIRelilableTargetController.swift in Sources */,
 				D0E6B06D27FF6FD0009E65F0 /* DynamicVariablesViewController.swift in Sources */,
 				D0A9B69527FF6E1200ACF275 /* SceneDelegate.swift in Sources */,
 				D0E6B05F27FF6F83009E65F0 /* MaskingViewController.swift in Sources */,
