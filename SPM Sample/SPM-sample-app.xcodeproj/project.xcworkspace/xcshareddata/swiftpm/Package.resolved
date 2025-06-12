@@ -1,4 +1,5 @@
 {
+  "originHash" : "e8fc0097cefdec18c729efb6c1737c4c3ec3bb68c205eeb225789f806a763c98",
   "pins" : [
     {
       "identity" : "cs_ios_crashreporter",
@@ -14,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "7058d9d7535eac0a94d4aa39a160ecaf02cba7b0",
-        "version" : "4.41.3"
+        "revision" : "e3b6d6217e5d0f78a26cfadaf32b726c1ee13163",
+        "version" : "4.42.0"
       }
     },
     {
@@ -28,5 +29,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
