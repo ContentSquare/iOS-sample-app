@@ -13,6 +13,6 @@ class ETRViewController: UIViewController {
     }
     
     @IBAction func triggerETRSession(_ sender: UIButton) {
-        Contentsquare.triggerReplayForCurrentSession(name: "Replay Event Session")
+        Contentsquare.triggerReplayForCurrentSession(name: "Replay Session Event")
     }
 }
