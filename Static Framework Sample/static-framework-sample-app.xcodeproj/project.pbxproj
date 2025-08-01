@@ -17,6 +17,7 @@
 		BC6481602D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D064661F27FF70D800E89F5E /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */; };
 		D064662027FF70D800E89F5E /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661E27FF70D800E89F5E /* ScreenViews.storyboard */; };
+		D09BE8952D3FAB1A004BCDF1 /* ETRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BE8932D3FAB1A004BCDF1 /* ETRViewController.swift */; };
 		D0A9B69327FF6E1200ACF275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */; };
 		D0A9B69527FF6E1200ACF275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */; };
 		D0A9B69C27FF6E1300ACF275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A9B69B27FF6E1300ACF275 /* Assets.xcassets */; };
@@ -74,6 +75,7 @@
 		D064661B27FF70A800E89F5E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		D064661E27FF70D800E89F5E /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
+		D09BE8932D3FAB1A004BCDF1 /* ETRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETRViewController.swift; sourceTree = "<group>"; };
 		D0A9B68F27FF6E1200ACF275 /* static-framework-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "static-framework-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A9B69227FF6E1200ACF275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
 		D0A9B69427FF6E1200ACF275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = App/SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,14 @@
 				4825729D29880701004863E9 /* CustomVariablesViewController.swift */,
 			);
 			path = CustomVariables;
+			sourceTree = "<group>";
+		};
+		D09BE8942D3FAB1A004BCDF1 /* ETR */ = {
+			isa = PBXGroup;
+			children = (
+				D09BE8932D3FAB1A004BCDF1 /* ETRViewController.swift */,
+			);
+			path = ETR;
 			sourceTree = "<group>";
 		};
 		D0A9B68627FF6E1200ACF275 = {
@@ -176,6 +186,7 @@
 		D0E6B05A27FF6F66009E65F0 /* Showcases */ = {
 			isa = PBXGroup;
 			children = (
+				D09BE8942D3FAB1A004BCDF1 /* ETR */,
 				4825729C29880701004863E9 /* CustomVariables */,
 				D0E6B06227FF6F9A009E65F0 /* DynamicVariables */,
 				FBAC398A29507EE800DCFCD4 /* ErrorAnalysis */,
@@ -338,6 +349,7 @@
 			files = (
 				D0E6B07527FF6FF5009E65F0 /* ProgrammaticModalViewController.swift in Sources */,
 				D0E6B06927FF6FC1009E65F0 /* TransactionsViewController.swift in Sources */,
+				D09BE8952D3FAB1A004BCDF1 /* ETRViewController.swift in Sources */,
 				D0A9B69327FF6E1200ACF275 /* AppDelegate.swift in Sources */,
 				D0E6B07627FF6FF5009E65F0 /* ModalPresentingViewController.swift in Sources */,
 				D0E6B07927FF6FF5009E65F0 /* DismissalDelegate.swift in Sources */,

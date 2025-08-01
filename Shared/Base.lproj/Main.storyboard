@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3TJ-0S-FrH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,7 +12,7 @@
         <!--Showcases-->
         <scene sceneID="WiL-RQ-9qM">
             <objects>
-                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Showcases" id="CXl-n2-2nE" customClass="TrackedTableViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xn2-1l-J2q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,6 +160,26 @@
                                             <segue destination="7aT-z6-47B" kind="show" id="edI-PU-tf2"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Tsm-oi-tTt" style="IBUITableViewCellStyleDefault" id="pHc-F9-VwS">
+                                        <rect key="frame" x="0.0" y="354.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pHc-F9-VwS" id="rSh-le-Cxu">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="ETR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tsm-oi-tTt">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="nWR-Q3-UWc" kind="show" id="Yh0-ge-MpU"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -203,7 +223,7 @@
         <!--Dynamic Vars-->
         <scene sceneID="eQe-k7-gGX">
             <objects>
-                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yob-oZ-Oow" customClass="DynamicVariablesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tzd-tA-RQ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,7 +262,7 @@
         <!--Transactions-->
         <scene sceneID="JdA-vb-GYm">
             <objects>
-                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vQf-zU-9jE" customClass="TransactionsViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6j8-qL-I0Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -287,10 +307,64 @@
             </objects>
             <point key="canvasLocation" x="3112" y="1423"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="1cS-db-Z2u">
+            <objects>
+                <viewController id="nWR-Q3-UWc" customClass="ETRViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wkx-LJ-woc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u7L-Zu-tGv">
+                                <rect key="frame" x="24" y="413.5" width="366" height="69"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCY-hj-xeh">
+                                        <rect key="frame" x="58" y="0.0" width="250" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Event Trigger Replay - Screen"/>
+                                        <connections>
+                                            <action selector="triggerETRScreen:" destination="nWR-Q3-UWc" eventType="touchUpInside" id="PuK-fv-3z1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnX-oA-mNR">
+                                        <rect key="frame" x="55" y="34.5" width="256" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Event Trigger Replay - Session"/>
+                                        <connections>
+                                            <action selector="triggerETRSession:" destination="nWR-Q3-UWc" eventType="touchUpInside" id="3YN-qk-mmq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collect a Screen or Session using ETR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eb2-Ah-VRy">
+                                <rect key="frame" x="24" y="369" width="366" height="20.5"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KfO-uk-BJO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KfO-uk-BJO" firstAttribute="trailing" secondItem="eb2-Ah-VRy" secondAttribute="trailing" constant="24" id="7Ng-AI-MPc"/>
+                            <constraint firstItem="KfO-uk-BJO" firstAttribute="trailing" secondItem="u7L-Zu-tGv" secondAttribute="trailing" constant="24" id="VDL-Mi-HMP"/>
+                            <constraint firstItem="u7L-Zu-tGv" firstAttribute="centerY" secondItem="Wkx-LJ-woc" secondAttribute="centerY" id="ZaE-Df-nBo"/>
+                            <constraint firstItem="u7L-Zu-tGv" firstAttribute="leading" secondItem="KfO-uk-BJO" secondAttribute="leading" constant="24" id="hV2-uc-b7E"/>
+                            <constraint firstItem="QCY-hj-xeh" firstAttribute="top" secondItem="eb2-Ah-VRy" secondAttribute="bottom" constant="24" id="kBf-67-Thm"/>
+                            <constraint firstItem="eb2-Ah-VRy" firstAttribute="leading" secondItem="KfO-uk-BJO" secondAttribute="leading" constant="24" id="lBf-v3-hED"/>
+                            <constraint firstItem="eb2-Ah-VRy" firstAttribute="centerX" secondItem="Wkx-LJ-woc" secondAttribute="centerX" id="ww0-mR-ABJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pd6-ka-Rjw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FWU-5I-dDp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1410" y="1268"/>
+        </scene>
         <!--Error Analysis-->
         <scene sceneID="6iJ-B0-FEy">
             <objects>
-                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7aT-z6-47B" customClass="ErrorAnalysisViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kh0-eR-Qfj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -411,7 +485,7 @@
         <!--Privacy-->
         <scene sceneID="keg-YG-NI7">
             <objects>
-                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5M-pe-xMy" customClass="PrivacyViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQ1-Ae-vtg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -517,12 +591,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYG-U8-FOO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3112" y="117"/>
+            <point key="canvasLocation" x="3667" y="159"/>
         </scene>
         <!--Masking-->
         <scene sceneID="CsN-KD-ZF2">
             <objects>
-                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9ub-Y8-Aee" customClass="MaskingUseCasesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1G-Xh-6Ru">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -565,7 +639,7 @@
         <!--Masking-->
         <scene sceneID="bvi-5T-Iv8">
             <objects>
-                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Masking" id="eYt-Cl-ZTm" customClass="MaskingViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Um3-8d-cmS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -618,12 +692,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9C-fB-ZVU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3801.449275362319" y="-570.53571428571422"/>
+            <point key="canvasLocation" x="4212" y="-571"/>
         </scene>
         <!--Custom Vars-->
         <scene sceneID="ChV-6a-JkN">
             <objects>
-                <viewController id="taI-UN-7cv" userLabel="Custom Vars" customClass="CustomVariablesViewController" customModule="Pod_sample_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="taI-UN-7cv" userLabel="Custom Vars" customClass="CustomVariablesViewController" customModule="SPM_sample_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fkx-5p-bhn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
