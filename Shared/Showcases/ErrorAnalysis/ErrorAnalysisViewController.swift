@@ -55,7 +55,7 @@ class ErrorAnalysisViewController: UIViewController {
             printResponse(data: response?.0)
         }
     }
-    
+
     @IBAction private func URLMasking(_ sender: Any) {
         let request: URLRequest = urlRequest(method: "POST", path: "person/123/store/123/test@mail.com")
         task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
@@ -63,7 +63,7 @@ class ErrorAnalysisViewController: UIViewController {
         }
         task?.resume()
     }
-    
+
     @IBAction private func crash(_ sender: Any) {
         fatalError("Crash was triggered")
     }
@@ -73,7 +73,7 @@ class ErrorAnalysisViewController: UIViewController {
     }
 
     private func urlRequest(method: String, path: String = "") -> URLRequest {
-        let url = URL(string: "https://httpstatus-mgmt.eu-west-1.csq.fr/401/\(path)")!
+        let url = URL(string: "https://httpstatus-mgmt.eu-west-1.csq.io/401/\(path)")!
         var urlComps = URLComponents(string: url.absoluteString)!
         if method == "GET" {
             urlComps.queryItems = [
@@ -104,7 +104,7 @@ class ErrorAnalysisViewController: UIViewController {
 }
 
 private struct HTTPBody: Codable {
-    
+
     let key1: String
     let key2: String
 }
