@@ -41,12 +41,6 @@ class PrivacyViewController: UIViewController {
         displayCommand(title: "Tracking resumed", message: "The tracking is back!")
     }
     
-    @IBAction private func forgetButtonTapped(_ sender: UIButton)
-    {
-        Contentsquare.forgetMe()
-        displayCommand(title: "Forget User", message: "The User ID has been deleted, and all the collected data has been erased from the device.\n If the user is opted in, tracking will start at next app launch with a new User ID.")
-    }
-
     @IBAction private func IDButtonTapped(_ sender: UIButton)
     {
         let id = Contentsquare.userID

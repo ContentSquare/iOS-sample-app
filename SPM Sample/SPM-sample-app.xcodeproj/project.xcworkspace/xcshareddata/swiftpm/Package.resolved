@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "3ccae42da5495c4d573cde6e3c3757a7cf17f1f8",
-        "version" : "4.44.3"
+        "revision" : "262a8d96542ca2c8766ad5fd55ce089c41918e7a",
+        "version" : "4.45.2"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CSSwiftProtobuf.git",
       "state" : {
-        "revision" : "69144f5873981ce36d53ec188da920f0e05d4cf2",
-        "version" : "1.28.2"
+        "revision" : "0f26877bd719c45219a3063696d0d1d600a08c48",
+        "version" : "1.33.3"
       }
     }
   ],
