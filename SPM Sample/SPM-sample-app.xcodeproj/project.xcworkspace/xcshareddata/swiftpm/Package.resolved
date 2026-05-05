@@ -2,6 +2,15 @@
   "originHash" : "e8fc0097cefdec18c729efb6c1737c4c3ec3bb68c205eeb225789f806a763c98",
   "pins" : [
     {
+      "identity" : "apple-core-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ContentSquare/apple-core-sdk.git",
+      "state" : {
+        "revision" : "7610e22163f5d78518450178512f25777b0c0983",
+        "version" : "0.1.3"
+      }
+    },
+    {
       "identity" : "cs_ios_crashreporter",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_CrashReporter.git",
@@ -15,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "6ca8476261af25f0388154b41d003cd3c7128155",
-        "version" : "4.46.3"
+        "revision" : "13df80ae8f06da2eab243ec65abec62d32358b35",
+        "version" : "4.50.0"
       }
     },
     {
