@@ -15,6 +15,8 @@
 		4825729E29880701004863E9 /* CustomVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4825729D29880701004863E9 /* CustomVariablesViewController.swift */; };
 		BC64815F2D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */; };
 		BC6481602D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D015B6FF2FAA29F100367B36 /* ContentsquareCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D015B6FC2FAA29A400367B36 /* ContentsquareCore.xcframework */; };
+		D015B7002FAA29F100367B36 /* ContentsquareCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D015B6FC2FAA29A400367B36 /* ContentsquareCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D064661F27FF70D800E89F5E /* DefaultScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */; };
 		D064662027FF70D800E89F5E /* ScreenViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064661E27FF70D800E89F5E /* ScreenViews.storyboard */; };
 		D09BE8952D3FAB1A004BCDF1 /* ETRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BE8932D3FAB1A004BCDF1 /* ETRViewController.swift */; };
@@ -58,6 +60,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				BC6481602D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Embed Frameworks */,
+				D015B7002FAA29F100367B36 /* ContentsquareCore.xcframework in Embed Frameworks */,
 				2E5623FA2B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Embed Frameworks */,
 				2E5623F42B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Embed Frameworks */,
 			);
@@ -72,6 +75,7 @@
 		2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareModule.xcframework; path = ContentsquareModule/ContentsquareModule.xcframework; sourceTree = "<group>"; };
 		4825729D29880701004863E9 /* CustomVariablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVariablesViewController.swift; sourceTree = "<group>"; };
 		BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = CSSwiftProtobuf.xcframework; path = ContentsquareModule/CSSwiftProtobuf.xcframework; sourceTree = "<group>"; };
+		D015B6FC2FAA29A400367B36 /* ContentsquareCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:68F5DK9B95:CONTENT SQUARE"; lastKnownFileType = wrapper.xcframework; name = ContentsquareCore.xcframework; path = ContentsquareModule/ContentsquareCore.xcframework; sourceTree = "<group>"; };
 		D064661B27FF70A800E89F5E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Shared/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D064661D27FF70D800E89F5E /* DefaultScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultScreenViewController.swift; sourceTree = "<group>"; };
 		D064661E27FF70D800E89F5E /* ScreenViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenViews.storyboard; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC64815F2D315EA4008EE17A /* CSSwiftProtobuf.xcframework in Frameworks */,
+				D015B6FF2FAA29F100367B36 /* ContentsquareCore.xcframework in Frameworks */,
 				2E5623F92B5FC4D2009A0C73 /* ContentsquareModule.xcframework in Frameworks */,
 				2E5623F32B5FC3BA009A0C73 /* CSCrashReporter.xcframework in Frameworks */,
 			);
@@ -167,6 +172,7 @@
 		D0E6B05127FF6E3B009E65F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D015B6FC2FAA29A400367B36 /* ContentsquareCore.xcframework */,
 				BC64815E2D315EA4008EE17A /* CSSwiftProtobuf.xcframework */,
 				2E5623F82B5FC4D2009A0C73 /* ContentsquareModule.xcframework */,
 				2E5623F22B5FC3BA009A0C73 /* CSCrashReporter.xcframework */,

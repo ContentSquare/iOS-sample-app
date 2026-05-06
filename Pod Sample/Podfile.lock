@@ -1,5 +1,8 @@
 PODS:
-  - CS_iOS_SDK (4.46.3):
+  - ContentsquareCore (0.1.3):
+    - CSSwiftProtobuf (= 1.33.3)
+  - CS_iOS_SDK (4.50.0):
+    - ContentsquareCore (= 0.1.3)
     - CSCrashReporter (= 1.0.1)
     - CSSwiftProtobuf (= 1.33.3)
   - CSCrashReporter (1.0.1)
@@ -10,12 +13,14 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - ContentsquareCore
     - CS_iOS_SDK
     - CSCrashReporter
     - CSSwiftProtobuf
 
 SPEC CHECKSUMS:
-  CS_iOS_SDK: 0f6db880e7b5c763f0ca1c3390afa5b44112c8d9
+  ContentsquareCore: b580c1f3bc26ed219e5a679b50ce2aeca2e0cad9
+  CS_iOS_SDK: b0ff2bce47a44d82223c933c25007859fa14ab46
   CSCrashReporter: bcd93ebf9abaf6e3d8ee4494ab0d630b6750d338
   CSSwiftProtobuf: 1033fb116a18c31682345333847134fa1385601c
 
