@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/apple-core-sdk.git",
       "state" : {
-        "revision" : "7610e22163f5d78518450178512f25777b0c0983",
-        "version" : "0.1.3"
+        "revision" : "ca5775c24334f902f8143c83e3a361bf1998d878",
+        "version" : "0.1.4"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ContentSquare/CS_iOS_SDK.git",
       "state" : {
-        "revision" : "13df80ae8f06da2eab243ec65abec62d32358b35",
-        "version" : "4.50.0"
+        "revision" : "8b50e86c01226ab2bb6ba4f2903d8efc91d4a082",
+        "version" : "4.51.2"
       }
     },
     {
