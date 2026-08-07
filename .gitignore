@@ -1,5 +1,6 @@
 Pods/
 Static Framework Sample/ContentsquareModule/ContentsquareCore.xcframework
+Static Framework Sample/ContentsquareModule/ContentsquareUICore.xcframework
 Static Framework Sample/ContentsquareModule/ContentsquareModule.xcframework
 Static Framework Sample/ContentsquareModule/CSCrashReporter.xcframework
 Static Framework Sample/ContentsquareModule/CSSwiftProtobuf.xcframework
