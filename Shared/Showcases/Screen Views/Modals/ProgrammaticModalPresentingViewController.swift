@@ -20,12 +20,12 @@ import UIKit
 class ProgrammaticModalPresentingViewController:
 UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
 
-    private let screenName = "Programmatic modal presenter"
+    private let screenViewName = "Programmatic modal presenter"
     
     // The usual screen view for when this controller first appears.
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        trackScreenview(screenName)
+        trackScreenview(screenViewName)
     }
     
     @IBAction private func presentModal(_ sender: UIButton) {
@@ -38,13 +38,13 @@ UIViewController, DismissalDelegate, UIAdaptivePresentationControllerDelegate {
     func dismiss() {
         dismiss(animated: true) { [weak self] in
             guard let strongSelf = self else { return }
-            strongSelf.trackScreenview(strongSelf.screenName)
+            strongSelf.trackScreenview(strongSelf.screenViewName)
         }
     }
     
     // In iOS 13, modals can be dismissed by swiping down. In such case, no method tied to a button will be triggered.
     // Instead, this new method of UIAdaptivePresentationControllerDelegate will be triggered.
     func presentationControllerDidDismiss(_ presentationController: UIPresentationController) {
-        trackScreenview(screenName)
+        trackScreenview(screenViewName)
     }
 }

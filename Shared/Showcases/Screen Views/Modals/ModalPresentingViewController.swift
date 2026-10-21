@@ -17,22 +17,22 @@ import UIKit
 // much as possible a storyboard modal. We achieved this by adding an unwind segue between the modal's cancel button and
 // this presenter in the storyboard, and then implementing unwindFromSegue here.
 class ModalPresentingViewController: UIViewController, UIAdaptivePresentationControllerDelegate {
-    private let screenName = "Storyboard modal presenter"
+    private let screenViewName = "Storyboard modal presenter"
     
     // The usual screen view for when this controller first appears.
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        trackScreenview(screenName)
+        trackScreenview(screenViewName)
     }
     
     @IBAction private func unwindFromSegue(segue: UIStoryboardSegue) {
-        trackScreenview(screenName)
+        trackScreenview(screenViewName)
     }
     
     // In iOS 13, modals can be dismissed by swiping down. In such case, unwindFromSegue won't be triggered. Instead,
     // this new method of UIAdaptivePresentationControllerDelegate will be triggered.
     func presentationControllerDidDismiss(_ presentationController: UIPresentationController) {
-        trackScreenview(screenName)
+        trackScreenview(screenViewName)
     }
     
     // We have to set ourselves as the presentation controller's delegate so that the above
